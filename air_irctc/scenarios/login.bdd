@@ -1,0 +1,8 @@
+
+
+SCENARIO: sec
+META-DATA: {"description":"fasdfsdg","groups":["SMOKE"]}
+	
+	Given opening browser and pass the url
+	Then fill the domestic flight form
+END

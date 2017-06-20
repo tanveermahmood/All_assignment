@@ -1,0 +1,148 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "name": "setupSuit",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1490612515033,
+      "duration": 10,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "name": "setupTest",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1490612515058,
+      "duration": 5,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "name": "sec",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1490612515073,
+      "duration": 5,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "resultFileName": "secYhW",
+        "name": "sec",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1490612515083,
+      "duration": 5,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "fasdfsdg",
+        "groups": [
+          "SMOKE"
+        ],
+        "lineNo": 3.0,
+        "name": "sec",
+        "referece": "scenarios/login.bdd",
+        "resultFileName": "seceKJ",
+        "sign": "scenarios.login.bdd.sec()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1490612515098,
+      "duration": 270,
+      "result": "skip",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "resultFileName": "secVOh",
+        "name": "sec",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1490612515383,
+      "duration": 0,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "resultFileName": "secpkK",
+        "name": "sec",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1490612515393,
+      "duration": 0,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "name": "afterTest",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1490612515403,
+      "duration": 5,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "name": "afterSuit",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1490612515433,
+      "duration": 5,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

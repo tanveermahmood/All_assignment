@@ -1,0 +1,175 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "findElement",
+      "args": [
+        "{using=id, value=com.flipkart.android:id/btn_skip}"
+      ],
+      "result": "id: 1",
+      "subLogs": [],
+      "duration": 3461
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.id: com.flipkart.android:id/btn_skip",
+        "{\"id\":\"1\"}"
+      ],
+      "result": "clickElement:true",
+      "subLogs": [],
+      "duration": 1403
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=accessibility id, value=Open Drawer}"
+      ],
+      "result": "[id: 2]",
+      "subLogs": [],
+      "duration": 635
+    },
+    {
+      "commandName": "isElementEnabled",
+      "args": [
+        "[unknown locator]",
+        "{\"id\":\"2\"}"
+      ],
+      "result": "isElementEnabled:true",
+      "subLogs": [],
+      "duration": 85
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=accessibility id, value=Open Drawer}"
+      ],
+      "result": "[id: 3]",
+      "subLogs": [],
+      "duration": 999
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "[unknown locator]",
+        "{\"id\":\"3\"}"
+      ],
+      "result": "clickElement:true",
+      "subLogs": [],
+      "duration": 562
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=xpath, value=//android.widget.TextView[@text='Electronics']}"
+      ],
+      "result": "[id: 4]",
+      "subLogs": [],
+      "duration": 7357
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{using=xpath, value=//android.widget.TextView[@text='Electronics']}"
+      ],
+      "result": "id: 5",
+      "subLogs": [],
+      "duration": 2620
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //android.widget.TextView[@text='Electronics']",
+        "{\"id\":\"5\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 5271
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{using=xpath, value=//android.widget.TextView[@text='Electronics']}"
+      ],
+      "result": "id: 6",
+      "subLogs": [],
+      "duration": 1516
+    },
+    {
+      "commandName": "isElementEnabled",
+      "args": [
+        "By.xpath: //android.widget.TextView[@text='Electronics']",
+        "{\"id\":\"6\"}"
+      ],
+      "result": "isElementEnabled:true",
+      "subLogs": [],
+      "duration": 889
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{using=xpath, value=//android.widget.TextView[@text='Electronics']}"
+      ],
+      "result": "id: 7",
+      "subLogs": [],
+      "duration": 1249
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //android.widget.TextView[@text='Electronics']",
+        "{\"id\":\"7\"}"
+      ],
+      "result": "clickElement:true",
+      "subLogs": [],
+      "duration": 546
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{using=xpath, value=//android.widget.TextView[@text='Mobiles']}"
+      ],
+      "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 439 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_51'\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text='Mobiles']}\nSession ID: 6a63cada-1d60-4919-95fd-3eb34bb4a03f\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{automationName=Appium, platform=LINUX, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, deviceModel=Samsung Galaxy Note 3 - 4.3 - API 18 - 1080x1920, networkConnectionEnabled=true, desired={automationName=Appium, newCommandTimeout=120, cssSelectorsEnabled=true, javascriptEnabled=true, deviceName=192.168.32.101:5555, platformName=Android, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, appium-version=3.3.0, browser_name=, appPackage=com.flipkart.android, takesScreenshot=true}, locationContextEnabled=false, deviceUDID=192.168.32.101:5555, appPackage=com.flipkart.android, newCommandTimeout=120, platformVersion=4.3, databaseEnabled=false, cssSelectorsEnabled=true, deviceScreenSize=1080x1920, deviceName=192.168.32.101:5555, platformName=Android, deviceManufacturer=Genymotion, appium-version=3.3.0, browser_name=, webStorageEnabled=false, warnings={}, takesScreenshot=true}]",
+      "subLogs": [],
+      "duration": 440
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{using=xpath, value=//android.widget.TextView[@text='Mobiles']}"
+      ],
+      "result": "id: 8",
+      "subLogs": [],
+      "duration": 488
+    },
+    {
+      "commandName": "isElementEnabled",
+      "args": [
+        "By.xpath: //android.widget.TextView[@text='Mobiles']",
+        "{\"id\":\"8\"}"
+      ],
+      "result": "isElementEnabled:true",
+      "subLogs": [],
+      "duration": 361
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{using=xpath, value=//android.widget.TextView[@text='Mobiles']}"
+      ],
+      "result": "id: 9",
+      "subLogs": [],
+      "duration": 1029
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //android.widget.TextView[@text='Mobiles']",
+        "{\"id\":\"9\"}"
+      ],
+      "result": "clickElement:true",
+      "subLogs": [],
+      "duration": 1213
+    }
+  ],
+  "checkPoints": []
+}

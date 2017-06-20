@@ -1,0 +1,3 @@
+flipkartproductlist.list.parent = {\"locator\":\"css=._357fi0\",\"desc\":\"parent list\"}
+flipkartproduct.text.productname = {\"locator\":\"css=._1PnKMA\",\"desc\":\"product name\"}
+flipkartproduct.text.productprice = {\"locator\":\"css=._25dD6R\",\"desc\":\"product price\"}

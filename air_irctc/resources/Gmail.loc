@@ -1,0 +1,5 @@
+text.firstname = {\"locator\":\"xpath=.//*[@id='FirstName']\",\"desc\":\"Input for FirstName\",\"frame\":\"\"}
+text.lastname = {\"locator\":\"xpath=.//*[@id='LastName']\",\"desc\":\"Input for LastName\",\"frame\":\"\"}
+text.gmailaddress = {\"locator\":\"xpath=.//*[@id='GmailAddress']\",\"desc\":\"Input for GmailAddress\",\"frame\":\"\"}
+password.passwd = {\"locator\":\"xpath=.//*[@id='Passwd']\",\"desc\":\"Passwd password\",\"frame\":\"\"}
+password.passwdagain = {\"locator\":\"xpath=.//*[@id='PasswdAgain']\",\"desc\":\"PasswdAgain password\",\"frame\":\"\"}

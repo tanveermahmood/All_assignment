@@ -1,0 +1,84 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "fill domestic form",
+        "groups": [
+          "SMOKE"
+        ],
+        "lineNo": 3.0,
+        "name": "scenario1",
+        "referece": "scenarios/Domestic_Bdd.bdd",
+        "sign": "scenarios.Domestic_Bdd.bdd.scenario1()[pri:1001, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]"
+      },
+      "dependsOn": [],
+      "startTime": 1491562755401,
+      "duration": 72,
+      "result": "skip",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "fill domestic form1",
+        "groups": [
+          "SMOKE"
+        ],
+        "lineNo": 14.0,
+        "name": "scenario2",
+        "referece": "scenarios/Domestic_Bdd.bdd",
+        "sign": "scenarios.Domestic_Bdd.bdd.scenario2()[pri:1002, instance:com.qmetry.qaf.automation.step.client.Scenario@3ea]"
+      },
+      "dependsOn": [],
+      "startTime": 1491562755489,
+      "duration": 15,
+      "result": "skip",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "fill domestic form2",
+        "groups": [
+          "SMOKE"
+        ],
+        "lineNo": 27.0,
+        "name": "scenario3",
+        "referece": "scenarios/Domestic_Bdd.bdd",
+        "sign": "scenarios.Domestic_Bdd.bdd.scenario3()[pri:1003, instance:com.qmetry.qaf.automation.step.client.Scenario@3eb]"
+      },
+      "dependsOn": [],
+      "startTime": 1491562755535,
+      "duration": 32,
+      "result": "skip",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "fasdfsdg",
+        "groups": [
+          "SMOKE"
+        ],
+        "lineNo": 3,
+        "name": "sec",
+        "referece": "scenarios/login.bdd",
+        "sign": "scenarios.login.bdd.sec()[pri:1004, instance:com.qmetry.qaf.automation.step.client.Scenario@3ec]"
+      },
+      "dependsOn": [],
+      "startTime": 1491562755598,
+      "duration": 16,
+      "result": "skip",
+      "passPer": 0.0
+    }
+  ]
+}

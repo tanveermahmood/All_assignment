@@ -1,0 +1,11 @@
+{
+  "total": 1,
+  "pass": 0,
+  "fail": 0,
+  "skip": 0,
+  "classes": [
+    "domestictest.Domestic_Scenario"
+  ],
+  "startTime": 1491561223632,
+  "endTime": 1491561223679
+}

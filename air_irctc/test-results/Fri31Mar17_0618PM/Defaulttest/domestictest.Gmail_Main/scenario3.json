@@ -1,0 +1,398 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "getCurrentWindowHandle",
+      "args": [
+        "{}"
+      ],
+      "result": "{c383fbbe-68ec-42cb-9de0-7c1b26db1ac2}",
+      "subLogs": [],
+      "duration": 36
+    },
+    {
+      "commandName": "get",
+      "args": [
+        "{url=https://accounts.google.com/SignUp?continue=https%3A%2F%2Faccounts.google.com%2FManageAccount}"
+      ],
+      "result": "",
+      "subLogs": [],
+      "duration": 1782
+    },
+    {
+      "commandName": "getCurrentWindowHandle",
+      "args": [
+        "{}"
+      ],
+      "result": "{c383fbbe-68ec-42cb-9de0-7c1b26db1ac2}",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.//*[@id='FirstName'], using=xpath}"
+      ],
+      "result": "[id: {fc419eb6-5c81-4075-a938-95cce570de16}]",
+      "subLogs": [],
+      "duration": 64
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=.//*[@id='FirstName'], using=xpath}"
+      ],
+      "result": "id: {fc419eb6-5c81-4075-a938-95cce570de16}",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: .//*[@id='FirstName']",
+        "{\"id\":\"{fc419eb6-5c81-4075-a938-95cce570de16}\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=.//*[@id='FirstName'], using=xpath}"
+      ],
+      "result": "id: {fc419eb6-5c81-4075-a938-95cce570de16}",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "clearElement",
+      "args": [
+        "By.xpath: .//*[@id='FirstName']",
+        "{\"id\":\"{fc419eb6-5c81-4075-a938-95cce570de16}\"}"
+      ],
+      "result": "clearElement:",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=.//*[@id='FirstName'], using=xpath}"
+      ],
+      "result": "id: {fc419eb6-5c81-4075-a938-95cce570de16}",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: .//*[@id='FirstName']",
+        "{\"id\":\"{fc419eb6-5c81-4075-a938-95cce570de16}\",\"value\":[\"rahul\"]}"
+      ],
+      "result": "sendKeysToElement:",
+      "subLogs": [],
+      "duration": 73
+    },
+    {
+      "commandName": "getCurrentWindowHandle",
+      "args": [
+        "{}"
+      ],
+      "result": "{c383fbbe-68ec-42cb-9de0-7c1b26db1ac2}",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.//*[@id='LastName'], using=xpath}"
+      ],
+      "result": "[id: {891d8600-67fc-4b0d-aef1-e210d2d35a7f}]",
+      "subLogs": [],
+      "duration": 477
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=.//*[@id='LastName'], using=xpath}"
+      ],
+      "result": "id: {891d8600-67fc-4b0d-aef1-e210d2d35a7f}",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: .//*[@id='LastName']",
+        "{\"id\":\"{891d8600-67fc-4b0d-aef1-e210d2d35a7f}\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=.//*[@id='LastName'], using=xpath}"
+      ],
+      "result": "id: {891d8600-67fc-4b0d-aef1-e210d2d35a7f}",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "clearElement",
+      "args": [
+        "By.xpath: .//*[@id='LastName']",
+        "{\"id\":\"{891d8600-67fc-4b0d-aef1-e210d2d35a7f}\"}"
+      ],
+      "result": "clearElement:",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=.//*[@id='LastName'], using=xpath}"
+      ],
+      "result": "id: {891d8600-67fc-4b0d-aef1-e210d2d35a7f}",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: .//*[@id='LastName']",
+        "{\"id\":\"{891d8600-67fc-4b0d-aef1-e210d2d35a7f}\",\"value\":[\"gandhi\"]}"
+      ],
+      "result": "sendKeysToElement:",
+      "subLogs": [],
+      "duration": 61
+    },
+    {
+      "commandName": "getCurrentWindowHandle",
+      "args": [
+        "{}"
+      ],
+      "result": "{c383fbbe-68ec-42cb-9de0-7c1b26db1ac2}",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.//*[@id='GmailAddress'], using=xpath}"
+      ],
+      "result": "[id: {c6d1c600-a893-498d-9eb9-85dd81346575}]",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=.//*[@id='GmailAddress'], using=xpath}"
+      ],
+      "result": "id: {c6d1c600-a893-498d-9eb9-85dd81346575}",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: .//*[@id='GmailAddress']",
+        "{\"id\":\"{c6d1c600-a893-498d-9eb9-85dd81346575}\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=.//*[@id='GmailAddress'], using=xpath}"
+      ],
+      "result": "id: {c6d1c600-a893-498d-9eb9-85dd81346575}",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "clearElement",
+      "args": [
+        "By.xpath: .//*[@id='GmailAddress']",
+        "{\"id\":\"{c6d1c600-a893-498d-9eb9-85dd81346575}\"}"
+      ],
+      "result": "clearElement:",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=.//*[@id='GmailAddress'], using=xpath}"
+      ],
+      "result": "id: {c6d1c600-a893-498d-9eb9-85dd81346575}",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: .//*[@id='GmailAddress']",
+        "{\"id\":\"{c6d1c600-a893-498d-9eb9-85dd81346575}\",\"value\":[\"rahulgandhi123\"]}"
+      ],
+      "result": "sendKeysToElement:",
+      "subLogs": [],
+      "duration": 106
+    },
+    {
+      "commandName": "getCurrentWindowHandle",
+      "args": [
+        "{}"
+      ],
+      "result": "{c383fbbe-68ec-42cb-9de0-7c1b26db1ac2}",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.//*[@id='Passwd'], using=xpath}"
+      ],
+      "result": "[id: {e5323277-8a27-4d55-8f4b-51415854c0e9}]",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=.//*[@id='Passwd'], using=xpath}"
+      ],
+      "result": "id: {e5323277-8a27-4d55-8f4b-51415854c0e9}",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: .//*[@id='Passwd']",
+        "{\"id\":\"{e5323277-8a27-4d55-8f4b-51415854c0e9}\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=.//*[@id='Passwd'], using=xpath}"
+      ],
+      "result": "id: {e5323277-8a27-4d55-8f4b-51415854c0e9}",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "clearElement",
+      "args": [
+        "By.xpath: .//*[@id='Passwd']",
+        "{\"id\":\"{e5323277-8a27-4d55-8f4b-51415854c0e9}\"}"
+      ],
+      "result": "clearElement:",
+      "subLogs": [],
+      "duration": 36
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=.//*[@id='Passwd'], using=xpath}"
+      ],
+      "result": "id: {e5323277-8a27-4d55-8f4b-51415854c0e9}",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: .//*[@id='Passwd']",
+        "{\"id\":\"{e5323277-8a27-4d55-8f4b-51415854c0e9}\",\"value\":[\"abcde123\"]}"
+      ],
+      "result": "sendKeysToElement:",
+      "subLogs": [],
+      "duration": 79
+    },
+    {
+      "commandName": "getCurrentWindowHandle",
+      "args": [
+        "{}"
+      ],
+      "result": "{c383fbbe-68ec-42cb-9de0-7c1b26db1ac2}",
+      "subLogs": [],
+      "duration": 7
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.//*[@id='PasswdAgain'], using=xpath}"
+      ],
+      "result": "[id: {87e670f6-1854-413e-b017-66778b000325}]",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=.//*[@id='PasswdAgain'], using=xpath}"
+      ],
+      "result": "id: {87e670f6-1854-413e-b017-66778b000325}",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: .//*[@id='PasswdAgain']",
+        "{\"id\":\"{87e670f6-1854-413e-b017-66778b000325}\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=.//*[@id='PasswdAgain'], using=xpath}"
+      ],
+      "result": "id: {87e670f6-1854-413e-b017-66778b000325}",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "clearElement",
+      "args": [
+        "By.xpath: .//*[@id='PasswdAgain']",
+        "{\"id\":\"{87e670f6-1854-413e-b017-66778b000325}\"}"
+      ],
+      "result": "clearElement:",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=.//*[@id='PasswdAgain'], using=xpath}"
+      ],
+      "result": "id: {87e670f6-1854-413e-b017-66778b000325}",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: .//*[@id='PasswdAgain']",
+        "{\"id\":\"{87e670f6-1854-413e-b017-66778b000325}\",\"value\":[\"abcde123\"]}"
+      ],
+      "result": "sendKeysToElement:",
+      "subLogs": [],
+      "duration": 70
+    }
+  ],
+  "checkPoints": []
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;FlipkartWebMobileApp/resources/android directory&apos; to &apos;android&apos;" description="Rename resource &apos;android directory&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="resources/android directory" name="android" stamp="1494414711238" updateReferences="true"/>
+</session>

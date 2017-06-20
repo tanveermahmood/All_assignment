@@ -1,0 +1,13 @@
+{
+  "name": "air_irctc.scenarios.login.bdd",
+  "status": "unstable",
+  "tests": [
+    "BDDTest"
+  ],
+  "total": 1,
+  "pass": 0,
+  "fail": 0,
+  "skip": 1,
+  "startTime": 1490612515013,
+  "endTime": 1490612515448
+}

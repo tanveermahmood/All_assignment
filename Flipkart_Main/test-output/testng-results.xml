@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>
+Expected: a string containing "Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart"
+     Actual: was "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More | Flipkart Big 10 Sale"</div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Mobile phones online @ Flipkart.com"
+     Actual: was "Mobile phones online @ Flipkart.com"</div><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;60&gt; was greater than &lt;0&gt;</div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Apple iPhone 7 (Black, 32 GB)"
+     Actual: was "Apple iPhone 7 (Black, 32 GB)"</div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "₹47,999"
+     Actual: was "₹47,999"</div><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;1&gt; was greater than &lt;0&gt;</div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "₹47,999"
+     Actual: was "₹47,999"</div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Apple iPhone 7 (Black, 32 GB)"
+     Actual: was "Apple iPhone 7 (Black, 32 GB)"</div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="120793" started-at="2017-05-23T06:15:48Z" finished-at="2017-05-23T06:17:49Z">
+    <groups>
+      <group name="SMOKE">
+        <method signature="FlipkartTestSteps.search()[pri:0, instance:com.flipkart_main.Step.FlipkartTestSteps@202e68f9]" name="search" class="com.flipkart_main.Step.FlipkartTestSteps"/>
+      </group> <!-- SMOKE -->
+      <group name="P1">
+        <method signature="FlipkartTestSteps.search()[pri:0, instance:com.flipkart_main.Step.FlipkartTestSteps@202e68f9]" name="search" class="com.flipkart_main.Step.FlipkartTestSteps"/>
+      </group> <!-- P1 -->
+      <group name="P2">
+        <method signature="FlipkartTestSteps.search()[pri:0, instance:com.flipkart_main.Step.FlipkartTestSteps@202e68f9]" name="search" class="com.flipkart_main.Step.FlipkartTestSteps"/>
+      </group> <!-- P2 -->
+    </groups>
+    <test name="Default test" duration-ms="120793" started-at="2017-05-23T06:15:48Z" finished-at="2017-05-23T06:17:49Z">
+      <class name="com.flipkart_main.Step.FlipkartTestSteps">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.flipkart_main.Step.FlipkartTestSteps@202e68f9]" name="setupSuit" is-config="true" duration-ms="31" started-at="2017-05-23T11:45:48Z" finished-at="2017-05-23T11:45:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1d8080e0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.flipkart_main.Step.FlipkartTestSteps@202e68f9]" name="setupTest" is-config="true" duration-ms="0" started-at="2017-05-23T11:45:48Z" finished-at="2017-05-23T11:45:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1d8080e0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.flipkart_main.Step.FlipkartTestSteps@202e68f9]" name="setup" is-config="true" duration-ms="0" started-at="2017-05-23T11:45:48Z" finished-at="2017-05-23T11:45:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1d8080e0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.flipkart_main.Step.FlipkartTestSteps@202e68f9]" name="setupMethod" is-config="true" duration-ms="0" started-at="2017-05-23T11:45:48Z" finished-at="2017-05-23T11:45:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.flipkart_main.Step.FlipkartTestSteps.search()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1d8080e0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="FAIL" signature="search()[pri:0, instance:com.flipkart_main.Step.FlipkartTestSteps@202e68f9]" name="search" duration-ms="110582" started-at="2017-05-23T11:45:48Z" description="test" finished-at="2017-05-23T11:47:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>
+Expected: a string containing "Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart"
+     Actual: was "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More | Flipkart Big 10 Sale"</div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Mobile phones online @ Flipkart.com"
+     Actual: was "Mobile phones online @ Flipkart.com"</div><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;60&gt; was greater than &lt;0&gt;</div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Apple iPhone 7 (Black, 32 GB)"
+     Actual: was "Apple iPhone 7 (Black, 32 GB)"</div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "₹47,999"
+     Actual: was "₹47,999"</div><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;1&gt; was greater than &lt;0&gt;</div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "₹47,999"
+     Actual: was "₹47,999"</div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Apple iPhone 7 (Black, 32 GB)"
+     Actual: was "Apple iPhone 7 (Black, 32 GB)"</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.flipkart_main.Step.FlipkartTestSteps@202e68f9]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-05-23T11:47:49Z" finished-at="2017-05-23T11:47:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1d8080e0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.flipkart_main.Step.FlipkartTestSteps@202e68f9]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-05-23T11:47:49Z" finished-at="2017-05-23T11:47:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1d8080e0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=search status=FAILURE method=FlipkartTestSteps.search()[pri:0, instance:com.flipkart_main.Step.FlipkartTestSteps@202e68f9] output=<div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>
+Expected: a string containing "Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart"
+     Actual: was "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More | Flipkart Big 10 Sale"</div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Mobile phones online @ Flipkart.com"
+     Actual: was "Mobile phones online @ Flipkart.com"</div><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;60&gt; was greater than &lt;0&gt;</div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Apple iPhone 7 (Black, 32 GB)"
+     Actual: was "Apple iPhone 7 (Black, 32 GB)"</div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "₹47,999"
+     Actual: was "₹47,999"</div><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;1&gt; was greater than &lt;0&gt;</div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "₹47,999"
+     Actual: was "₹47,999"</div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Apple iPhone 7 (Black, 32 GB)"
+     Actual: was "Apple iPhone 7 (Black, 32 GB)"</div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.flipkart_main.Step.FlipkartTestSteps@202e68f9]" name="afterTest" is-config="true" duration-ms="47" started-at="2017-05-23T11:47:49Z" finished-at="2017-05-23T11:47:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1d8080e0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.flipkart_main.Step.FlipkartTestSteps@202e68f9]" name="afterSuit" is-config="true" duration-ms="1" started-at="2017-05-23T11:47:49Z" finished-at="2017-05-23T11:47:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1d8080e0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- com.flipkart_main.Step.FlipkartTestSteps -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

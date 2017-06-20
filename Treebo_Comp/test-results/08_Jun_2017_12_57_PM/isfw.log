@@ -1,0 +1,111 @@
+[main] 12:57:24,561 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFAnnotationTransformer2] QAFTestNGListener registered!...
+[main] 12:57:24,561 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] QAFTestNGListener registered!...
+[main] 12:57:24,561 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFMethodInterceptor] QAFTestNGListener registered!...
+[main] 12:57:24,561 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] QAFTestNGListener registered!...
+[main] 12:57:24,561 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] QAFTestNGListener registered!...
+[main] 12:57:24,671 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] ISFW build info: {qaf-Build-Time=10-Apr-2017 23:17:07, qaf-Revision=11, qaf-Type=core, qaf-Version=2.1}
+[main] 12:57:24,686 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] Resource dir: D:\New_Project\Treebo_Comp\resources. Found property files to load: 2
+[main] 12:57:24,702 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.name
+[main] 12:57:24,702 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.version
+[main] 12:57:24,702 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.arch
+[main] 12:57:24,702 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.home
+[main] 12:57:24,702 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.file.type.testRunner
+[main] 12:57:24,702 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.file.testRunner
+[main] 12:57:24,702 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.project.default-target
+[main] 12:57:24,702 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.project.name
+[main] 12:57:24,702 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.project.invoked-targets
+[main] 12:57:24,702 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.file
+[main] 12:57:24,702 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.file.TestAutomation
+[main] 12:57:24,702 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.file.type.TestAutomation
+[main] 12:57:24,702 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.version
+[main] 12:57:24,702 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.name
+[main] 12:57:24,702 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.language
+[main] 12:57:24,702 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.timezone
+[main] 12:57:24,702 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.country
+[main] 12:57:24,702 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.variant
+[main] 12:57:24,702 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.script
+[main] 12:57:24,702 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.home
+[main] 12:57:24,702 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.dir
+[main] 12:57:24,702 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:log4j.configuration
+[main] 12:57:24,702 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding.pkg
+[main] 12:57:24,702 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.separator
+[main] 12:57:24,702 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding
+[main] 12:57:24,702 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:test.results.dir
+[main] 12:57:24,702 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.relative.path
+[main] 12:57:24,702 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.dir
+[main] 12:57:24,702 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:awt.toolkit
+[main] 12:57:24,702 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:outputDir
+[main] 12:57:24,702 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:json.report.dir
+[main] 12:57:24,702 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:json.report.root.dir
+[main] 12:57:24,702 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:org.uncommons.reportng.title
+[main] 12:57:24,702 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:org.uncommons.reportng.escape-output
+[main] 12:57:24,702 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:line.separator
+[main] 12:57:24,702 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] Resource dir: D:\New_Project\Treebo_Comp\resources. Found property files to load: 0
+[main] 12:57:24,718 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.name
+[main] 12:57:24,718 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.version
+[main] 12:57:24,718 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.arch
+[main] 12:57:24,718 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.home
+[main] 12:57:24,718 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.file.type.testRunner
+[main] 12:57:24,718 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.file.testRunner
+[main] 12:57:24,718 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.project.default-target
+[main] 12:57:24,718 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.project.name
+[main] 12:57:24,718 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.project.invoked-targets
+[main] 12:57:24,718 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.file
+[main] 12:57:24,718 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.file.TestAutomation
+[main] 12:57:24,718 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.file.type.TestAutomation
+[main] 12:57:24,718 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.version
+[main] 12:57:24,718 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.name
+[main] 12:57:24,718 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.language
+[main] 12:57:24,718 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.timezone
+[main] 12:57:24,718 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.country
+[main] 12:57:24,718 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.variant
+[main] 12:57:24,718 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.script
+[main] 12:57:24,718 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.home
+[main] 12:57:24,718 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.dir
+[main] 12:57:24,718 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:log4j.configuration
+[main] 12:57:24,718 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding.pkg
+[main] 12:57:24,718 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.separator
+[main] 12:57:24,718 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding
+[main] 12:57:24,718 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:test.results.dir
+[main] 12:57:24,718 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.relative.path
+[main] 12:57:24,718 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.dir
+[main] 12:57:24,718 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:awt.toolkit
+[main] 12:57:24,718 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:outputDir
+[main] 12:57:24,718 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:json.report.dir
+[main] 12:57:24,718 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:json.report.root.dir
+[main] 12:57:24,718 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:org.uncommons.reportng.title
+[main] 12:57:24,718 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:org.uncommons.reportng.escape-output
+[main] 12:57:24,718 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:line.separator
+[main] 12:57:24,905 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setupSuit
+[main] 12:57:24,905 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setupSuit - com.qmetry.qaf.automation.ui is test:false
+[main] 12:57:24,905 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 12:57:24,905 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setupTest
+[main] 12:57:24,905 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setupTest - com.qmetry.qaf.automation.ui is test:false
+[main] 12:57:24,905 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 12:57:24,921 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFMethodInterceptor] Method Order interceptor called
+[main] 12:57:24,921 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setup
+[main] 12:57:24,921 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setup - com.qmetry.qaf.automation.ui is test:false
+[main] 12:57:24,921 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 12:57:24,921 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setupMethod
+[main] 12:57:24,921 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setupMethod - com.qmetry.qaf.automation.ui is test:false
+[main] 12:57:24,921 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 12:57:24,921 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] onTestStart: start
+[main] 12:57:24,921 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: SampleTest
+[main] 12:57:24,921 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: SampleTest - com.qmetry.qaf.automation.step.client is test:true
+[main] 12:57:24,921 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 12:57:24,936 DEBUG [com.qmetry.qaf.automation.testng.report.ReporterUtil] method:  result: pass groups: {description=Sample Test Scenario, groups=[Ljava.lang.String;@693ec1db, lineNo=3, name=SampleTest, referece=scenarios/suite1.bdd, sign=scenarios.suite1.bdd.SampleTest()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]}
+[main] 12:57:24,936 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: afterMethod
+[main] 12:57:24,936 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: afterMethod - com.qmetry.qaf.automation.ui is test:false
+[main] 12:57:24,936 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 12:57:24,936 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: afterClass
+[main] 12:57:24,936 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: afterClass - com.qmetry.qaf.automation.ui is test:false
+[main] 12:57:24,936 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 12:57:24,936 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: afterTest
+[main] 12:57:24,936 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: afterTest - com.qmetry.qaf.automation.ui is test:false
+[main] 12:57:24,936 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 12:57:24,952 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] onfinish testcntext: start
+[main] 12:57:24,952 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: afterSuit
+[main] 12:57:24,968 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: afterSuit - com.qmetry.qaf.automation.ui is test:false
+[main] 12:57:24,968 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 12:57:24,968 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] onFinish: start
+[main] 12:57:24,968 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] onFinish: done

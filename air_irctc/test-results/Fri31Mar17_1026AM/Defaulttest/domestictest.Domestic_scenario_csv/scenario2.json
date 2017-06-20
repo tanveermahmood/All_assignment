@@ -1,0 +1,182 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "getCurrentWindowHandle",
+      "args": [
+        "{}"
+      ],
+      "result": "{6ac474a7-c76c-41b1-887d-f5ff5cc4bef8}",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://www.air.irctc.co.in}"
+      ],
+      "result": "",
+      "subLogs": [],
+      "duration": 5436
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=tripType, using=name}"
+      ],
+      "result": "id: {07dcb91c-dca7-47b8-9efd-2f92fdd8ba57}",
+      "subLogs": [],
+      "duration": 74
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.name: tripType",
+        "{\"id\":\"{07dcb91c-dca7-47b8-9efd-2f92fdd8ba57}\"}"
+      ],
+      "result": "clickElement:ok",
+      "subLogs": [],
+      "duration": 101
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=origin, using=name}"
+      ],
+      "result": "id: {638021c5-23f1-48d7-bf5f-f79a4291f59e}",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.name: origin",
+        "{\"id\":\"{638021c5-23f1-48d7-bf5f-f79a4291f59e}\",\"value\":[\"Hyderabad\"]}"
+      ],
+      "result": "sendKeysToElement:",
+      "subLogs": [],
+      "duration": 63
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=destination, using=name}"
+      ],
+      "result": "id: {5317ea6a-8f1c-4599-8fe8-12aac0814453}",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.name: destination",
+        "{\"id\":\"{5317ea6a-8f1c-4599-8fe8-12aac0814453}\",\"value\":[\"Pune\"]}"
+      ],
+      "result": "sendKeysToElement:",
+      "subLogs": [],
+      "duration": 44
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=.//*[@id='where']/div[4]/img, using=xpath}"
+      ],
+      "result": "id: {078f7ac7-fcc2-4725-a886-7b0fc320b205}",
+      "subLogs": [],
+      "duration": 41
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: .//*[@id='where']/div[4]/img",
+        "{\"id\":\"{078f7ac7-fcc2-4725-a886-7b0fc320b205}\"}"
+      ],
+      "result": "clickElement:ok",
+      "subLogs": [],
+      "duration": 122
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=.//*[@id='ui-datepicker-div']/div[1]/table/tbody/tr[5]/td[4]/a, using=xpath}"
+      ],
+      "result": "Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*[@id='ui-datepicker-div']/div[1]/table/tbody/tr[5]/td[4]/a\"}\nCommand duration or timeout: 123 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: 15e98ddc-95a0-4970-addf-4a67c8d70688\n*** Element info: {Using=xpath, value=.//*[@id='ui-datepicker-div']/div[1]/table/tbody/tr[5]/td[4]/a}",
+      "subLogs": [],
+      "duration": 129
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=.//*[@id='ui-datepicker-div']/div[1]/table/tbody/tr[5]/td[4]/a, using=xpath}"
+      ],
+      "result": "Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*[@id='ui-datepicker-div']/div[1]/table/tbody/tr[5]/td[4]/a\"}\nCommand duration or timeout: 154 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: 15e98ddc-95a0-4970-addf-4a67c8d70688\n*** Element info: {Using=xpath, value=.//*[@id='ui-datepicker-div']/div[1]/table/tbody/tr[5]/td[4]/a}",
+      "subLogs": [],
+      "duration": 155
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=.//*[@id='ui-datepicker-div']/div[1]/table/tbody/tr[5]/td[4]/a, using=xpath}"
+      ],
+      "result": "Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*[@id='ui-datepicker-div']/div[1]/table/tbody/tr[5]/td[4]/a\"}\nCommand duration or timeout: 39 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: 15e98ddc-95a0-4970-addf-4a67c8d70688\n*** Element info: {Using=xpath, value=.//*[@id='ui-datepicker-div']/div[1]/table/tbody/tr[5]/td[4]/a}",
+      "subLogs": [],
+      "duration": 40
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=.//*[@id='ui-datepicker-div']/div[1]/table/tbody/tr[5]/td[4]/a, using=xpath}"
+      ],
+      "result": "Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*[@id='ui-datepicker-div']/div[1]/table/tbody/tr[5]/td[4]/a\"}\nCommand duration or timeout: 37 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: 15e98ddc-95a0-4970-addf-4a67c8d70688\n*** Element info: {Using=xpath, value=.//*[@id='ui-datepicker-div']/div[1]/table/tbody/tr[5]/td[4]/a}",
+      "subLogs": [],
+      "duration": 38
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=.//*[@id='ui-datepicker-div']/div[1]/table/tbody/tr[5]/td[4]/a, using=xpath}"
+      ],
+      "result": "Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*[@id='ui-datepicker-div']/div[1]/table/tbody/tr[5]/td[4]/a\"}\nCommand duration or timeout: 31 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: 15e98ddc-95a0-4970-addf-4a67c8d70688\n*** Element info: {Using=xpath, value=.//*[@id='ui-datepicker-div']/div[1]/table/tbody/tr[5]/td[4]/a}",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=.//*[@id='ui-datepicker-div']/div[1]/table/tbody/tr[5]/td[4]/a, using=xpath}"
+      ],
+      "result": "Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*[@id='ui-datepicker-div']/div[1]/table/tbody/tr[5]/td[4]/a\"}\nCommand duration or timeout: 31 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: 15e98ddc-95a0-4970-addf-4a67c8d70688\n*** Element info: {Using=xpath, value=.//*[@id='ui-datepicker-div']/div[1]/table/tbody/tr[5]/td[4]/a}",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=.//*[@id='ui-datepicker-div']/div[1]/table/tbody/tr[5]/td[4]/a, using=xpath}"
+      ],
+      "result": "Error communicating with the remote browser. It may have died.\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: driver.version: QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: 15e98ddc-95a0-4970-addf-4a67c8d70688",
+      "subLogs": [],
+      "duration": 1000
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: .//*[@id='ui-datepicker-div']/div[1]/table/tbody/tr[5]/td[4]/a",
+        "{\"id\":\"-1\"}"
+      ],
+      "result": "Error communicating with the remote browser. It may have died.\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: driver.version: QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: 15e98ddc-95a0-4970-addf-4a67c8d70688",
+      "subLogs": [],
+      "duration": 582568226
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Error communicating with the remote browser. It may have died.\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: driver.version: QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: 15e98ddc-95a0-4970-addf-4a67c8d70688",
+      "type": "Fail",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: driver.version: QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: 15e98ddc-95a0-4970-addf-4a67c8d70688\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:223)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElementByXPath(QAFExtendedWebDriver.java:381)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElementByXPath(QAFExtendedWebDriver.java:1)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElement(QAFExtendedWebDriver.java:158)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElement(QAFExtendedWebDriver.java:1)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:899)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:41)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:181)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:178)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.load(QAFExtendedWebDriver.java:203)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.load(QAFExtendedWebElement.java:253)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:208)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)\r\n\tat domestictest.Domestic_scenario_csv.scenario2(Domestic_scenario_csv.java:24)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:714)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:741)\r\n\tat org.testng.TestRunner.run(TestRunner.java:595)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:334)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:240)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1149)\r\n\tat org.testng.TestNG.run(TestNG.java:1057)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)\r\nCaused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect\r\n\tat org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)\r\n\tat org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)\r\n\tat org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)\r\n\tat org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)\r\n\tat org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)\r\n\tat org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)\r\n\tat org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)\r\n\tat org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)\r\n\tat org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)\r\n\tat org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)\r\n\tat org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)\r\n\tat org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)\r\n\tat org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:160)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:380)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)\r\n\t... 43 more\r\nCaused by: java.net.ConnectException: Connection refused: connect\r\n\tat java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)\r\n\tat java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)\r\n\tat java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)\r\n\tat java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)\r\n\tat java.net.AbstractPlainSocketImpl.connect(Unknown Source)\r\n\tat java.net.PlainSocketImpl.connect(Unknown Source)\r\n\tat java.net.SocksSocketImpl.connect(Unknown Source)\r\n\tat java.net.Socket.connect(Unknown Source)\r\n\tat org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)\r\n\tat org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)\r\n\t... 58 more\r\n"
+}

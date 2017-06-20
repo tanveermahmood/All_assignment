@@ -1,0 +1,138 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "getCurrentWindowHandle",
+      "args": [
+        "{}"
+      ],
+      "result": "{db99aa24-d545-4fa9-b097-2913e46d1eaf}",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://www.air.irctc.co.in/IndianRailways/}"
+      ],
+      "result": "",
+      "subLogs": [],
+      "duration": 2820
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=tripType, using=name}"
+      ],
+      "result": "id: {855a573b-bcbd-4afd-9313-28dd16a6f3f9}",
+      "subLogs": [],
+      "duration": 69
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.name: tripType",
+        "{\"id\":\"{855a573b-bcbd-4afd-9313-28dd16a6f3f9}\"}"
+      ],
+      "result": "clickElement:ok",
+      "subLogs": [],
+      "duration": 108
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=origin, using=name}"
+      ],
+      "result": "id: {17a3104d-cca2-4ec4-bde6-e298c7a8f7c4}",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.name: origin",
+        "{\"id\":\"{17a3104d-cca2-4ec4-bde6-e298c7a8f7c4}\",\"value\":[\"Hyderabad,HYD\"]}"
+      ],
+      "result": "sendKeysToElement:",
+      "subLogs": [],
+      "duration": 67
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=destination, using=name}"
+      ],
+      "result": "id: {1087e84f-0725-4a34-9e46-d7b7845a88fa}",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.name: destination",
+        "{\"id\":\"{1087e84f-0725-4a34-9e46-d7b7845a88fa}\",\"value\":[\"Pune,PNQ\"]}"
+      ],
+      "result": "sendKeysToElement:",
+      "subLogs": [],
+      "duration": 52
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=.//*[@id='where']/div[4]/img, using=xpath}"
+      ],
+      "result": "id: {78d33fcf-0458-49ee-8fa9-c6ea5051ebca}",
+      "subLogs": [],
+      "duration": 35
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: .//*[@id='where']/div[4]/img",
+        "{\"id\":\"{78d33fcf-0458-49ee-8fa9-c6ea5051ebca}\"}"
+      ],
+      "result": "clickElement:ok",
+      "subLogs": [],
+      "duration": 111
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=.//*[@id='ui-datepicker-div'], using=xpath}"
+      ],
+      "result": "id: {7c3630b1-6161-4087-a97b-d54babc18052}",
+      "subLogs": [],
+      "duration": 123
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.xpath: .//*[@id='ui-datepicker-div']",
+        "{\"using\":\"tag name\",\"id\":\"{7c3630b1-6161-4087-a97b-d54babc18052}\",\"value\":\"td\"}"
+      ],
+      "result": "findChildElements:[id: {160186f7-f80f-4848-aedc-a2de460a4658}, id: {d944d698-1f6f-40c8-88e1-037a7722db02}, id: {e5efad32-63a7-4a1d-b801-90dcb36675a8}, id: {53a777b9-1f58-4ab5-afaa-baeb4ddf7340}, id: {cfa6cd17-d83b-4cba-9911-72bf6f591f4e}, id: {1d1b99b1-7806-471b-a9a2-e9e8f2fbe408}, id: {37bb8dca-3a68-412b-b08e-c09ea82d2595}, id: {1ce0dbb9-5354-4330-9994-1b0361d36917}, id: {30e4281f-89e5-47a7-b07f-f2265a5db63f}, id: {e916edf6-666c-4785-bbe4-1ea51632c1db}, id: {71ecd135-72ad-4d18-ac7c-5dd7da2bed5b}, id: {c153b989-a1c9-4398-b3ab-027b9151fa13}, id: {b8356c2c-9a11-4b8a-98f9-926444b186bb}, id: {f5f22673-757c-4bae-b861-3a32c4af0038}, id: {ff4bf44b-2d3b-4803-a985-340125e15090}, id: {9f8d58db-4349-464d-b944-a8b45ccff037}, id: {2bddf22b-b203-451b-a4cf-264a616bed3d}, id: {607feb2c-9532-4ce4-895b-8a03b6eff188}, id: {76030932-f4c4-4d7c-93f1-7876ce3b6f52}, id: {ca2a73dd-db87-4016-8ac2-6eeabac67144}, id: {2b25a814-187b-4415-af54-88ef666fdacc}, id: {5c801bab-e162-4408-bcdb-7602bfbb038d}, id: {fcea2d58-a163-4966-be84-6013ef04998d}, id: {99dd1ee6-b5b0-44d6-b3c8-ae3c9812e00c}, id: {982cdd8a-3ae1-4c6a-9d60-3008a158e9c4}, id: {02519045-0366-4941-8321-fc177596fed3}, id: {a1e30d0b-9caa-4a55-a4b6-2e8dba42b070}, id: {5ad5d761-8663-4e74-b260-ba0bd7babb77}, id: {581aad27-5cc5-401b-99bf-71da2eda3da3}, id: {d227126b-caea-49c2-a5f5-353a21d5a5a2}, id: {42d18728-f0ca-401d-b89b-5259f2d77a9e}, id: {58cc77eb-7275-4507-b08b-810369828691}, id: {63044d6f-f511-4318-bd79-46f71a75dac9}, id: {d0bbac88-6ed8-4727-a027-38051567a8f1}, id: {e062dee2-467b-47b5-97ef-34b96678c781}, id: {362464b7-8e04-403c-9397-a42736ee201b}, id: {50622b3f-736d-4179-9e66-ce6a5e406e4b}, id: {f958bb0b-752a-4927-bcc0-244d607d085a}, id: {0293875c-6561-4e55-965c-3008633461d1}, id: {f2218e55-841b-4d69-9ea2-738440ded52f}, id: {c287dda7-862f-4d27-8836-00ffafa0d643}, id: {5689df4e-5830-4ae1-976d-a9cfe1237175}, id: {c64b8ad3-c389-46f1-92cc-61492fb43593}, id: {324fa4fd-bbaf-4966-b6b6-e54db1aa2314}, id: {6f940aa4-d74d-4923-bf75-7207db05df19}, id: {d9ef1118-87d5-424e-bf32-4956e4316c50}, id: {735185c4-2253-4797-a551-0dbfa031eaf9}, id: {efd60ad1-34ed-4216-b95d-8e03a4165ebd}, id: {25954016-cc92-4e8d-af88-795bcc0df1e1}, id: {c248b7c5-7773-4a8d-a824-ed56d80185a8}, id: {7b4b67d4-6448-4b81-9da6-21a807b43912}, id: {272a34e7-9880-4488-8333-7de542575e1a}, id: {baff148e-b30f-4c8b-830a-cd34586a996c}, id: {c5aae7e5-26f0-4c35-8d3d-cb198ec1b0df}, id: {53b63f43-c29c-4fa9-b1c7-7175026b045f}, id: {babf7daf-badc-4aed-b547-ea1b1d0eb4ab}, id: {358e5808-59df-4d4c-9479-2d76200cfcc4}, id: {f1ade996-5a89-499a-aa45-3b338e606b1f}, id: {3833c617-7136-4394-b0ed-3350d5127b5d}, id: {84d9ab01-1bf3-493c-a62e-92bef9c4cfad}, id: {59c2c915-8cd9-4e06-96ee-e62e5f3102aa}, id: {4129600b-7c23-4656-b251-5905f6f7d1b6}, id: {fc72ad8a-65a8-41cd-aea1-fe0feb2cf20c}, id: {b4a8ee27-1594-4d5b-97c9-14bdeee22a6d}, id: {cd7c89a6-0830-42af-9685-ff36f49f2db8}, id: {85c5c798-f838-440c-b67a-bf144be87c2b}, id: {beac2258-6bee-41f8-b3fd-16fbb96c2729}, id: {bf5931bc-e1b0-41e3-98da-e03cc8d10b94}, id: {178209c5-e7d1-4928-aff1-58091c481a2f}, id: {0766aec8-5bc7-4ea5-a891-373b8dad9122}]",
+      "subLogs": [],
+      "duration": 44
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "id: {160186f7-f80f-4848-aedc-a2de460a4658}",
+        "{\"using\":\"tag name\",\"id\":\"{160186f7-f80f-4848-aedc-a2de460a4658}\",\"value\":\"a\"}"
+      ],
+      "result": "Unable to locate element: {\"method\":\"tag name\",\"selector\":\"a\"}\nCommand duration or timeout: 14 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: 19c9fb19-c60c-4514-9a02-be35d6f12b1c\n*** Element info: {Using=tag name, value=a}",
+      "subLogs": [],
+      "duration": 19
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Unable to locate element: {\"method\":\"tag name\",\"selector\":\"a\"}\nCommand duration or timeout: 14 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: 19c9fb19-c60c-4514-9a02-be35d6f12b1c\n*** Element info: {Using=tag name, value=a}",
+      "type": "Fail",
+      "screenshot": "img/scenario1_jxb2ffkfzoqz53668.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.NoSuchElementException: Unable to locate element: {\"method\":\"tag name\",\"selector\":\"a\"}\nCommand duration or timeout: 14 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: 19c9fb19-c60c-4514-9a02-be35d6f12b1c\n*** Element info: {Using=tag name, value=a}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeWitoutLog(QAFExtendedWebDriver.java:245)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:221)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:198)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.findElementByTagName(RemoteWebElement.java:312)\r\n\tat org.openqa.selenium.By$ByTagName.findElement(By.java:334)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:194)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.findElement(QAFExtendedWebElement.java:381)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.findElement(QAFExtendedWebElement.java:1)\r\n\tat domestictest.Generic1.kw_date_picker(Generic1.java:150)\r\n\tat domestictest.Domestic_Scenario.scenario1(Domestic_Scenario.java:31)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:714)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:741)\r\n\tat org.testng.TestRunner.run(TestRunner.java:595)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:334)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:240)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1149)\r\n\tat org.testng.TestNG.run(TestNG.java:1057)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)\r\nCaused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {\"method\":\"tag name\",\"selector\":\"a\"}\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: driver.version: unknown\r\n\tat <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/TANVEE~1.MAH/AppData/Local/Temp/anonymous5027696287796556694webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)\r\n\tat <anonymous class>.FirefoxDriver.prototype.findChildElement(file:///C:/Users/TANVEE~1.MAH/AppData/Local/Temp/anonymous5027696287796556694webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10782)\r\n\tat <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/TANVEE~1.MAH/AppData/Local/Temp/anonymous5027696287796556694webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)\r\n\tat <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/TANVEE~1.MAH/AppData/Local/Temp/anonymous5027696287796556694webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)\r\n\tat <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/TANVEE~1.MAH/AppData/Local/Temp/anonymous5027696287796556694webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)\r\n"
+}

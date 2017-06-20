@@ -1,0 +1,342 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "findElement",
+      "args": [
+        "{using=id, value=com.flipkart.android:id/btn_skip}"
+      ],
+      "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 507 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_51'\n*** Element info: {Using=id, value=com.flipkart.android:id/btn_skip}\nSession ID: 20395b91-0759-4020-8b4c-0aa309cb3a02\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{automationName=Appium, platform=LINUX, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, deviceModel=Samsung Galaxy Note 3 - 4.3 - API 18 - 1080x1920, networkConnectionEnabled=true, desired={automationName=Appium, newCommandTimeout=120, cssSelectorsEnabled=true, javascriptEnabled=true, deviceName=192.168.32.101:5555, platformName=Android, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, appium-version=3.3.0, browser_name=, appPackage=com.flipkart.android, takesScreenshot=true}, locationContextEnabled=false, deviceUDID=192.168.32.101:5555, appPackage=com.flipkart.android, newCommandTimeout=120, platformVersion=4.3, databaseEnabled=false, cssSelectorsEnabled=true, deviceScreenSize=1080x1920, deviceName=192.168.32.101:5555, platformName=Android, deviceManufacturer=Genymotion, appium-version=3.3.0, browser_name=, webStorageEnabled=false, warnings={}, takesScreenshot=true}]",
+      "subLogs": [],
+      "duration": 510
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{using=id, value=com.flipkart.android:id/btn_skip}"
+      ],
+      "result": "id: 1",
+      "subLogs": [],
+      "duration": 811
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.id: com.flipkart.android:id/btn_skip",
+        "{\"id\":\"1\"}"
+      ],
+      "result": "clickElement:true",
+      "subLogs": [],
+      "duration": 1815
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=accessibility id, value=Open Drawer}"
+      ],
+      "result": "[id: 2]",
+      "subLogs": [],
+      "duration": 4025
+    },
+    {
+      "commandName": "isElementEnabled",
+      "args": [
+        "[unknown locator]",
+        "{\"id\":\"2\"}"
+      ],
+      "result": "isElementEnabled:true",
+      "subLogs": [],
+      "duration": 335
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=accessibility id, value=Open Drawer}"
+      ],
+      "result": "[id: 3]",
+      "subLogs": [],
+      "duration": 1454
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "[unknown locator]",
+        "{\"id\":\"3\"}"
+      ],
+      "result": "clickElement:true",
+      "subLogs": [],
+      "duration": 1103
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=xpath, value=//android.widget.TextView[@text='Electronics']}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 129
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=xpath, value=//android.widget.TextView[@text='Electronics']}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 117
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=xpath, value=//android.widget.TextView[@text='Electronics']}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 106
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=xpath, value=//android.widget.TextView[@text='Electronics']}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 142
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=xpath, value=//android.widget.TextView[@text='Electronics']}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 103
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=xpath, value=//android.widget.TextView[@text='Electronics']}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 91
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=xpath, value=//android.widget.TextView[@text='Electronics']}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 89
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=xpath, value=//android.widget.TextView[@text='Electronics']}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 103
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=xpath, value=//android.widget.TextView[@text='Electronics']}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 93
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=xpath, value=//android.widget.TextView[@text='Electronics']}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 87
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=xpath, value=//android.widget.TextView[@text='Electronics']}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 79
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=xpath, value=//android.widget.TextView[@text='Electronics']}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 134
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=xpath, value=//android.widget.TextView[@text='Electronics']}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 103
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=xpath, value=//android.widget.TextView[@text='Electronics']}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 86
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=xpath, value=//android.widget.TextView[@text='Electronics']}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 81
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=xpath, value=//android.widget.TextView[@text='Electronics']}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 77
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=xpath, value=//android.widget.TextView[@text='Electronics']}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 89
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=xpath, value=//android.widget.TextView[@text='Electronics']}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 88
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=xpath, value=//android.widget.TextView[@text='Electronics']}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 89
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=xpath, value=//android.widget.TextView[@text='Electronics']}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 87
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=xpath, value=//android.widget.TextView[@text='Electronics']}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 88
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=xpath, value=//android.widget.TextView[@text='Electronics']}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 64
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=xpath, value=//android.widget.TextView[@text='Electronics']}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 83
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=xpath, value=//android.widget.TextView[@text='Electronics']}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 102
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=xpath, value=//android.widget.TextView[@text='Electronics']}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 105
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=xpath, value=//android.widget.TextView[@text='Electronics']}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 90
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=xpath, value=//android.widget.TextView[@text='Electronics']}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 79
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=xpath, value=//android.widget.TextView[@text='Electronics']}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 68
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=xpath, value=//android.widget.TextView[@text='Electronics']}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 87
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Timed out after 30 seconds: Wait time out for click on electronic to be visible\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_51'\nDriver info: driver.version: unknown",
+      "type": "Fail",
+      "screenshot": "../img/search_qobp432j9sql27762.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.TimeoutException: Timed out after 30 seconds: Wait time out for click on electronic to be visible\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_51'\nDriver info: driver.version: unknown\r\n\tat org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:292)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.waitForVisible(QAFExtendedWebElement.java:478)\r\n\tat com.flipkart_mobile.page.CategoryTestPage.selectCategory(CategoryTestPage.java:30)\r\n\tat com.flipkart_mobile.step.Flipkart_homeeststep.search(Flipkart_homeeststep.java:17)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:606)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:643)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:805)\r\n\tat org.testng.TestRunner.run(TestRunner.java:655)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:366)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:268)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1169)\r\n\tat org.testng.TestNG.run(TestNG.java:1064)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)\r\n"
+}

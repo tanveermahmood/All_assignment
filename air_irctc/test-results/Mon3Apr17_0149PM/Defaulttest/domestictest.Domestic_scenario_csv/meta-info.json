@@ -1,0 +1,274 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "name": "setupSuit",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1491207578953,
+      "duration": 31,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "name": "setupTest",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1491207579000,
+      "duration": 0,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "name": "setup",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1491207579015,
+      "duration": 0,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "name": "setupMethod",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1491207579031,
+      "duration": 16,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "from": "Hyderabad",
+          "to": "Pune"
+        }
+      ],
+      "metaData": {
+        "dataFile": "resources/data.csv",
+        "description": "fill domestic form",
+        "groups": [
+          "SMOKE"
+        ],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "scenario2",
+        "sheetName": "",
+        "sign": "Domestic_scenario_csv.scenario2(java.util.Map)[pri:0, instance:domestictest.Domestic_scenario_csv@5e955596]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1491207579047,
+      "duration": 11686,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "name": "afterMethod",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1491207590745,
+      "duration": 0,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "resultFileName": "setupMethodeux",
+        "name": "setupMethod",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1491207590753,
+      "duration": 1,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        {
+          "from": "Pune",
+          "to": "Hyderabad"
+        }
+      ],
+      "metaData": {
+        "dataFile": "resources/data.csv",
+        "description": "fill domestic form",
+        "groups": [
+          "SMOKE"
+        ],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "scenario2",
+        "resultFileName": "scenario2iIt",
+        "sheetName": "",
+        "sign": "Domestic_scenario_csv.scenario2(java.util.Map)[pri:0, instance:domestictest.Domestic_scenario_csv@5e955596]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1491207590763,
+      "duration": 5287,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "resultFileName": "afterMethodIJI",
+        "name": "afterMethod",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1491207596059,
+      "duration": 0,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "resultFileName": "setupMethodasG",
+        "name": "setupMethod",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1491207596067,
+      "duration": 0,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 3,
+      "type": "test",
+      "args": [
+        {
+          "from": "Hyderabad",
+          "to": "Bangalore"
+        }
+      ],
+      "metaData": {
+        "dataFile": "resources/data.csv",
+        "description": "fill domestic form",
+        "groups": [
+          "SMOKE"
+        ],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "scenario2",
+        "resultFileName": "scenario2AIi",
+        "sheetName": "",
+        "sign": "Domestic_scenario_csv.scenario2(java.util.Map)[pri:0, instance:domestictest.Domestic_scenario_csv@5e955596]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1491207596073,
+      "duration": 5114,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "resultFileName": "afterMethodenC",
+        "name": "afterMethod",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1491207601187,
+      "duration": 0,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "name": "afterClass",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1491207601202,
+      "duration": 0,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "name": "afterTest",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1491207601202,
+      "duration": 0,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "name": "afterSuit",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1491207601233,
+      "duration": 0,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

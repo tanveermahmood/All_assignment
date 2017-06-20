@@ -1,0 +1,1 @@
+flipkartcategoryList.link.category = {\"locator\":\"xpath=//span[text()='%s']\",\"desc\":\"category name\"}

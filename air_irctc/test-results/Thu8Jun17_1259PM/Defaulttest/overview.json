@@ -1,0 +1,34 @@
+{
+  "total": 1,
+  "pass": 0,
+  "fail": 1,
+  "skip": 0,
+  "classes": [
+    "domestictest.Domestic_Scenario"
+  ],
+  "envInfo": {
+    "execution-env-info": {
+      "os.version": "6.2",
+      "host": "ICPL11544",
+      "user.name": "tanveer.mahmood",
+      "os.arch": "amd64",
+      "java.arch": "64",
+      "java.version": "1.7.0_51",
+      "java.vendor": "Oracle Corporation",
+      "os.name": "Windows 8"
+    },
+    "isfw-build-info": {
+      "qaf-Build-Time": "10-Apr-2017 23:17:07",
+      "qaf-Revision": "11",
+      "qaf-Type": "core",
+      "qaf-Version": "2.1"
+    },
+    "run-parameters": {
+      "resources": "resources",
+      "baseurl": "http://www.air.irctc.co.in/IndianRailways/"
+    },
+    "browser-actual-capabilities": {}
+  },
+  "startTime": 1496906983052,
+  "endTime": 1496906983099
+}

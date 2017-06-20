@@ -1,0 +1,162 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "open",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "getCurrentWindowHandle",
+          "args": [
+            "{}"
+          ],
+          "result": "{08752bbe-4597-4e01-9091-464ba6a8bf7c}",
+          "subLogs": [],
+          "duration": 36
+        },
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://www.air.irctc.co.in}"
+          ],
+          "result": "",
+          "subLogs": [],
+          "duration": 5330
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "fill_form",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "getCurrentWindowHandle",
+          "args": [
+            "{}"
+          ],
+          "result": "{08752bbe-4597-4e01-9091-464ba6a8bf7c}",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=tripType, using=name}"
+          ],
+          "result": "id: {3ee7ad74-ffad-4bd1-8c8a-5d683ea74a14}",
+          "subLogs": [],
+          "duration": 48
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.name: tripType",
+            "{\"id\":\"{3ee7ad74-ffad-4bd1-8c8a-5d683ea74a14}\"}"
+          ],
+          "result": "clickElement:ok",
+          "subLogs": [],
+          "duration": 105
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=origin, using=name}"
+          ],
+          "result": "id: {c7d8b6d2-e7c2-479d-8973-a0da1cb766c7}",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.name: origin",
+            "{\"id\":\"{c7d8b6d2-e7c2-479d-8973-a0da1cb766c7}\",\"value\":[\"Hyderabad,HYD\"]}"
+          ],
+          "result": "sendKeysToElement:",
+          "subLogs": [],
+          "duration": 67
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=destination, using=name}"
+          ],
+          "result": "id: {a8da1f42-317d-44ff-b094-25d53a2732fa}",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.name: destination",
+            "{\"id\":\"{a8da1f42-317d-44ff-b094-25d53a2732fa}\",\"value\":[\"Pune,PNQ\"]}"
+          ],
+          "result": "sendKeysToElement:",
+          "subLogs": [],
+          "duration": 50
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=.//*[@id='where']/div[4]/img, using=xpath}"
+          ],
+          "result": "id: {654dc37b-fbef-429a-8cee-1511f8b8271b}",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: .//*[@id='where']/div[4]/img",
+            "{\"id\":\"{654dc37b-fbef-429a-8cee-1511f8b8271b}\"}"
+          ],
+          "result": "clickElement:ok",
+          "subLogs": [],
+          "duration": 141
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=.//*[@id='ui-datepicker-div']/div[1]/table/tbody/tr[5]/td[4]/a, using=xpath}"
+          ],
+          "result": "id: {652a22b5-134c-4e5d-8cbc-d2f3786ab200}",
+          "subLogs": [],
+          "duration": 128
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: .//*[@id='ui-datepicker-div']/div[1]/table/tbody/tr[5]/td[4]/a",
+            "{\"id\":\"{652a22b5-134c-4e5d-8cbc-d2f3786ab200}\"}"
+          ],
+          "result": "clickElement:ok",
+          "subLogs": [],
+          "duration": 140
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given opening browser and pass the url",
+      "type": "TestStepPass",
+      "duration": 11000,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then fill the domestic flight form",
+      "type": "TestStepPass",
+      "duration": 3797,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

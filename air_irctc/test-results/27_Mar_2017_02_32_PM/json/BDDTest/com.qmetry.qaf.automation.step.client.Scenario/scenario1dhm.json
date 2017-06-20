@@ -1,0 +1,212 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://www.air.irctc.co.in}"
+          ],
+          "result": "",
+          "subLogs": [],
+          "duration": 1516
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[radio.one.way]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=tripType, using=name}"
+          ],
+          "result": "id: {1c76d91c-74c4-4a02-b7a6-e7c325aea3b8}",
+          "subLogs": [],
+          "duration": 69
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.name: tripType",
+            "{\"id\":\"{1c76d91c-74c4-4a02-b7a6-e7c325aea3b8}\"}"
+          ],
+          "result": "clickElement:ok",
+          "subLogs": [],
+          "duration": 241
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "sendKeys",
+      "args": [
+        "[Hyderabad,HYD, text.origin]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=origin, using=name}"
+          ],
+          "result": "id: {6880814c-679b-4bb2-9d6d-eb03bd53fef6}",
+          "subLogs": [],
+          "duration": 190
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.name: origin",
+            "{\"id\":\"{6880814c-679b-4bb2-9d6d-eb03bd53fef6}\",\"value\":[\"Hyderabad,HYD\"]}"
+          ],
+          "result": "sendKeysToElement:",
+          "subLogs": [],
+          "duration": 70
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "sendKeys",
+      "args": [
+        "[Pune,PNQ, text.destination]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=destination, using=name}"
+          ],
+          "result": "id: {340988d9-d383-446b-8be9-bb7363e4f49b}",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.name: destination",
+            "{\"id\":\"{340988d9-d383-446b-8be9-bb7363e4f49b}\",\"value\":[\"Pune,PNQ\"]}"
+          ],
+          "result": "sendKeysToElement:",
+          "subLogs": [],
+          "duration": 73
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[calender]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=.//*[@id='where']/div[4]/img, using=xpath}"
+          ],
+          "result": "id: {06a42a2b-dbed-43a2-a217-f9e0b307e42e}",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: .//*[@id='where']/div[4]/img",
+            "{\"id\":\"{06a42a2b-dbed-43a2-a217-f9e0b307e42e}\"}"
+          ],
+          "result": "clickElement:ok",
+          "subLogs": [],
+          "duration": 103
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[date]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=.//*[@id='ui-datepicker-div']/div[1]/table/tbody/tr[5]/td[4]/a, using=xpath}"
+          ],
+          "result": "id: {d617237f-f207-4388-8caf-757db1063267}",
+          "subLogs": [],
+          "duration": 201
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: .//*[@id='ui-datepicker-div']/div[1]/table/tbody/tr[5]/td[4]/a",
+            "{\"id\":\"{d617237f-f207-4388-8caf-757db1063267}\"}"
+          ],
+          "result": "clickElement:ok",
+          "subLogs": [],
+          "duration": 99
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "get '/'",
+      "type": "TestStepPass",
+      "duration": 6790,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'radio.one.way'",
+      "type": "TestStepPass",
+      "duration": 331,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "sendKeys 'Hyderabad,HYD' into 'text.origin'",
+      "type": "TestStepPass",
+      "duration": 262,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "sendKeys 'Pune,PNQ' into 'text.destination'",
+      "type": "TestStepPass",
+      "duration": 93,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'calender'",
+      "type": "TestStepPass",
+      "duration": 120,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'date'",
+      "type": "TestStepPass",
+      "duration": 305,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

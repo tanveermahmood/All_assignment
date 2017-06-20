@@ -1,0 +1,657 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://www.flipcart.com}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 9266
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{using=xpath, value=//a[@title='Electronics']}"
+      ],
+      "result": "id: 0.1647894976276667-1",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //a[@title='Electronics']",
+        "{\"id\":\"0.1647894976276667-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 42
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=xpath, value=//span[text()='Apple']}"
+      ],
+      "result": "[id: 0.1647894976276667-2]",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{using=xpath, value=//span[text()='Apple']}"
+      ],
+      "result": "id: 0.1647894976276667-2",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //span[text()='Apple']",
+        "{\"id\":\"0.1647894976276667-2\"}"
+      ],
+      "result": "isElementDisplayed:false",
+      "subLogs": [],
+      "duration": 7
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=xpath, value=//span[text()='Apple']}"
+      ],
+      "result": "[id: 0.1647894976276667-2]",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{using=xpath, value=//span[text()='Apple']}"
+      ],
+      "result": "id: 0.1647894976276667-2",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //span[text()='Apple']",
+        "{\"id\":\"0.1647894976276667-2\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{using=xpath, value=//span[text()='Apple']}"
+      ],
+      "result": "id: 0.1647894976276667-2",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //span[text()='Apple']",
+        "{\"id\":\"0.1647894976276667-2\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 48
+    },
+    {
+      "commandName": "getTitle",
+      "args": [
+        "{}"
+      ],
+      "result": "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More | Flipkart Big 10 Sale",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{using=xpath, value=//div[@class=\"_3b7jyH\"]}"
+      ],
+      "result": "id: 0.1647894976276667-3",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //div[@class=\"_3b7jyH\"]",
+        "{\"id\":\"0.1647894976276667-3\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 1214
+    },
+    {
+      "commandName": "getTitle",
+      "args": [
+        "{}"
+      ],
+      "result": "Mobile phones online @ Flipkart.com",
+      "subLogs": [],
+      "duration": 64
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=css selector, value=._1UoZlX}"
+      ],
+      "result": "[id: 0.10038864168352801-1, id: 0.10038864168352801-2, id: 0.10038864168352801-3, id: 0.10038864168352801-4, id: 0.10038864168352801-5, id: 0.10038864168352801-6, id: 0.10038864168352801-7, id: 0.10038864168352801-8, id: 0.10038864168352801-9, id: 0.10038864168352801-10, id: 0.10038864168352801-11, id: 0.10038864168352801-12, id: 0.10038864168352801-13, id: 0.10038864168352801-14, id: 0.10038864168352801-15, id: 0.10038864168352801-16, id: 0.10038864168352801-17, id: 0.10038864168352801-18, id: 0.10038864168352801-19, id: 0.10038864168352801-20, id: 0.10038864168352801-21, id: 0.10038864168352801-22, id: 0.10038864168352801-23, id: 0.10038864168352801-24, id: 0.10038864168352801-25, id: 0.10038864168352801-26, id: 0.10038864168352801-27, id: 0.10038864168352801-28, id: 0.10038864168352801-29, id: 0.10038864168352801-30, id: 0.10038864168352801-31, id: 0.10038864168352801-32, id: 0.10038864168352801-33, id: 0.10038864168352801-34, id: 0.10038864168352801-35, id: 0.10038864168352801-36, id: 0.10038864168352801-37, id: 0.10038864168352801-38, id: 0.10038864168352801-39, id: 0.10038864168352801-40, id: 0.10038864168352801-41, id: 0.10038864168352801-42, id: 0.10038864168352801-43, id: 0.10038864168352801-44, id: 0.10038864168352801-45, id: 0.10038864168352801-46, id: 0.10038864168352801-47, id: 0.10038864168352801-48, id: 0.10038864168352801-49, id: 0.10038864168352801-50, id: 0.10038864168352801-51, id: 0.10038864168352801-52, id: 0.10038864168352801-53, id: 0.10038864168352801-54, id: 0.10038864168352801-55, id: 0.10038864168352801-56, id: 0.10038864168352801-57, id: 0.10038864168352801-58, id: 0.10038864168352801-59, id: 0.10038864168352801-60]",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=css selector, value=._1UoZlX}"
+      ],
+      "result": "[id: 0.10038864168352801-1, id: 0.10038864168352801-2, id: 0.10038864168352801-3, id: 0.10038864168352801-4, id: 0.10038864168352801-5, id: 0.10038864168352801-6, id: 0.10038864168352801-7, id: 0.10038864168352801-8, id: 0.10038864168352801-9, id: 0.10038864168352801-10, id: 0.10038864168352801-11, id: 0.10038864168352801-12, id: 0.10038864168352801-13, id: 0.10038864168352801-14, id: 0.10038864168352801-15, id: 0.10038864168352801-16, id: 0.10038864168352801-17, id: 0.10038864168352801-18, id: 0.10038864168352801-19, id: 0.10038864168352801-20, id: 0.10038864168352801-21, id: 0.10038864168352801-22, id: 0.10038864168352801-23, id: 0.10038864168352801-24, id: 0.10038864168352801-25, id: 0.10038864168352801-26, id: 0.10038864168352801-27, id: 0.10038864168352801-28, id: 0.10038864168352801-29, id: 0.10038864168352801-30, id: 0.10038864168352801-31, id: 0.10038864168352801-32, id: 0.10038864168352801-33, id: 0.10038864168352801-34, id: 0.10038864168352801-35, id: 0.10038864168352801-36, id: 0.10038864168352801-37, id: 0.10038864168352801-38, id: 0.10038864168352801-39, id: 0.10038864168352801-40, id: 0.10038864168352801-41, id: 0.10038864168352801-42, id: 0.10038864168352801-43, id: 0.10038864168352801-44, id: 0.10038864168352801-45, id: 0.10038864168352801-46, id: 0.10038864168352801-47, id: 0.10038864168352801-48, id: 0.10038864168352801-49, id: 0.10038864168352801-50, id: 0.10038864168352801-51, id: 0.10038864168352801-52, id: 0.10038864168352801-53, id: 0.10038864168352801-54, id: 0.10038864168352801-55, id: 0.10038864168352801-56, id: 0.10038864168352801-57, id: 0.10038864168352801-58, id: 0.10038864168352801-59, id: 0.10038864168352801-60]",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "Using any of[css=._1UoZlX, css=._3ycxrs]",
+        "{\"id\":\"0.10038864168352801-1\",\"using\":\"css selector\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.10038864168352801-61]",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "Using any of[css=._1UoZlX, css=._3ycxrs]",
+        "{\"id\":\"0.10038864168352801-1\",\"using\":\"css selector\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.10038864168352801-61]",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "Using any of[css=._3wU53n, css=._3ROAwx]",
+        "{\"id\":\"0.10038864168352801-61\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=css selector, value=._1UoZlX}"
+      ],
+      "result": "[id: 0.10038864168352801-1, id: 0.10038864168352801-2, id: 0.10038864168352801-3, id: 0.10038864168352801-4, id: 0.10038864168352801-5, id: 0.10038864168352801-6, id: 0.10038864168352801-7, id: 0.10038864168352801-8, id: 0.10038864168352801-9, id: 0.10038864168352801-10, id: 0.10038864168352801-11, id: 0.10038864168352801-12, id: 0.10038864168352801-13, id: 0.10038864168352801-14, id: 0.10038864168352801-15, id: 0.10038864168352801-16, id: 0.10038864168352801-17, id: 0.10038864168352801-18, id: 0.10038864168352801-19, id: 0.10038864168352801-20, id: 0.10038864168352801-21, id: 0.10038864168352801-22, id: 0.10038864168352801-23, id: 0.10038864168352801-24, id: 0.10038864168352801-25, id: 0.10038864168352801-26, id: 0.10038864168352801-27, id: 0.10038864168352801-28, id: 0.10038864168352801-29, id: 0.10038864168352801-30, id: 0.10038864168352801-31, id: 0.10038864168352801-32, id: 0.10038864168352801-33, id: 0.10038864168352801-34, id: 0.10038864168352801-35, id: 0.10038864168352801-36, id: 0.10038864168352801-37, id: 0.10038864168352801-38, id: 0.10038864168352801-39, id: 0.10038864168352801-40, id: 0.10038864168352801-41, id: 0.10038864168352801-42, id: 0.10038864168352801-43, id: 0.10038864168352801-44, id: 0.10038864168352801-45, id: 0.10038864168352801-46, id: 0.10038864168352801-47, id: 0.10038864168352801-48, id: 0.10038864168352801-49, id: 0.10038864168352801-50, id: 0.10038864168352801-51, id: 0.10038864168352801-52, id: 0.10038864168352801-53, id: 0.10038864168352801-54, id: 0.10038864168352801-55, id: 0.10038864168352801-56, id: 0.10038864168352801-57, id: 0.10038864168352801-58, id: 0.10038864168352801-59, id: 0.10038864168352801-60]",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=css selector, value=._1UoZlX}"
+      ],
+      "result": "[id: 0.10038864168352801-1, id: 0.10038864168352801-2, id: 0.10038864168352801-3, id: 0.10038864168352801-4, id: 0.10038864168352801-5, id: 0.10038864168352801-6, id: 0.10038864168352801-7, id: 0.10038864168352801-8, id: 0.10038864168352801-9, id: 0.10038864168352801-10, id: 0.10038864168352801-11, id: 0.10038864168352801-12, id: 0.10038864168352801-13, id: 0.10038864168352801-14, id: 0.10038864168352801-15, id: 0.10038864168352801-16, id: 0.10038864168352801-17, id: 0.10038864168352801-18, id: 0.10038864168352801-19, id: 0.10038864168352801-20, id: 0.10038864168352801-21, id: 0.10038864168352801-22, id: 0.10038864168352801-23, id: 0.10038864168352801-24, id: 0.10038864168352801-25, id: 0.10038864168352801-26, id: 0.10038864168352801-27, id: 0.10038864168352801-28, id: 0.10038864168352801-29, id: 0.10038864168352801-30, id: 0.10038864168352801-31, id: 0.10038864168352801-32, id: 0.10038864168352801-33, id: 0.10038864168352801-34, id: 0.10038864168352801-35, id: 0.10038864168352801-36, id: 0.10038864168352801-37, id: 0.10038864168352801-38, id: 0.10038864168352801-39, id: 0.10038864168352801-40, id: 0.10038864168352801-41, id: 0.10038864168352801-42, id: 0.10038864168352801-43, id: 0.10038864168352801-44, id: 0.10038864168352801-45, id: 0.10038864168352801-46, id: 0.10038864168352801-47, id: 0.10038864168352801-48, id: 0.10038864168352801-49, id: 0.10038864168352801-50, id: 0.10038864168352801-51, id: 0.10038864168352801-52, id: 0.10038864168352801-53, id: 0.10038864168352801-54, id: 0.10038864168352801-55, id: 0.10038864168352801-56, id: 0.10038864168352801-57, id: 0.10038864168352801-58, id: 0.10038864168352801-59, id: 0.10038864168352801-60]",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "Using any of[css=._1UoZlX, css=._3ycxrs]",
+        "{\"id\":\"0.10038864168352801-1\",\"using\":\"css selector\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.10038864168352801-61]",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "Using any of[css=._3wU53n, css=._3ROAwx]",
+        "{\"id\":\"0.10038864168352801-61\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 (Black, 32 GB)",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=css selector, value=._1UoZlX}"
+      ],
+      "result": "[id: 0.10038864168352801-1, id: 0.10038864168352801-2, id: 0.10038864168352801-3, id: 0.10038864168352801-4, id: 0.10038864168352801-5, id: 0.10038864168352801-6, id: 0.10038864168352801-7, id: 0.10038864168352801-8, id: 0.10038864168352801-9, id: 0.10038864168352801-10, id: 0.10038864168352801-11, id: 0.10038864168352801-12, id: 0.10038864168352801-13, id: 0.10038864168352801-14, id: 0.10038864168352801-15, id: 0.10038864168352801-16, id: 0.10038864168352801-17, id: 0.10038864168352801-18, id: 0.10038864168352801-19, id: 0.10038864168352801-20, id: 0.10038864168352801-21, id: 0.10038864168352801-22, id: 0.10038864168352801-23, id: 0.10038864168352801-24, id: 0.10038864168352801-25, id: 0.10038864168352801-26, id: 0.10038864168352801-27, id: 0.10038864168352801-28, id: 0.10038864168352801-29, id: 0.10038864168352801-30, id: 0.10038864168352801-31, id: 0.10038864168352801-32, id: 0.10038864168352801-33, id: 0.10038864168352801-34, id: 0.10038864168352801-35, id: 0.10038864168352801-36, id: 0.10038864168352801-37, id: 0.10038864168352801-38, id: 0.10038864168352801-39, id: 0.10038864168352801-40, id: 0.10038864168352801-41, id: 0.10038864168352801-42, id: 0.10038864168352801-43, id: 0.10038864168352801-44, id: 0.10038864168352801-45, id: 0.10038864168352801-46, id: 0.10038864168352801-47, id: 0.10038864168352801-48, id: 0.10038864168352801-49, id: 0.10038864168352801-50, id: 0.10038864168352801-51, id: 0.10038864168352801-52, id: 0.10038864168352801-53, id: 0.10038864168352801-54, id: 0.10038864168352801-55, id: 0.10038864168352801-56, id: 0.10038864168352801-57, id: 0.10038864168352801-58, id: 0.10038864168352801-59, id: 0.10038864168352801-60]",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "Using any of[css=._1UoZlX, css=._3ycxrs]",
+        "{\"id\":\"0.10038864168352801-1\",\"using\":\"css selector\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElements:[id: 0.10038864168352801-62]",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "Using any of[css=._1vC4OE._2rQ-NK, css=.I8hxu4]",
+        "{\"id\":\"0.10038864168352801-62\"}"
+      ],
+      "result": "getElementText:₹47,999",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=css selector, value=._1UoZlX}"
+      ],
+      "result": "[id: 0.10038864168352801-1, id: 0.10038864168352801-2, id: 0.10038864168352801-3, id: 0.10038864168352801-4, id: 0.10038864168352801-5, id: 0.10038864168352801-6, id: 0.10038864168352801-7, id: 0.10038864168352801-8, id: 0.10038864168352801-9, id: 0.10038864168352801-10, id: 0.10038864168352801-11, id: 0.10038864168352801-12, id: 0.10038864168352801-13, id: 0.10038864168352801-14, id: 0.10038864168352801-15, id: 0.10038864168352801-16, id: 0.10038864168352801-17, id: 0.10038864168352801-18, id: 0.10038864168352801-19, id: 0.10038864168352801-20, id: 0.10038864168352801-21, id: 0.10038864168352801-22, id: 0.10038864168352801-23, id: 0.10038864168352801-24, id: 0.10038864168352801-25, id: 0.10038864168352801-26, id: 0.10038864168352801-27, id: 0.10038864168352801-28, id: 0.10038864168352801-29, id: 0.10038864168352801-30, id: 0.10038864168352801-31, id: 0.10038864168352801-32, id: 0.10038864168352801-33, id: 0.10038864168352801-34, id: 0.10038864168352801-35, id: 0.10038864168352801-36, id: 0.10038864168352801-37, id: 0.10038864168352801-38, id: 0.10038864168352801-39, id: 0.10038864168352801-40, id: 0.10038864168352801-41, id: 0.10038864168352801-42, id: 0.10038864168352801-43, id: 0.10038864168352801-44, id: 0.10038864168352801-45, id: 0.10038864168352801-46, id: 0.10038864168352801-47, id: 0.10038864168352801-48, id: 0.10038864168352801-49, id: 0.10038864168352801-50, id: 0.10038864168352801-51, id: 0.10038864168352801-52, id: 0.10038864168352801-53, id: 0.10038864168352801-54, id: 0.10038864168352801-55, id: 0.10038864168352801-56, id: 0.10038864168352801-57, id: 0.10038864168352801-58, id: 0.10038864168352801-59, id: 0.10038864168352801-60]",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "Using any of[css=._1UoZlX, css=._3ycxrs]",
+        "{\"id\":\"0.10038864168352801-1\",\"using\":\"css selector\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.10038864168352801-61]",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "Using any of[css=._3wU53n, css=._3ROAwx]",
+        "{\"id\":\"0.10038864168352801-61\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "getWindowHandles",
+      "args": [
+        "{}"
+      ],
+      "result": "[CDwindow-da6c19ef-8fed-4930-95f5-6f64b2f03bfe, CDwindow-e903174e-db78-42b9-92ab-3477812cdb00]",
+      "subLogs": [],
+      "duration": 4
+    },
+    {
+      "commandName": "getWindowHandles",
+      "args": [
+        "{}"
+      ],
+      "result": "[CDwindow-da6c19ef-8fed-4930-95f5-6f64b2f03bfe, CDwindow-e903174e-db78-42b9-92ab-3477812cdb00]",
+      "subLogs": [],
+      "duration": 7
+    },
+    {
+      "commandName": "switchToWindow",
+      "args": [
+        "{name=CDwindow-da6c19ef-8fed-4930-95f5-6f64b2f03bfe}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 4
+    },
+    {
+      "commandName": "switchToWindow",
+      "args": [
+        "{name=CDwindow-e903174e-db78-42b9-92ab-3477812cdb00}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 5
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=css selector, value=._3eAQiD}"
+      ],
+      "result": "[id: 0.567366214509178-1]",
+      "subLogs": [],
+      "duration": 1092
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{using=css selector, value=._3eAQiD}"
+      ],
+      "result": "id: 0.567366214509178-1",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.cssSelector: ._3eAQiD",
+        "{\"id\":\"0.567366214509178-1\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{using=css selector, value=._3eAQiD}"
+      ],
+      "result": "id: 0.567366214509178-1",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3eAQiD",
+        "{\"id\":\"0.567366214509178-1\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 (Black, 32 GB)",
+      "subLogs": [],
+      "duration": 7
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{using=css selector, value=._37U4_g}"
+      ],
+      "result": "id: 0.567366214509178-2",
+      "subLogs": [],
+      "duration": 33
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._37U4_g",
+        "{\"id\":\"0.567366214509178-2\"}"
+      ],
+      "result": "getElementText:₹47,999",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{using=css selector, value=._2AkmmA._3Plo8Q._19RW-r}"
+      ],
+      "result": "id: 0.567366214509178-3",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.cssSelector: ._2AkmmA._3Plo8Q._19RW-r",
+        "{\"id\":\"0.567366214509178-3\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 76
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=css selector, value=._1UoZlX}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 39
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=css selector, value=._3ycxrs}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 33
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=css selector, value=._1UoZlX}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=css selector, value=._3ycxrs}"
+      ],
+      "result": "[id: 0.567366214509178-4]",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "Using any of[css=._1UoZlX, css=._3ycxrs]",
+        "{\"id\":\"0.567366214509178-4\",\"using\":\"css selector\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[]",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "Using any of[css=._1UoZlX, css=._3ycxrs]",
+        "{\"id\":\"0.567366214509178-4\",\"using\":\"css selector\",\"value\":\"._3ROAwx\"}"
+      ],
+      "result": "findChildElements:[id: 0.567366214509178-5]",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "Using any of[css=._1UoZlX, css=._3ycxrs]",
+        "{\"id\":\"0.567366214509178-4\",\"using\":\"css selector\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[]",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "Using any of[css=._1UoZlX, css=._3ycxrs]",
+        "{\"id\":\"0.567366214509178-4\",\"using\":\"css selector\",\"value\":\"._3ROAwx\"}"
+      ],
+      "result": "findChildElements:[id: 0.567366214509178-5]",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "Using any of[css=._3wU53n, css=._3ROAwx]",
+        "{\"id\":\"0.567366214509178-5\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=css selector, value=._1UoZlX}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=css selector, value=._3ycxrs}"
+      ],
+      "result": "[id: 0.567366214509178-4]",
+      "subLogs": [],
+      "duration": 7
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=css selector, value=._1UoZlX}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=css selector, value=._3ycxrs}"
+      ],
+      "result": "[id: 0.567366214509178-4]",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "Using any of[css=._1UoZlX, css=._3ycxrs]",
+        "{\"id\":\"0.567366214509178-4\",\"using\":\"css selector\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElements:[]",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "Using any of[css=._1UoZlX, css=._3ycxrs]",
+        "{\"id\":\"0.567366214509178-4\",\"using\":\"css selector\",\"value\":\".I8hxu4\"}"
+      ],
+      "result": "findChildElements:[id: 0.567366214509178-6]",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "Using any of[css=._1vC4OE._2rQ-NK, css=.I8hxu4]",
+        "{\"id\":\"0.567366214509178-6\"}"
+      ],
+      "result": "getElementText:₹47,999",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "Using any of[css=._1UoZlX, css=._3ycxrs]",
+        "{\"id\":\"0.567366214509178-4\",\"using\":\"css selector\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[]",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "Using any of[css=._1UoZlX, css=._3ycxrs]",
+        "{\"id\":\"0.567366214509178-4\",\"using\":\"css selector\",\"value\":\"._3ROAwx\"}"
+      ],
+      "result": "findChildElements:[id: 0.567366214509178-5]",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "Using any of[css=._3wU53n, css=._3ROAwx]",
+        "{\"id\":\"0.567366214509178-5\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 (Black, 32 GB)",
+      "subLogs": [],
+      "duration": 16
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "\nExpected: a string containing \"Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart\"\n     Actual: was \"Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More | Flipkart Big 10 Sale\"",
+      "type": "Fail",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "\nExpected: a string containing \"Mobile phones online @ Flipkart.com\"\n     Actual: was \"Mobile phones online @ Flipkart.com\"",
+      "type": "Pass",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "\nExpected: a value greater than &lt;0&gt;\n     Actual: &lt;60&gt; was greater than &lt;0&gt;",
+      "type": "Pass",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "\nExpected: a string containing \"Apple iPhone 7 (Black, 32 GB)\"\n     Actual: was \"Apple iPhone 7 (Black, 32 GB)\"",
+      "type": "Pass",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "\nExpected: a string containing \"₹47,999\"\n     Actual: was \"₹47,999\"",
+      "type": "Pass",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "\nExpected: a value greater than &lt;0&gt;\n     Actual: &lt;1&gt; was greater than &lt;0&gt;",
+      "type": "Pass",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "\nExpected: a string containing \"₹47,999\"\n     Actual: was \"₹47,999\"",
+      "type": "Pass",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "\nExpected: a string containing \"Apple iPhone 7 (Black, 32 GB)\"\n     Actual: was \"Apple iPhone 7 (Black, 32 GB)\"",
+      "type": "Pass",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

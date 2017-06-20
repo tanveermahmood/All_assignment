@@ -1,0 +1,3 @@
+productdetail.lbl.productname = {\"locator\":\"css=._3eAQiD\",\"desc\":\"productName Locator\"}
+productdetail.lbl.price = {\"locator\":\"css=._37U4_g\",\"desc\":\"product price locator\"}
+productdetail.btn.addtocart = {\"locator\":\"css=._2AkmmA._3Plo8Q._19RW-r\",\"desc\":\"product Add to Cart Button\"}

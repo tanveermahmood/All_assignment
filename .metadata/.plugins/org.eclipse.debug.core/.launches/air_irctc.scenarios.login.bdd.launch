@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.iat.eclipse.launchconfig">
+<stringAttribute key="LaunchType" value="BDD"/>
+<stringAttribute key="Project" value="air_irctc"/>
+<stringAttribute key="TestSuite" value="scenarios/login.bdd"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.testng.remote.RemoteTestNG"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="air_irctc"/>
+<listAttribute key="org.testng.eclipse.CLASS_TEST_LIST">
+<listEntry value="com.qmetry.qaf.automation.step.client.text.BDDTestFactory"/>
+</listAttribute>
+</launchConfiguration>

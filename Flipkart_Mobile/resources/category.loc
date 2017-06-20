@@ -1,0 +1,2 @@
+category.electronics.click = {\"locator\":\"xpath=//android.widget.TextView[@text='Electronics']\",\"desc\":\"click on electronic\"}
+subcategory.mobile.click = {\"locator\":\"xpath=//android.widget.TextView[@text='Mobiles']\",\"desc\":\"click on mobile\"}

@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<testData>
+
+<City1>Hyderabad,HYD</City1>
+
+<City2>Pune,PNQ</City2>
+
+<City3>Bangalore,BLR</City3>
+
+
+
+</testData>

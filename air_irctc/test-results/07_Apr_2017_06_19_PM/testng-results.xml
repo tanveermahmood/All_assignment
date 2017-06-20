@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="QAS Demo" duration-ms="20889" started-at="2017-04-07T12:50:01Z" finished-at="2017-04-07T12:50:22Z">
+    <groups>
+      <group name="SMOKE">
+        <method signature="Domestic_Scenario.scenario1()[pri:0, instance:domestictest.Domestic_Scenario@17c1bced]" name="scenario1" class="domestictest.Domestic_Scenario"/>
+      </group> <!-- SMOKE -->
+    </groups>
+    <test name="Test" duration-ms="20889" started-at="2017-04-07T12:50:01Z" finished-at="2017-04-07T12:50:22Z">
+      <class name="domestictest.Domestic_Scenario">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:domestictest.Domestic_Scenario@17c1bced]" name="setupSuit" is-config="true" duration-ms="17" started-at="2017-04-07T18:20:01Z" finished-at="2017-04-07T18:20:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@192d43ce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:domestictest.Domestic_Scenario@17c1bced]" name="setupTest" is-config="true" duration-ms="2" started-at="2017-04-07T18:20:01Z" finished-at="2017-04-07T18:20:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@192d43ce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:domestictest.Domestic_Scenario@17c1bced]" name="setup" is-config="true" duration-ms="1" started-at="2017-04-07T18:20:01Z" finished-at="2017-04-07T18:20:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@192d43ce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:domestictest.Domestic_Scenario@17c1bced]" name="setupMethod" is-config="true" duration-ms="1" started-at="2017-04-07T18:20:01Z" finished-at="2017-04-07T18:20:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void domestictest.Domestic_Scenario.scenario1() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@192d43ce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="scenario1()[pri:0, instance:domestictest.Domestic_Scenario@17c1bced]" name="scenario1" duration-ms="20845" started-at="2017-04-07T18:20:01Z" description="fill domestic form" finished-at="2017-04-07T18:20:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- scenario1 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:domestictest.Domestic_Scenario@17c1bced]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-04-07T18:20:22Z" finished-at="2017-04-07T18:20:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@192d43ce]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=scenario1 status=SUCCESS method=Domestic_Scenario.scenario1()[pri:0, instance:domestictest.Domestic_Scenario@17c1bced] output=<div style="display:block;margin-left:10px;"></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:domestictest.Domestic_Scenario@17c1bced]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-04-07T18:20:22Z" finished-at="2017-04-07T18:20:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@192d43ce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:domestictest.Domestic_Scenario@17c1bced]" name="afterTest" is-config="true" duration-ms="21" started-at="2017-04-07T18:20:22Z" finished-at="2017-04-07T18:20:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@192d43ce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:domestictest.Domestic_Scenario@17c1bced]" name="afterSuit" is-config="true" duration-ms="0" started-at="2017-04-07T18:20:22Z" finished-at="2017-04-07T18:20:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@192d43ce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- domestictest.Domestic_Scenario -->
+    </test> <!-- Test -->
+  </suite> <!-- QAS Demo -->
+</testng-results>

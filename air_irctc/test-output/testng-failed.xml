@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="domestictest.Domestic_Scenario">
+        <methods>
+          <include name="setupMethod"/>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="afterSuit"/>
+          <include name="setupTest"/>
+          <include name="afterTest"/>
+          <include name="setupSuit"/>
+          <include name="setup"/>
+          <include name="scenario1"/>
+        </methods>
+      </class> <!-- domestictest.Domestic_Scenario -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

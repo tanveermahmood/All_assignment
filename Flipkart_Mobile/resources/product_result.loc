@@ -1,0 +1,4 @@
+selectdevice.click = {\"locator\":\"xpath=//android.widget.TextView[@text='Smartron srt.phone']\",\"desc\":\"select the device thet we need to addTo cart\"}
+selectsubdevice.click = {\"locator\":\"id=com.flipkart.android:id/product_list_product_item_main_text\",\"desc\":\"select the subdevice thet we need to addTo cart\"}
+addTocart.click = {\"locator\":\"xpath=//span[text()='ADD TO CART']\",\"desc\":\"add to cart\"}
+GoToCart.click = {\"locator\":\"id=com.flipkart.android:id/product_ping_share_1\",\"desc\":\"go to cart\"}

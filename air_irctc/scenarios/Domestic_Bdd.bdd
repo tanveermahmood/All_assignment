@@ -1,0 +1,36 @@
+
+
+SCENARIO: scenario1
+META-DATA: {"description":"fill domestic form","groups":["SMOKE"]}
+	
+	Given get '/'
+	And click on 'radio.one.way'
+	When sendKeys '${City1}' into 'text.origin'
+	When sendKeys '${City2}' into 'text.destination'
+	And click on 'calender'
+	And click on 'date'
+END
+
+SCENARIO: scenario2
+META-DATA: {"description":"fill domestic form1","groups":["SMOKE"]}
+	
+	Given get '/'
+	And click on 'radio.one.way'
+	When sendKeys 'Bangalore,BLR' into 'text.origin'
+	When sendKeys 'Pune,PNQ' into 'text.destination'
+	And click on 'calender'
+	And click on 'date'
+	
+END
+
+
+SCENARIO: scenario3
+META-DATA: {"description":"fill domestic form2","groups":["SMOKE"]}
+	
+	Given get '/'
+	And click on 'radio.one.way'
+	When sendKeys 'Hyderabad,HYD' into 'text.origin'
+	When sendKeys 'Bangalore,BLR' into 'text.destination'
+	And click on 'calender'
+	And click on 'date'
+END

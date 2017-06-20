@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<root>
+  <search>
+      <data>
+          <from>Hyderabad</from>
+         <to>pune</to>
+      </data>
+      <data>
+          <from>Bangalore</from>
+         <to>pune</to>
+      </data>
+      <data>
+          <from>Hyderabad</from>
+         <to>Bangalore</to>
+      </data>
+  </search>
+</root>

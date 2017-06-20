@@ -1,0 +1,46 @@
+package domestictest;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.Test;
+
+import com.air_irctc.DomesticTestPage;
+import com.qmetry.qaf.automation.ui.WebDriverTestCase;
+
+
+
+
+public class Domestic_Scenario extends WebDriverTestCase {
+
+	@Test(groups = { "SMOKE" }, description = "fill domestic form")
+	public void scenario1() throws InterruptedException {
+		DomesticTestPage df = new DomesticTestPage();
+		df.launchPage(null);
+		/*df.getRadioOneWay().click();*/
+		/*df.getTextOrigin().sendKeys("Hyderabad,HYD");
+		df.getTextDestination().sendKeys("Pune,PNQ");*/
+		Generic1.kw_click_link(df.getRadioOneWay());
+		Generic1.kw_enter_text(df.getTextOrigin(), "Hyderabad,HYD");
+		Generic1.kw_enter_text(df.getTextDestination(), "Pune,PNQ");
+		/*Thread.sleep(3000);*/
+		Generic1.kw_synchronize(3000);
+		Generic1.kw_click_link(df.getCalender());
+		/*Generic1.kw_click_link(df.getDate());*/
+		Generic1.kw_date_picker(df.getApril_calender(),30 );
+		/*Generic1.kw_date("29/04/2017", "Depart");*/
+		Generic1.kw_dropdown(df.getSelectAdult(), 2);
+		Generic1.kw_dropdown(df.getSelectChild(), 1);
+		Generic1.kw_dropdown(df.getSelectInfant(), 3);
+		Generic1.kw_dropdown(df.getSelectClass(), 2);
+		Generic1.kw_dropdown(df.getSelectPreference(),2);
+		df.getSearch();
+		
+		
+		
+		
+		
+	}
+
+}

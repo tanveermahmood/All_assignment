@@ -1,0 +1,46 @@
+package com.treebo_comp.Page;
+
+import com.qmetry.qaf.automation.ui.WebDriverBaseTestPage;
+import com.qmetry.qaf.automation.ui.annotations.FindBy;
+import com.qmetry.qaf.automation.ui.api.PageLocator;
+import com.qmetry.qaf.automation.ui.api.WebDriverTestPage;
+import com.qmetry.qaf.automation.ui.webdriver.QAFWebElement;
+
+public class SearchTestPage extends WebDriverBaseTestPage<WebDriverTestPage> {
+
+	@FindBy(locator = "Searchpage.Comp.Hoteldetail")
+	private QAFWebElement searchpageCompHoteldetail;
+	@FindBy(locator = "Searchpage.lnk.HotelName")
+	private QAFWebElement searchpageLnkHotelName;
+	@FindBy(locator = "Searchpage.lbl.HotelPrice")
+	private QAFWebElement searchpageLblHotelPrice;
+	@FindBy(locator = "Searchpage.lbl.HotelLocation")
+	private QAFWebElement searchpageLblHotelLocation;
+	@FindBy(locator = "Searchpage.lbl.HotelDiscount")
+	private QAFWebElement searchpageLblHotelDiscount;
+
+	@Override
+	protected void openPage(PageLocator pageLocator, Object... args) {
+	}
+
+	public QAFWebElement getSearchpageCompHoteldetail() {
+		return searchpageCompHoteldetail;
+	}
+
+	public QAFWebElement getSearchpageLnkHotelName() {
+		return searchpageLnkHotelName;
+	}
+
+	public QAFWebElement getSearchpageLblHotelPrice() {
+		return searchpageLblHotelPrice;
+	}
+
+	public QAFWebElement getSearchpageLblHotelLocation() {
+		return searchpageLblHotelLocation;
+	}
+
+	public QAFWebElement getSearchpageLblHotelDiscount() {
+		return searchpageLblHotelDiscount;
+	}
+
+}

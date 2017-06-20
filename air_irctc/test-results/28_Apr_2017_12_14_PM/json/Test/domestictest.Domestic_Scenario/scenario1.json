@@ -1,0 +1,1194 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://www.air.irctc.co.in/IndianRailways/}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 2594
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=tripType, using=name}"
+      ],
+      "result": "id: 0.9199470388252573-1",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.name: tripType",
+        "{\"id\":\"0.9199470388252573-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 57
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=origin, using=name}"
+      ],
+      "result": "id: 0.9199470388252573-2",
+      "subLogs": [],
+      "duration": 55
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.name: origin",
+        "{\"id\":\"0.9199470388252573-2\",\"value\":[\"Calcutta (Kolkata),CCU\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 289
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[text()='Calcutta (Kolkata),CCU'], using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[text()='Calcutta (Kolkata),CCU']\"}\n  (Session info: chrome=58.0.3029.81)\n  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 82 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'\nSystem info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\\Users\\TANVEE~1.MAH\\AppData\\Local\\Temp\\scoped_dir7060_13713}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.81, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: b7ac058c135641a25d66ddd5ad1dfe5b\n*** Element info: {Using=xpath, value=//a[text()='Calcutta (Kolkata),CCU']}",
+      "subLogs": [],
+      "duration": 82
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[text()='Calcutta (Kolkata),CCU'], using=xpath}"
+      ],
+      "result": "id: 0.9199470388252573-3",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "mouseMoveTo",
+      "args": [
+        "{element=0.9199470388252573-3}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "mouseClick",
+      "args": [
+        "{button=0}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=destination, using=name}"
+      ],
+      "result": "id: 0.9199470388252573-4",
+      "subLogs": [],
+      "duration": 42
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.name: destination",
+        "{\"id\":\"0.9199470388252573-4\",\"value\":[\"Pune,PNQ\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 131
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[text()='Pune,PNQ'], using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[text()='Pune,PNQ']\"}\n  (Session info: chrome=58.0.3029.81)\n  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 23 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'\nSystem info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\\Users\\TANVEE~1.MAH\\AppData\\Local\\Temp\\scoped_dir7060_13713}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.81, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: b7ac058c135641a25d66ddd5ad1dfe5b\n*** Element info: {Using=xpath, value=//a[text()='Pune,PNQ']}",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[text()='Pune,PNQ'], using=xpath}"
+      ],
+      "result": "id: 0.9199470388252573-5",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "mouseMoveTo",
+      "args": [
+        "{element=0.9199470388252573-5}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "mouseClick",
+      "args": [
+        "{button=0}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 33
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@id='departDate']/following-sibling::img, using=xpath}"
+      ],
+      "result": "id: 0.9199470388252573-6",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //input[@id='departDate']/following-sibling::img",
+        "{\"id\":\"0.9199470388252573-6\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 73
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@id='ui-datepicker-div']/div[1]/div/div/span[2], using=xpath}"
+      ],
+      "result": "id: 0.9199470388252573-7",
+      "subLogs": [],
+      "duration": 34
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //*[@id='ui-datepicker-div']/div[1]/div/div/span[2]",
+        "{\"id\":\"0.9199470388252573-7\"}"
+      ],
+      "result": "getElementText:2017",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@id='ui-datepicker-div']/div[1]/div/div/span[1], using=xpath}"
+      ],
+      "result": "id: 0.9199470388252573-8",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //*[@id='ui-datepicker-div']/div[1]/div/div/span[1]",
+        "{\"id\":\"0.9199470388252573-8\"}"
+      ],
+      "result": "getElementText:April",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@id='ui-datepicker-div']/div[2]/div/a/span, using=xpath}"
+      ],
+      "result": "id: 0.9199470388252573-9",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //*[@id='ui-datepicker-div']/div[2]/div/a/span",
+        "{\"id\":\"0.9199470388252573-9\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 77
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@id='ui-datepicker-div']/div[1]/div/div/span[1], using=xpath}"
+      ],
+      "result": "id: 0.9199470388252573-10",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //*[@id='ui-datepicker-div']/div[1]/div/div/span[1]",
+        "{\"id\":\"0.9199470388252573-10\"}"
+      ],
+      "result": "getElementText:May",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@id='ui-datepicker-div']/div[2]/div/a/span, using=xpath}"
+      ],
+      "result": "id: 0.9199470388252573-11",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //*[@id='ui-datepicker-div']/div[2]/div/a/span",
+        "{\"id\":\"0.9199470388252573-11\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 74
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@id='ui-datepicker-div']/div[1]/div/div/span[1], using=xpath}"
+      ],
+      "result": "id: 0.9199470388252573-12",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //*[@id='ui-datepicker-div']/div[1]/div/div/span[1]",
+        "{\"id\":\"0.9199470388252573-12\"}"
+      ],
+      "result": "getElementText:June",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@id='ui-datepicker-div']/div[2]/div/a/span, using=xpath}"
+      ],
+      "result": "id: 0.9199470388252573-13",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //*[@id='ui-datepicker-div']/div[2]/div/a/span",
+        "{\"id\":\"0.9199470388252573-13\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 52
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@id='ui-datepicker-div']/div[1]/div/div/span[1], using=xpath}"
+      ],
+      "result": "id: 0.9199470388252573-14",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //*[@id='ui-datepicker-div']/div[1]/div/div/span[1]",
+        "{\"id\":\"0.9199470388252573-14\"}"
+      ],
+      "result": "getElementText:July",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@id='ui-datepicker-div']/div[2]/div/a/span, using=xpath}"
+      ],
+      "result": "id: 0.9199470388252573-15",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //*[@id='ui-datepicker-div']/div[2]/div/a/span",
+        "{\"id\":\"0.9199470388252573-15\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 38
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@id='ui-datepicker-div']/div[1]/div/div/span[1], using=xpath}"
+      ],
+      "result": "id: 0.9199470388252573-16",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //*[@id='ui-datepicker-div']/div[1]/div/div/span[1]",
+        "{\"id\":\"0.9199470388252573-16\"}"
+      ],
+      "result": "getElementText:August",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=ui-datepicker-div, using=id}"
+      ],
+      "result": "id: 0.9199470388252573-17",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.id: ui-datepicker-div",
+        "{\"using\":\"tag name\",\"id\":\"0.9199470388252573-17\",\"value\":\"td\"}"
+      ],
+      "result": "findChildElements:[id: 0.9199470388252573-18, id: 0.9199470388252573-19, id: 0.9199470388252573-20, id: 0.9199470388252573-21, id: 0.9199470388252573-22, id: 0.9199470388252573-23, id: 0.9199470388252573-24, id: 0.9199470388252573-25, id: 0.9199470388252573-26, id: 0.9199470388252573-27, id: 0.9199470388252573-28, id: 0.9199470388252573-29, id: 0.9199470388252573-30, id: 0.9199470388252573-31, id: 0.9199470388252573-32, id: 0.9199470388252573-33, id: 0.9199470388252573-34, id: 0.9199470388252573-35, id: 0.9199470388252573-36, id: 0.9199470388252573-37, id: 0.9199470388252573-38, id: 0.9199470388252573-39, id: 0.9199470388252573-40, id: 0.9199470388252573-41, id: 0.9199470388252573-42, id: 0.9199470388252573-43, id: 0.9199470388252573-44, id: 0.9199470388252573-45, id: 0.9199470388252573-46, id: 0.9199470388252573-47, id: 0.9199470388252573-48, id: 0.9199470388252573-49, id: 0.9199470388252573-50, id: 0.9199470388252573-51, id: 0.9199470388252573-52, id: 0.9199470388252573-53, id: 0.9199470388252573-54, id: 0.9199470388252573-55, id: 0.9199470388252573-56, id: 0.9199470388252573-57, id: 0.9199470388252573-58, id: 0.9199470388252573-59, id: 0.9199470388252573-60, id: 0.9199470388252573-61, id: 0.9199470388252573-62, id: 0.9199470388252573-63, id: 0.9199470388252573-64, id: 0.9199470388252573-65, id: 0.9199470388252573-66, id: 0.9199470388252573-67, id: 0.9199470388252573-68, id: 0.9199470388252573-69, id: 0.9199470388252573-70, id: 0.9199470388252573-71, id: 0.9199470388252573-72, id: 0.9199470388252573-73, id: 0.9199470388252573-74, id: 0.9199470388252573-75, id: 0.9199470388252573-76, id: 0.9199470388252573-77, id: 0.9199470388252573-78, id: 0.9199470388252573-79, id: 0.9199470388252573-80, id: 0.9199470388252573-81, id: 0.9199470388252573-82, id: 0.9199470388252573-83, id: 0.9199470388252573-84, id: 0.9199470388252573-85, id: 0.9199470388252573-86, id: 0.9199470388252573-87]",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "id: 0.9199470388252573-18",
+        "{\"id\":\"0.9199470388252573-18\"}"
+      ],
+      "result": "getElementText: ",
+      "subLogs": [],
+      "duration": 47
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "id: 0.9199470388252573-19",
+        "{\"id\":\"0.9199470388252573-19\"}"
+      ],
+      "result": "getElementText:1",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "id: 0.9199470388252573-20",
+        "{\"id\":\"0.9199470388252573-20\"}"
+      ],
+      "result": "getElementText:2",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "id: 0.9199470388252573-21",
+        "{\"id\":\"0.9199470388252573-21\"}"
+      ],
+      "result": "getElementText:3",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "id: 0.9199470388252573-22",
+        "{\"id\":\"0.9199470388252573-22\"}"
+      ],
+      "result": "getElementText:4",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "id: 0.9199470388252573-23",
+        "{\"id\":\"0.9199470388252573-23\"}"
+      ],
+      "result": "getElementText:5",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "id: 0.9199470388252573-24",
+        "{\"id\":\"0.9199470388252573-24\"}"
+      ],
+      "result": "getElementText:6",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "id: 0.9199470388252573-25",
+        "{\"id\":\"0.9199470388252573-25\"}"
+      ],
+      "result": "getElementText:7",
+      "subLogs": [],
+      "duration": 36
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "id: 0.9199470388252573-26",
+        "{\"id\":\"0.9199470388252573-26\"}"
+      ],
+      "result": "getElementText:8",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "id: 0.9199470388252573-27",
+        "{\"id\":\"0.9199470388252573-27\"}"
+      ],
+      "result": "getElementText:9",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "id: 0.9199470388252573-28",
+        "{\"id\":\"0.9199470388252573-28\"}"
+      ],
+      "result": "getElementText:10",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "id: 0.9199470388252573-29",
+        "{\"id\":\"0.9199470388252573-29\"}"
+      ],
+      "result": "getElementText:11",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "id: 0.9199470388252573-30",
+        "{\"id\":\"0.9199470388252573-30\"}"
+      ],
+      "result": "getElementText:12",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "id: 0.9199470388252573-31",
+        "{\"id\":\"0.9199470388252573-31\"}"
+      ],
+      "result": "getElementText:13",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "id: 0.9199470388252573-32",
+        "{\"id\":\"0.9199470388252573-32\"}"
+      ],
+      "result": "getElementText:14",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "id: 0.9199470388252573-33",
+        "{\"id\":\"0.9199470388252573-33\"}"
+      ],
+      "result": "getElementText:15",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "id: 0.9199470388252573-34",
+        "{\"id\":\"0.9199470388252573-34\"}"
+      ],
+      "result": "getElementText:16",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "id: 0.9199470388252573-35",
+        "{\"id\":\"0.9199470388252573-35\"}"
+      ],
+      "result": "getElementText:17",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "id: 0.9199470388252573-36",
+        "{\"id\":\"0.9199470388252573-36\"}"
+      ],
+      "result": "getElementText:18",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "id: 0.9199470388252573-37",
+        "{\"id\":\"0.9199470388252573-37\"}"
+      ],
+      "result": "getElementText:19",
+      "subLogs": [],
+      "duration": 47
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "id: 0.9199470388252573-38",
+        "{\"id\":\"0.9199470388252573-38\"}"
+      ],
+      "result": "getElementText:20",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "id: 0.9199470388252573-39",
+        "{\"id\":\"0.9199470388252573-39\"}"
+      ],
+      "result": "getElementText:21",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "id: 0.9199470388252573-40",
+        "{\"id\":\"0.9199470388252573-40\"}"
+      ],
+      "result": "getElementText:22",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "id: 0.9199470388252573-41",
+        "{\"id\":\"0.9199470388252573-41\"}"
+      ],
+      "result": "getElementText:23",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "id: 0.9199470388252573-41",
+        "{\"using\":\"link text\",\"id\":\"0.9199470388252573-41\",\"value\":\"23\"}"
+      ],
+      "result": "findChildElement:id: 0.9199470388252573-88",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "id: 0.9199470388252573-88",
+        "{\"id\":\"0.9199470388252573-88\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 76
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=noOfAdult, using=name}"
+      ],
+      "result": "id: 0.9199470388252573-89",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "getElementTagName",
+      "args": [
+        "By.name: noOfAdult",
+        "{\"id\":\"0.9199470388252573-89\"}"
+      ],
+      "result": "getElementTagName:select",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=noOfAdult, using=name}"
+      ],
+      "result": "id: 0.9199470388252573-89",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "By.name: noOfAdult",
+        "{\"name\":\"multiple\",\"id\":\"0.9199470388252573-89\"}"
+      ],
+      "result": "getElementAttribute:null",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=noOfAdult, using=name}"
+      ],
+      "result": "id: 0.9199470388252573-89",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.name: noOfAdult",
+        "{\"using\":\"tag name\",\"id\":\"0.9199470388252573-89\",\"value\":\"option\"}"
+      ],
+      "result": "findChildElements:[id: 0.9199470388252573-90, id: 0.9199470388252573-91, id: 0.9199470388252573-92, id: 0.9199470388252573-93, id: 0.9199470388252573-94, id: 0.9199470388252573-95, id: 0.9199470388252573-96, id: 0.9199470388252573-97, id: 0.9199470388252573-98]",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "id: 0.9199470388252573-90",
+        "{\"name\":\"index\",\"id\":\"0.9199470388252573-90\"}"
+      ],
+      "result": "getElementAttribute:0",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "id: 0.9199470388252573-91",
+        "{\"name\":\"index\",\"id\":\"0.9199470388252573-91\"}"
+      ],
+      "result": "getElementAttribute:1",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "id: 0.9199470388252573-92",
+        "{\"name\":\"index\",\"id\":\"0.9199470388252573-92\"}"
+      ],
+      "result": "getElementAttribute:2",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "isElementSelected",
+      "args": [
+        "id: 0.9199470388252573-92",
+        "{\"id\":\"0.9199470388252573-92\"}"
+      ],
+      "result": "isElementSelected:false",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "id: 0.9199470388252573-92",
+        "{\"id\":\"0.9199470388252573-92\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 48
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=noOfChild, using=name}"
+      ],
+      "result": "id: 0.9199470388252573-99",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "getElementTagName",
+      "args": [
+        "By.name: noOfChild",
+        "{\"id\":\"0.9199470388252573-99\"}"
+      ],
+      "result": "getElementTagName:select",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=noOfChild, using=name}"
+      ],
+      "result": "id: 0.9199470388252573-99",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "By.name: noOfChild",
+        "{\"name\":\"multiple\",\"id\":\"0.9199470388252573-99\"}"
+      ],
+      "result": "getElementAttribute:null",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=noOfChild, using=name}"
+      ],
+      "result": "id: 0.9199470388252573-99",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.name: noOfChild",
+        "{\"using\":\"tag name\",\"id\":\"0.9199470388252573-99\",\"value\":\"option\"}"
+      ],
+      "result": "findChildElements:[id: 0.9199470388252573-100, id: 0.9199470388252573-101, id: 0.9199470388252573-102, id: 0.9199470388252573-103, id: 0.9199470388252573-104, id: 0.9199470388252573-105, id: 0.9199470388252573-106]",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "id: 0.9199470388252573-100",
+        "{\"name\":\"index\",\"id\":\"0.9199470388252573-100\"}"
+      ],
+      "result": "getElementAttribute:0",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "id: 0.9199470388252573-101",
+        "{\"name\":\"index\",\"id\":\"0.9199470388252573-101\"}"
+      ],
+      "result": "getElementAttribute:1",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "isElementSelected",
+      "args": [
+        "id: 0.9199470388252573-101",
+        "{\"id\":\"0.9199470388252573-101\"}"
+      ],
+      "result": "isElementSelected:false",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "id: 0.9199470388252573-101",
+        "{\"id\":\"0.9199470388252573-101\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=noOfInfant, using=name}"
+      ],
+      "result": "id: 0.9199470388252573-107",
+      "subLogs": [],
+      "duration": 34
+    },
+    {
+      "commandName": "getElementTagName",
+      "args": [
+        "By.name: noOfInfant",
+        "{\"id\":\"0.9199470388252573-107\"}"
+      ],
+      "result": "getElementTagName:select",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=noOfInfant, using=name}"
+      ],
+      "result": "id: 0.9199470388252573-107",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "By.name: noOfInfant",
+        "{\"name\":\"multiple\",\"id\":\"0.9199470388252573-107\"}"
+      ],
+      "result": "getElementAttribute:null",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=noOfInfant, using=name}"
+      ],
+      "result": "id: 0.9199470388252573-107",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.name: noOfInfant",
+        "{\"using\":\"tag name\",\"id\":\"0.9199470388252573-107\",\"value\":\"option\"}"
+      ],
+      "result": "findChildElements:[id: 0.9199470388252573-108, id: 0.9199470388252573-109, id: 0.9199470388252573-110, id: 0.9199470388252573-111]",
+      "subLogs": [],
+      "duration": 7
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "id: 0.9199470388252573-108",
+        "{\"name\":\"index\",\"id\":\"0.9199470388252573-108\"}"
+      ],
+      "result": "getElementAttribute:0",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "id: 0.9199470388252573-109",
+        "{\"name\":\"index\",\"id\":\"0.9199470388252573-109\"}"
+      ],
+      "result": "getElementAttribute:1",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "id: 0.9199470388252573-110",
+        "{\"name\":\"index\",\"id\":\"0.9199470388252573-110\"}"
+      ],
+      "result": "getElementAttribute:2",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "id: 0.9199470388252573-111",
+        "{\"name\":\"index\",\"id\":\"0.9199470388252573-111\"}"
+      ],
+      "result": "getElementAttribute:3",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "isElementSelected",
+      "args": [
+        "id: 0.9199470388252573-111",
+        "{\"id\":\"0.9199470388252573-111\"}"
+      ],
+      "result": "isElementSelected:false",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "id: 0.9199470388252573-111",
+        "{\"id\":\"0.9199470388252573-111\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 41
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=classType, using=name}"
+      ],
+      "result": "id: 0.9199470388252573-112",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "getElementTagName",
+      "args": [
+        "By.name: classType",
+        "{\"id\":\"0.9199470388252573-112\"}"
+      ],
+      "result": "getElementTagName:select",
+      "subLogs": [],
+      "duration": 7
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=classType, using=name}"
+      ],
+      "result": "id: 0.9199470388252573-112",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "By.name: classType",
+        "{\"name\":\"multiple\",\"id\":\"0.9199470388252573-112\"}"
+      ],
+      "result": "getElementAttribute:null",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=classType, using=name}"
+      ],
+      "result": "id: 0.9199470388252573-112",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.name: classType",
+        "{\"using\":\"tag name\",\"id\":\"0.9199470388252573-112\",\"value\":\"option\"}"
+      ],
+      "result": "findChildElements:[id: 0.9199470388252573-113, id: 0.9199470388252573-114, id: 0.9199470388252573-115]",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "id: 0.9199470388252573-113",
+        "{\"name\":\"index\",\"id\":\"0.9199470388252573-113\"}"
+      ],
+      "result": "getElementAttribute:0",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "id: 0.9199470388252573-114",
+        "{\"name\":\"index\",\"id\":\"0.9199470388252573-114\"}"
+      ],
+      "result": "getElementAttribute:1",
+      "subLogs": [],
+      "duration": 7
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "id: 0.9199470388252573-115",
+        "{\"name\":\"index\",\"id\":\"0.9199470388252573-115\"}"
+      ],
+      "result": "getElementAttribute:2",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "isElementSelected",
+      "args": [
+        "id: 0.9199470388252573-115",
+        "{\"id\":\"0.9199470388252573-115\"}"
+      ],
+      "result": "isElementSelected:false",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "id: 0.9199470388252573-115",
+        "{\"id\":\"0.9199470388252573-115\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 50
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=airlinePreference, using=name}"
+      ],
+      "result": "id: 0.9199470388252573-116",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementTagName",
+      "args": [
+        "By.name: airlinePreference",
+        "{\"id\":\"0.9199470388252573-116\"}"
+      ],
+      "result": "getElementTagName:select",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=airlinePreference, using=name}"
+      ],
+      "result": "id: 0.9199470388252573-116",
+      "subLogs": [],
+      "duration": 2
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "By.name: airlinePreference",
+        "{\"name\":\"multiple\",\"id\":\"0.9199470388252573-116\"}"
+      ],
+      "result": "getElementAttribute:null",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=airlinePreference, using=name}"
+      ],
+      "result": "id: 0.9199470388252573-116",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.name: airlinePreference",
+        "{\"using\":\"tag name\",\"id\":\"0.9199470388252573-116\",\"value\":\"option\"}"
+      ],
+      "result": "findChildElements:[id: 0.9199470388252573-117, id: 0.9199470388252573-118, id: 0.9199470388252573-119, id: 0.9199470388252573-120, id: 0.9199470388252573-121, id: 0.9199470388252573-122, id: 0.9199470388252573-123, id: 0.9199470388252573-124]",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "id: 0.9199470388252573-117",
+        "{\"name\":\"index\",\"id\":\"0.9199470388252573-117\"}"
+      ],
+      "result": "getElementAttribute:0",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "id: 0.9199470388252573-118",
+        "{\"name\":\"index\",\"id\":\"0.9199470388252573-118\"}"
+      ],
+      "result": "getElementAttribute:1",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "id: 0.9199470388252573-119",
+        "{\"name\":\"index\",\"id\":\"0.9199470388252573-119\"}"
+      ],
+      "result": "getElementAttribute:2",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "isElementSelected",
+      "args": [
+        "id: 0.9199470388252573-119",
+        "{\"id\":\"0.9199470388252573-119\"}"
+      ],
+      "result": "isElementSelected:false",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "id: 0.9199470388252573-119",
+        "{\"id\":\"0.9199470388252573-119\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=.srchbtn, using=css selector}"
+      ],
+      "result": "id: 0.9199470388252573-125",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.cssSelector: .srchbtn",
+        "{\"id\":\"0.9199470388252573-125\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 8845
+    },
+    {
+      "commandName": "getTitle",
+      "args": [
+        "{}"
+      ],
+      "result": "IRCTC, Flight Ticket, Air Ticket, Cheap Flight, Low Fare Flight",
+      "subLogs": [],
+      "duration": 8
+    }
+  ],
+  "checkPoints": []
+}

@@ -1,0 +1,80 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "getCurrentWindowHandle",
+      "args": [
+        "{}"
+      ],
+      "result": "{9988730c-8f85-4eb0-b92b-9480ea96d645}",
+      "subLogs": [],
+      "duration": 62
+    },
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://www.air.irctc.co.in/IndianRailways/}"
+      ],
+      "result": "",
+      "subLogs": [],
+      "duration": 7344
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=tripType, using=name}"
+      ],
+      "result": "id: {ae3367f0-0a3b-4713-a903-34d1407b992b}",
+      "subLogs": [],
+      "duration": 61
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.name: tripType",
+        "{\"id\":\"{ae3367f0-0a3b-4713-a903-34d1407b992b}\"}"
+      ],
+      "result": "clickElement:ok",
+      "subLogs": [],
+      "duration": 118
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=origin, using=name}"
+      ],
+      "result": "id: {6129b72a-2ea9-42f7-bf41-d587d37a096b}",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.name: origin",
+        "{\"id\":\"{6129b72a-2ea9-42f7-bf41-d587d37a096b}\",\"value\":[\"Hyderabad,HYD\"]}"
+      ],
+      "result": "sendKeysToElement:",
+      "subLogs": [],
+      "duration": 74
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=ui-corner-all, using=class}"
+      ],
+      "result": "Unsupported locator strategy: class\nCommand duration or timeout: 18 milliseconds\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: f50159c7-b10a-4481-aee3-f2bd02e01a96\n*** Element info: {Using=class, value=ui-corner-all}",
+      "subLogs": [],
+      "duration": 23
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Unsupported locator strategy: class\nCommand duration or timeout: 18 milliseconds\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: f50159c7-b10a-4481-aee3-f2bd02e01a96\n*** Element info: {Using=class, value=ui-corner-all}",
+      "type": "Fail",
+      "screenshot": "img/scenario1_gwmw8d20bll846797.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.WebDriverException: Unsupported locator strategy: class\nCommand duration or timeout: 18 milliseconds\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: f50159c7-b10a-4481-aee3-f2bd02e01a96\n*** Element info: {Using=class, value=ui-corner-all}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:223)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:388)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElementsByCustomStretegy(QAFExtendedWebDriver.java:486)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.ByCustom.findElements(ByCustom.java:53)\r\n\tat org.openqa.selenium.By.findElement(By.java:159)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElement(QAFExtendedWebDriver.java:158)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElement(QAFExtendedWebDriver.java:1)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:899)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:41)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:181)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:178)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.load(QAFExtendedWebDriver.java:203)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.load(QAFExtendedWebElement.java:253)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.getId(QAFExtendedWebElement.java:263)\r\n\tat org.openqa.selenium.remote.RemoteWebElement$1.getAuxiliary(RemoteWebElement.java:440)\r\n\tat org.openqa.selenium.remote.RemoteMouse.paramsFromCoordinates(RemoteMouse.java:43)\r\n\tat org.openqa.selenium.remote.RemoteMouse.mouseMove(RemoteMouse.java:87)\r\n\tat org.openqa.selenium.interactions.MoveMouseAction.perform(MoveMouseAction.java:39)\r\n\tat org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:50)\r\n\tat domestictest.Generic1.kw_moveToElement(Generic1.java:69)\r\n\tat domestictest.Domestic_Scenario.scenario1(Domestic_Scenario.java:27)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:714)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:741)\r\n\tat org.testng.TestRunner.run(TestRunner.java:595)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:334)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:240)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1149)\r\n\tat org.testng.TestNG.run(TestNG.java:1057)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)\r\nCaused by: org.openqa.selenium.WebDriverException: Unsupported locator strategy: class\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: driver.version: unknown\r\n\tat <anonymous class>.bot.locators.findElements(file:///C:/Users/TANVEE~1.MAH/AppData/Local/Temp/anonymous8575826639302595282webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9951)\r\n\tat <anonymous class>.FirefoxDriver.prototype.findElementsInternal_(file:///C:/Users/TANVEE~1.MAH/AppData/Local/Temp/anonymous8575826639302595282webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10790)\r\n\tat <anonymous class>.FirefoxDriver.prototype.findElements(file:///C:/Users/TANVEE~1.MAH/AppData/Local/Temp/anonymous8575826639302595282webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10806)\r\n\tat <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/TANVEE~1.MAH/AppData/Local/Temp/anonymous8575826639302595282webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)\r\n\tat <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/TANVEE~1.MAH/AppData/Local/Temp/anonymous8575826639302595282webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)\r\n\tat <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/TANVEE~1.MAH/AppData/Local/Temp/anonymous8575826639302595282webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)\r\n"
+}

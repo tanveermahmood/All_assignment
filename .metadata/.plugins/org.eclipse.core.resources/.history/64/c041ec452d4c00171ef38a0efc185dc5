@@ -1,0 +1,26 @@
+package com.treebo_comp.Page;
+
+import java.util.List;
+
+import com.qmetry.qaf.automation.ui.WebDriverBaseTestPage;
+import com.qmetry.qaf.automation.ui.annotations.FindBy;
+import com.qmetry.qaf.automation.ui.api.PageLocator;
+import com.qmetry.qaf.automation.ui.api.WebDriverTestPage;
+import com.qmetry.qaf.automation.ui.webdriver.QAFWebElement;
+import com.treebo_comp.Component.HotelComponent;
+
+public class SearchTestPage extends WebDriverBaseTestPage<WebDriverTestPage> {
+
+	@FindBy(locator = "Searchpage.Comp.Hoteldetail")
+	private List<HotelComponent> searchpageCompHoteldetail;
+	
+	@Override
+	protected void openPage(PageLocator pageLocator, Object... args) {
+	}
+
+	public List<HotelComponent> getSearchpageCompHoteldetail() {
+		return searchpageCompHoteldetail;
+	}
+
+
+}

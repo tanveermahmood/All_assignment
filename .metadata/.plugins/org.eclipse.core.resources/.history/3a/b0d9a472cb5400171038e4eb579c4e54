@@ -1,0 +1,15 @@
+package com.flipcart;
+
+import org.testng.annotations.Test;
+
+import com.qmetry.qaf.automation.ui.WebDriverTestCase;
+
+public class Flipcart extends WebDriverTestCase{
+	@Test(groups = { "SMOKE" }, description = "test")
+	public void scenario2()  {
+		FlipcartTestPage fp = new FlipcartTestPage();
+		fp.launchPage(null);
+		fp.getDetails();
+		fp.getText();
+	}
+}

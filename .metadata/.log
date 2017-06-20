@@ -1,0 +1,26 @@
+!SESSION 2017-06-20 15:41:50.048 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -splash:splash.bmp
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -splash:splash.bmp
+
+This is a continuation of log file D:\New_Project\.metadata\.bak_0.log
+Created Time: 2017-06-20 15:41:59.074
+
+!ENTRY org.eclipse.ui 2 0 2017-06-20 15:41:59.074
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-06-20 15:41:59.074
+!MESSAGE Commands should really have a category: plug-in='com.qas.plugin', id='com.qas.toolbar.RunConfigurationDelegate', categoryId='com.iat.eclipse.launchconfig'
+
+!ENTRY org.eclipse.ui 2 0 2017-06-20 15:41:59.520
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-06-20 15:41:59.520
+!MESSAGE Commands should really have a category: plug-in='com.qas.plugin', id='com.qas.toolbar.RunConfigurationDelegate', categoryId='com.iat.eclipse.launchconfig'
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2017-06-20 15:42:05.117
+!MESSAGE starting IvyDE plugin
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2017-06-20 15:42:05.179
+!MESSAGE IvyDE plugin started

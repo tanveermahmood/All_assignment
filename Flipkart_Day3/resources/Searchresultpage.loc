@@ -1,0 +1,7 @@
+Searchproduct.component.product = {\"locator\":\"xpath=//a[@class='_1UoZlX']\",\"desc\":\"Search all the product\"}
+Searchproduct.link.productname = {\"locator\":\"xpath=//div[@class='_3wU53n']\",\"desc\":\"Select the name of the product\"}
+Searchproduct.lbl.productprice = {\"locator\":\"xpath=//div[@class='_1vC4OE _2rQ-NK']\",\"desc\":\"Select the price of the product\"}
+Addtocart.btn = {\"locator\":\"xpath=.//*[@id='container']/div/div[2]/div/div/div[1]/div/div[1]/div/div/div[2]/ul/li[1]/button\",\"desc\":\"Add to cart\"}
+lowHighTab.click = {\"locator\":\"xpath=//li[text()='Price -- Low to High']\",\"desc\":\"\"}
+NameOfMobile.txt = {\"locator\":\"xpath=//div[@id='container']/div/div[2]/div[2]/div/div[2]/div/div[3]/div/div/div[1]/a/div[2]/div[1]/div[1]\"}
+FeatureOfmobile.txt = {\"locator\":\"xpath=//div[@id='container']/div/div[2]/div[2]/div/div[2]/div/div[3]/div/div/div[1]/a/div[2]/div[1]/div[4]/ul/li\"}

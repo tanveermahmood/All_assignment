@@ -1,0 +1,13 @@
+{
+  "name": "QAS Demo",
+  "status": "unstable",
+  "tests": [
+    "BDDTest"
+  ],
+  "total": 0,
+  "pass": 0,
+  "fail": 0,
+  "skip": 0,
+  "startTime": 1493802648850,
+  "endTime": 1493802648897
+}

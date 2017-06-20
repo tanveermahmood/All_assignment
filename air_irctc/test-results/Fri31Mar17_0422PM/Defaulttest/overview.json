@@ -1,0 +1,57 @@
+{
+  "total": 1,
+  "pass": 0,
+  "fail": 1,
+  "skip": 0,
+  "classes": [
+    "domestictest.Gmail_Main"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "browserName": "firefox",
+      "takesScreenshot": true,
+      "javascriptEnabled": true,
+      "version": "",
+      "platform": "ANY",
+      "cssSelectorsEnabled": true
+    },
+    "browser-actual-capabilities": {
+      "applicationCacheEnabled": "true",
+      "rotatable": "false",
+      "handlesAlerts": "true",
+      "databaseEnabled": "true",
+      "version": "47.0.1",
+      "platform": "WINDOWS",
+      "nativeEvents": "false",
+      "acceptSslCerts": "true",
+      "webStorageEnabled": "true",
+      "locationContextEnabled": "true",
+      "browserName": "firefox",
+      "takesScreenshot": "true",
+      "javascriptEnabled": "true",
+      "cssSelectorsEnabled": "true"
+    },
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "8",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "01-Sep-2016 17:50:25"
+    },
+    "run-parameters": {
+      "baseurl": "https://accounts.google.com/SignUp?continue=https%3A%2F%2Faccounts.google.com%2FManageAccount",
+      "resources": "resources"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_121",
+      "os.arch": "amd64",
+      "host": "ICPL11544",
+      "os.name": "Windows 8",
+      "user.name": "tanveer.mahmood",
+      "os.version": "6.2"
+    }
+  },
+  "startTime": 1490957577059,
+  "endTime": 1490957584153
+}

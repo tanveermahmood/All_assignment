@@ -1,0 +1,5 @@
+Searchpage.Comp.Hoteldetail = {\"locator\":\"xpath=//div[@class='r-list__item r-hotel flex-row']\",\"desc\":\"Detail of hotel\"}
+Searchpage.lnk.HotelName = {\"locator\":\"xpath=//a[@class='r-hotel__name']\",\"desc\":\"Name of the hotels\"}
+Searchpage.lbl.HotelPrice = {\"locator\":\"xpath=//h1[@class='heading-1 r-hotel__price']\",\"desc\":\"Price of hotels\"}
+Searchpage.lbl.HotelLocation = {\"locator\":\"xpath=.//h3[@class='r-hotel__address text-2']\",\"desc\":\"Location of the hotel\"}
+Searchpage.lbl.HotelDiscount = {\"locator\":\"xpath=.//div[@class='r-discount__coupon']\",\"desc\":\"Total Discount\"}

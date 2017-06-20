@@ -1,0 +1,19 @@
+14:28:45 scenario.file.loc[Ljava.lang.String;@646d64ab
+14:28:45 loading BDD file: scenarios/Domestic_Bdd.bdd
+14:28:45 total test found: 1
+14:28:45 
+
+Executing scenario: scenario1 - fill domestic form
+14:28:45 Invoking Teststep: get '/' with arguments: [/]
+14:29:02 Completed Teststep: get '/' with arguments: [/]
+14:29:02 Invoking Teststep: click on 'radio.one.way' with arguments: [radio.one.way]
+14:29:02 Completed Teststep: click on 'radio.one.way' with arguments: [radio.one.way]
+14:29:02 Invoking Teststep: sendKeys 'Hyderabad,HYD' into 'text.origin' with arguments: [Hyderabad,HYD, text.origin]
+14:29:02 Completed Teststep: sendKeys 'Hyderabad,HYD' into 'text.origin' with arguments: [Hyderabad,HYD, text.origin]
+14:29:02 Invoking Teststep: sendKeys 'Pune,PNQ' into 'text.destination' with arguments: [Pune,PNQ, text.destination]
+14:29:03 Completed Teststep: sendKeys 'Pune,PNQ' into 'text.destination' with arguments: [Pune,PNQ, text.destination]
+14:29:03 Invoking Teststep: click on 'calender' with arguments: [calender]
+14:29:03 Completed Teststep: click on 'calender' with arguments: [calender]
+14:29:03 Invoking Teststep: click on 'date' with arguments: [date]
+14:29:03 Completed Teststep: click on 'date' with arguments: [date]
+14:29:03 Competed scenario: scenario1 with status SUCESS

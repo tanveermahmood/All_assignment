@@ -1,0 +1,78 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "from": "Hyderabad",
+          "to": "pune"
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "groups": [],
+        "key": "search.data",
+        "lineNo": 3.0,
+        "name": "scenario7",
+        "referece": "scenarios/Bdd_Driven.bdd",
+        "sign": "scenarios.Bdd_Driven.bdd.scenario7( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1491562754945,
+      "duration": 344,
+      "result": "skip",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        {
+          "from": "Bangalore",
+          "to": "pune"
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "groups": [],
+        "key": "search.data",
+        "lineNo": 3.0,
+        "name": "scenario7",
+        "referece": "scenarios/Bdd_Driven.bdd",
+        "resultFileName": "scenario7UsXftQiMYV",
+        "sign": "scenarios.Bdd_Driven.bdd.scenario7( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1491562755308,
+      "duration": 31,
+      "result": "skip",
+      "passPer": 0.0
+    },
+    {
+      "index": 3,
+      "type": "test",
+      "args": [
+        {
+          "from": "Hyderabad",
+          "to": "Bangalore"
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "groups": [],
+        "key": "search.data",
+        "lineNo": 3,
+        "name": "scenario7",
+        "referece": "scenarios/Bdd_Driven.bdd",
+        "resultFileName": "scenario7RXwFLhcMVZ",
+        "sign": "scenarios.Bdd_Driven.bdd.scenario7( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1491562755370,
+      "duration": 16,
+      "result": "skip",
+      "passPer": 0.0
+    }
+  ]
+}

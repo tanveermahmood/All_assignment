@@ -1,0 +1,212 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://www.air.irctc.co.in/IndianRailways/}"
+          ],
+          "result": "",
+          "subLogs": [],
+          "duration": 1614
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[radio.one.way]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=tripType, using=name}"
+          ],
+          "result": "id: {173307cd-5e6a-484c-8700-5aa7adcf6132}",
+          "subLogs": [],
+          "duration": 67
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.name: tripType",
+            "{\"id\":\"{173307cd-5e6a-484c-8700-5aa7adcf6132}\"}"
+          ],
+          "result": "clickElement:ok",
+          "subLogs": [],
+          "duration": 110
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "sendKeys",
+      "args": [
+        "[${from}, text.origin]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=origin, using=name}"
+          ],
+          "result": "id: {c4db20c4-b159-4d58-b218-c3791052bb0b}",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.name: origin",
+            "{\"id\":\"{c4db20c4-b159-4d58-b218-c3791052bb0b}\",\"value\":[\"Hyderabad\"]}"
+          ],
+          "result": "sendKeysToElement:",
+          "subLogs": [],
+          "duration": 76
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "sendKeys",
+      "args": [
+        "[${to}, text.destination]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=destination, using=name}"
+          ],
+          "result": "id: {5a0d545a-5321-4035-94a1-303a2bc4c3b8}",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.name: destination",
+            "{\"id\":\"{5a0d545a-5321-4035-94a1-303a2bc4c3b8}\",\"value\":[\"pune\"]}"
+          ],
+          "result": "sendKeysToElement:",
+          "subLogs": [],
+          "duration": 45
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[calender]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=.//*[@id='where']/div[4]/img, using=xpath}"
+          ],
+          "result": "id: {6af0756e-a7f1-4516-9182-efedf0127c42}",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: .//*[@id='where']/div[4]/img",
+            "{\"id\":\"{6af0756e-a7f1-4516-9182-efedf0127c42}\"}"
+          ],
+          "result": "clickElement:ok",
+          "subLogs": [],
+          "duration": 108
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[date]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=21, using=link text}"
+          ],
+          "result": "id: {a5aad8ad-a093-487e-b065-a8cbb5e77a25}",
+          "subLogs": [],
+          "duration": 317
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.linkText: 21",
+            "{\"id\":\"{a5aad8ad-a093-487e-b065-a8cbb5e77a25}\"}"
+          ],
+          "result": "clickElement:ok",
+          "subLogs": [],
+          "duration": 127
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given get '/'",
+      "type": "TestStepPass",
+      "duration": 7248,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on 'radio.one.way'",
+      "type": "TestStepPass",
+      "duration": 213,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When sendKeys 'Hyderabad' into 'text.origin'",
+      "type": "TestStepPass",
+      "duration": 97,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When sendKeys 'pune' into 'text.destination'",
+      "type": "TestStepPass",
+      "duration": 65,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on 'calender'",
+      "type": "TestStepPass",
+      "duration": 126,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on 'date'",
+      "type": "TestStepPass",
+      "duration": 446,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

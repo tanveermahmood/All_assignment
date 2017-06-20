@@ -1,0 +1,212 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://www.air.irctc.co.in}"
+          ],
+          "result": "",
+          "subLogs": [],
+          "duration": 594
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[radio.one.way]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=tripType, using=name}"
+          ],
+          "result": "id: {15d93b7c-4c4c-41fa-a3bd-62855485bd53}",
+          "subLogs": [],
+          "duration": 89
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.name: tripType",
+            "{\"id\":\"{15d93b7c-4c4c-41fa-a3bd-62855485bd53}\"}"
+          ],
+          "result": "clickElement:ok",
+          "subLogs": [],
+          "duration": 88
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "sendKeys",
+      "args": [
+        "[Bangalore,BLR, text.origin]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=origin, using=name}"
+          ],
+          "result": "id: {82093c27-c638-4b62-b9ff-1fbb711cc085}",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.name: origin",
+            "{\"id\":\"{82093c27-c638-4b62-b9ff-1fbb711cc085}\",\"value\":[\"Bangalore,BLR\"]}"
+          ],
+          "result": "sendKeysToElement:",
+          "subLogs": [],
+          "duration": 74
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "sendKeys",
+      "args": [
+        "[Pune,PNQ, text.destination]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=destination, using=name}"
+          ],
+          "result": "id: {8cbb1cff-5fe7-47bf-9a07-b6989f104fe0}",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.name: destination",
+            "{\"id\":\"{8cbb1cff-5fe7-47bf-9a07-b6989f104fe0}\",\"value\":[\"Pune,PNQ\"]}"
+          ],
+          "result": "sendKeysToElement:",
+          "subLogs": [],
+          "duration": 60
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[calender]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=.//*[@id='where']/div[4]/img, using=xpath}"
+          ],
+          "result": "id: {1198b0f4-82a5-4add-b820-cb2ab97cdae9}",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: .//*[@id='where']/div[4]/img",
+            "{\"id\":\"{1198b0f4-82a5-4add-b820-cb2ab97cdae9}\"}"
+          ],
+          "result": "clickElement:ok",
+          "subLogs": [],
+          "duration": 162
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[date]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=.//*[@id='ui-datepicker-div']/div[1]/table/tbody/tr[5]/td[4]/a, using=xpath}"
+          ],
+          "result": "id: {3590be25-c09d-40f1-b8fc-2786bcb8b44f}",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: .//*[@id='ui-datepicker-div']/div[1]/table/tbody/tr[5]/td[4]/a",
+            "{\"id\":\"{3590be25-c09d-40f1-b8fc-2786bcb8b44f}\"}"
+          ],
+          "result": "clickElement:ok",
+          "subLogs": [],
+          "duration": 144
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given get '/'",
+      "type": "TestStepPass",
+      "duration": 595,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on 'radio.one.way'",
+      "type": "TestStepPass",
+      "duration": 180,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When sendKeys 'Bangalore,BLR' into 'text.origin'",
+      "type": "TestStepPass",
+      "duration": 94,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When sendKeys 'Pune,PNQ' into 'text.destination'",
+      "type": "TestStepPass",
+      "duration": 74,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on 'calender'",
+      "type": "TestStepPass",
+      "duration": 179,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on 'date'",
+      "type": "TestStepPass",
+      "duration": 165,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

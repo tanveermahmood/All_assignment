@@ -1,0 +1,327 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "getCurrentWindowHandle",
+      "args": [
+        "{}"
+      ],
+      "result": "{bc7eb65c-5968-4f03-b8ff-1da6cd463a2c}",
+      "subLogs": [],
+      "duration": 34
+    },
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://www.air.irctc.co.in}"
+      ],
+      "result": "",
+      "subLogs": [],
+      "duration": 2163
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=tripType, using=name}"
+      ],
+      "result": "id: {dbea0edd-4f2f-4b9e-a5c3-5b630d5206c2}",
+      "subLogs": [],
+      "duration": 88
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.name: tripType",
+        "{\"id\":\"{dbea0edd-4f2f-4b9e-a5c3-5b630d5206c2}\"}"
+      ],
+      "result": "clickElement:ok",
+      "subLogs": [],
+      "duration": 112
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=origin, using=name}"
+      ],
+      "result": "id: {2de12bfe-d095-4725-82cc-cd58a18d9dc1}",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.name: origin",
+        "{\"id\":\"{2de12bfe-d095-4725-82cc-cd58a18d9dc1}\",\"value\":[\"Hyderabad,HYD\"]}"
+      ],
+      "result": "sendKeysToElement:",
+      "subLogs": [],
+      "duration": 69
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=destination, using=name}"
+      ],
+      "result": "id: {8187f8b5-acf4-4139-a612-d30de7d9be27}",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.name: destination",
+        "{\"id\":\"{8187f8b5-acf4-4139-a612-d30de7d9be27}\",\"value\":[\"Pune,PNQ\"]}"
+      ],
+      "result": "sendKeysToElement:",
+      "subLogs": [],
+      "duration": 49
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=.//*[@id='where']/div[4]/img, using=xpath}"
+      ],
+      "result": "id: {1e9d7216-4cf1-4e28-8a1c-e7cadb4b7ed7}",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: .//*[@id='where']/div[4]/img",
+        "{\"id\":\"{1e9d7216-4cf1-4e28-8a1c-e7cadb4b7ed7}\"}"
+      ],
+      "result": "clickElement:ok",
+      "subLogs": [],
+      "duration": 101
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=.//*[@id='ui-datepicker-div']/div[1]/table/tbody/tr[5]/td[4]/a, using=xpath}"
+      ],
+      "result": "id: {6b6979d1-de41-40ff-8ad8-5d751d4e8b05}",
+      "subLogs": [],
+      "duration": 133
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: .//*[@id='ui-datepicker-div']/div[1]/table/tbody/tr[5]/td[4]/a",
+        "{\"id\":\"{6b6979d1-de41-40ff-8ad8-5d751d4e8b05}\"}"
+      ],
+      "result": "clickElement:ok",
+      "subLogs": [],
+      "duration": 122
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=noOfAdult, using=name}"
+      ],
+      "result": "id: {ea3fe9da-2fa5-49d0-b3a5-e303691eec0a}",
+      "subLogs": [],
+      "duration": 108
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.name: noOfAdult",
+        "{\"id\":\"{ea3fe9da-2fa5-49d0-b3a5-e303691eec0a}\"}"
+      ],
+      "result": "clickElement:ok",
+      "subLogs": [],
+      "duration": 68
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=#noOfAdult>option, using=css selector}"
+      ],
+      "result": "id: {8b50b434-5c6e-4f92-8941-4aa81651edf1}",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.cssSelector: #noOfAdult>option",
+        "{\"id\":\"{8b50b434-5c6e-4f92-8941-4aa81651edf1}\"}"
+      ],
+      "result": "clickElement:ok",
+      "subLogs": [],
+      "duration": 98
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=noOfChild, using=name}"
+      ],
+      "result": "id: {ae5b448b-ca12-463d-8ebd-483b57a569cb}",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.name: noOfChild",
+        "{\"id\":\"{ae5b448b-ca12-463d-8ebd-483b57a569cb}\"}"
+      ],
+      "result": "clickElement:ok",
+      "subLogs": [],
+      "duration": 68
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=#noOfChild>option, using=css selector}"
+      ],
+      "result": "id: {9f71d8a4-3feb-4440-8a8d-3dae24702358}",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.cssSelector: #noOfChild>option",
+        "{\"id\":\"{9f71d8a4-3feb-4440-8a8d-3dae24702358}\"}"
+      ],
+      "result": "clickElement:ok",
+      "subLogs": [],
+      "duration": 99
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=noOfInfant, using=name}"
+      ],
+      "result": "id: {125b2c23-f69e-47f9-8a49-b5cbc7ac1c61}",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.name: noOfInfant",
+        "{\"id\":\"{125b2c23-f69e-47f9-8a49-b5cbc7ac1c61}\"}"
+      ],
+      "result": "clickElement:ok",
+      "subLogs": [],
+      "duration": 67
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=#noOfInfant>option, using=css selector}"
+      ],
+      "result": "id: {e6fe0403-e875-47f1-aeec-0582ab779345}",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.cssSelector: #noOfInfant>option",
+        "{\"id\":\"{e6fe0403-e875-47f1-aeec-0582ab779345}\"}"
+      ],
+      "result": "clickElement:ok",
+      "subLogs": [],
+      "duration": 95
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=classType, using=name}"
+      ],
+      "result": "id: {b9739887-8aaf-40dd-b982-9fc5bdc1f827}",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.name: classType",
+        "{\"id\":\"{b9739887-8aaf-40dd-b982-9fc5bdc1f827}\"}"
+      ],
+      "result": "clickElement:ok",
+      "subLogs": [],
+      "duration": 175
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=#classType>option, using=css selector}"
+      ],
+      "result": "id: {edb0b9e7-d220-44fd-a361-4d2bd40cdcd7}",
+      "subLogs": [],
+      "duration": 266
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.cssSelector: #classType>option",
+        "{\"id\":\"{edb0b9e7-d220-44fd-a361-4d2bd40cdcd7}\"}"
+      ],
+      "result": "clickElement:ok",
+      "subLogs": [],
+      "duration": 159
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=airlinePreference, using=name}"
+      ],
+      "result": "id: {eda8eb57-4998-40e1-a6b8-8903a21b6b50}",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.name: airlinePreference",
+        "{\"id\":\"{eda8eb57-4998-40e1-a6b8-8903a21b6b50}\"}"
+      ],
+      "result": "clickElement:ok",
+      "subLogs": [],
+      "duration": 70
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=.autocombo>option, using=css selector}"
+      ],
+      "result": "id: {edb0b9e7-d220-44fd-a361-4d2bd40cdcd7}",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.cssSelector: .autocombo>option",
+        "{\"id\":\"{edb0b9e7-d220-44fd-a361-4d2bd40cdcd7}\"}"
+      ],
+      "result": "clickElement:ok",
+      "subLogs": [],
+      "duration": 117
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=.srchbtn, using=css selector}"
+      ],
+      "result": "id: {f9e34ce3-de20-4e97-bd7a-53241122755e}",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.cssSelector: .srchbtn",
+        "{\"id\":\"{f9e34ce3-de20-4e97-bd7a-53241122755e}\"}"
+      ],
+      "result": "clickElement:Select from City/Airport.",
+      "subLogs": [],
+      "duration": 101
+    }
+  ],
+  "checkPoints": []
+}

@@ -1,0 +1,6 @@
+
+[
+ { "from" : "Hyderabad" , "to":"Pune" },
+  { "from" : "Bangalore" , "to":"Pune" },
+   { "from" : "Hyderabad" , "to":"Bangalore" }
+   ]

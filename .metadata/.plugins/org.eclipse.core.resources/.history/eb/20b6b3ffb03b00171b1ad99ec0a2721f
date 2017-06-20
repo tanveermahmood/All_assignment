@@ -1,0 +1,61 @@
+package com.act_test.Pages;
+
+import java.util.List;
+
+import com.act_test.utils.DriverUtils;
+import com.qmetry.qaf.automation.core.QAFTestBase;
+import com.qmetry.qaf.automation.ui.WebDriverBaseTestPage;
+import com.qmetry.qaf.automation.ui.annotations.FindBy;
+import com.qmetry.qaf.automation.ui.api.PageLocator;
+import com.qmetry.qaf.automation.ui.api.WebDriverTestPage;
+import com.qmetry.qaf.automation.ui.webdriver.QAFWebElement;
+
+public class HomescrnTestPage extends WebDriverBaseTestPage<WebDriverTestPage> {
+
+
+	
+	@FindBy(locator = "Homescrn.quiz.lst")
+	private List<QAFWebElement> HomesrcnquizList;
+	
+	@FindBy(locator = "Homesrcn.loader")
+
+	private QAFWebElement HomesrcnLoader;
+
+	public List <QAFWebElement> getHomesrcnquiz() {
+		
+		return HomesrcnquizList;
+	}
+	
+
+	
+	public QAFWebElement getHomesrcnLoader() {
+		return HomesrcnLoader;
+	}
+
+
+	@Override
+	protected void openPage(PageLocator pageLocator, Object... args) {
+
+	}
+
+	public void verifyHomeScren() throws InterruptedException  {
+		getHomesrcnLoader().waitForNotVisible(90000);
+		QAFTestBase.pause(5000);
+		DriverUtils.getAppiumDriver().navigate().back();
+		Thread.sleep(8000);
+		System.out.println(getHomesrcnquiz().isEmpty());
+		
+		System.out.println(getHomesrcnquiz().size()+"<-------------------------------------------------------size");
+		
+	}
+
+
+	public void selectQuiz(int i) {
+			
+		getHomesrcnquiz().get(i).click();
+		
+		
+		
+	}
+
+}

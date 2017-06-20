@@ -1,0 +1,653 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://www.air.irctc.co.in/IndianRailways/}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 394
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=tripType, using=name}"
+      ],
+      "result": "id: 0.34869224322391035-1",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.name: tripType",
+        "{\"id\":\"0.34869224322391035-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 35
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=origin, using=name}"
+      ],
+      "result": "id: 0.34869224322391035-2",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.name: origin",
+        "{\"id\":\"0.34869224322391035-2\",\"value\":[\"Pune\",{},{}]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 85
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=destination, using=name}"
+      ],
+      "result": "id: 0.34869224322391035-3",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.name: destination",
+        "{\"id\":\"0.34869224322391035-3\",\"value\":[\"Hyderabad\",{},{}]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 99
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=.//*[@id='where']/div[4]/img, using=xpath}"
+      ],
+      "result": "id: 0.34869224322391035-4",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: .//*[@id='where']/div[4]/img",
+        "{\"id\":\"0.34869224322391035-4\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 80
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=21, using=link text}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"21\"}\n  (Session info: chrome=57.0.2987.133)\n  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 25 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'\nSystem info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\\Users\\TANVEE~1.MAH\\AppData\\Local\\Temp\\scoped_dir8012_19037}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: 7de2a33831308355b8476b8f6143c412\n*** Element info: {Using=link text, value=21}",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=21, using=link text}"
+      ],
+      "result": "id: 0.34869224322391035-5",
+      "subLogs": [],
+      "duration": 46
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.linkText: 21",
+        "{\"id\":\"0.34869224322391035-5\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 52
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=noOfAdult, using=name}"
+      ],
+      "result": "id: 0.34869224322391035-6",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "getElementTagName",
+      "args": [
+        "By.name: noOfAdult",
+        "{\"id\":\"0.34869224322391035-6\"}"
+      ],
+      "result": "getElementTagName:select",
+      "subLogs": [],
+      "duration": 5
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=noOfAdult, using=name}"
+      ],
+      "result": "id: 0.34869224322391035-6",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "By.name: noOfAdult",
+        "{\"name\":\"multiple\",\"id\":\"0.34869224322391035-6\"}"
+      ],
+      "result": "getElementAttribute:null",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=noOfAdult, using=name}"
+      ],
+      "result": "id: 0.34869224322391035-6",
+      "subLogs": [],
+      "duration": 7
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.name: noOfAdult",
+        "{\"using\":\"tag name\",\"id\":\"0.34869224322391035-6\",\"value\":\"option\"}"
+      ],
+      "result": "findChildElements:[id: 0.34869224322391035-7, id: 0.34869224322391035-8, id: 0.34869224322391035-9, id: 0.34869224322391035-10, id: 0.34869224322391035-11, id: 0.34869224322391035-12, id: 0.34869224322391035-13, id: 0.34869224322391035-14, id: 0.34869224322391035-15]",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "id: 0.34869224322391035-7",
+        "{\"name\":\"index\",\"id\":\"0.34869224322391035-7\"}"
+      ],
+      "result": "getElementAttribute:0",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "id: 0.34869224322391035-8",
+        "{\"name\":\"index\",\"id\":\"0.34869224322391035-8\"}"
+      ],
+      "result": "getElementAttribute:1",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "id: 0.34869224322391035-9",
+        "{\"name\":\"index\",\"id\":\"0.34869224322391035-9\"}"
+      ],
+      "result": "getElementAttribute:2",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "isElementSelected",
+      "args": [
+        "id: 0.34869224322391035-9",
+        "{\"id\":\"0.34869224322391035-9\"}"
+      ],
+      "result": "isElementSelected:false",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "id: 0.34869224322391035-9",
+        "{\"id\":\"0.34869224322391035-9\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 33
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=noOfChild, using=name}"
+      ],
+      "result": "id: 0.34869224322391035-16",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "getElementTagName",
+      "args": [
+        "By.name: noOfChild",
+        "{\"id\":\"0.34869224322391035-16\"}"
+      ],
+      "result": "getElementTagName:select",
+      "subLogs": [],
+      "duration": 5
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=noOfChild, using=name}"
+      ],
+      "result": "id: 0.34869224322391035-16",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "By.name: noOfChild",
+        "{\"name\":\"multiple\",\"id\":\"0.34869224322391035-16\"}"
+      ],
+      "result": "getElementAttribute:null",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=noOfChild, using=name}"
+      ],
+      "result": "id: 0.34869224322391035-16",
+      "subLogs": [],
+      "duration": 7
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.name: noOfChild",
+        "{\"using\":\"tag name\",\"id\":\"0.34869224322391035-16\",\"value\":\"option\"}"
+      ],
+      "result": "findChildElements:[id: 0.34869224322391035-17, id: 0.34869224322391035-18, id: 0.34869224322391035-19, id: 0.34869224322391035-20, id: 0.34869224322391035-21, id: 0.34869224322391035-22, id: 0.34869224322391035-23]",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "id: 0.34869224322391035-17",
+        "{\"name\":\"index\",\"id\":\"0.34869224322391035-17\"}"
+      ],
+      "result": "getElementAttribute:0",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "id: 0.34869224322391035-18",
+        "{\"name\":\"index\",\"id\":\"0.34869224322391035-18\"}"
+      ],
+      "result": "getElementAttribute:1",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "isElementSelected",
+      "args": [
+        "id: 0.34869224322391035-18",
+        "{\"id\":\"0.34869224322391035-18\"}"
+      ],
+      "result": "isElementSelected:false",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "id: 0.34869224322391035-18",
+        "{\"id\":\"0.34869224322391035-18\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=noOfInfant, using=name}"
+      ],
+      "result": "id: 0.34869224322391035-24",
+      "subLogs": [],
+      "duration": 7
+    },
+    {
+      "commandName": "getElementTagName",
+      "args": [
+        "By.name: noOfInfant",
+        "{\"id\":\"0.34869224322391035-24\"}"
+      ],
+      "result": "getElementTagName:select",
+      "subLogs": [],
+      "duration": 5
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=noOfInfant, using=name}"
+      ],
+      "result": "id: 0.34869224322391035-24",
+      "subLogs": [],
+      "duration": 7
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "By.name: noOfInfant",
+        "{\"name\":\"multiple\",\"id\":\"0.34869224322391035-24\"}"
+      ],
+      "result": "getElementAttribute:null",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=noOfInfant, using=name}"
+      ],
+      "result": "id: 0.34869224322391035-24",
+      "subLogs": [],
+      "duration": 7
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.name: noOfInfant",
+        "{\"using\":\"tag name\",\"id\":\"0.34869224322391035-24\",\"value\":\"option\"}"
+      ],
+      "result": "findChildElements:[id: 0.34869224322391035-25, id: 0.34869224322391035-26, id: 0.34869224322391035-27, id: 0.34869224322391035-28]",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "id: 0.34869224322391035-25",
+        "{\"name\":\"index\",\"id\":\"0.34869224322391035-25\"}"
+      ],
+      "result": "getElementAttribute:0",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "id: 0.34869224322391035-26",
+        "{\"name\":\"index\",\"id\":\"0.34869224322391035-26\"}"
+      ],
+      "result": "getElementAttribute:1",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "id: 0.34869224322391035-27",
+        "{\"name\":\"index\",\"id\":\"0.34869224322391035-27\"}"
+      ],
+      "result": "getElementAttribute:2",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "id: 0.34869224322391035-28",
+        "{\"name\":\"index\",\"id\":\"0.34869224322391035-28\"}"
+      ],
+      "result": "getElementAttribute:3",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "isElementSelected",
+      "args": [
+        "id: 0.34869224322391035-28",
+        "{\"id\":\"0.34869224322391035-28\"}"
+      ],
+      "result": "isElementSelected:false",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "id: 0.34869224322391035-28",
+        "{\"id\":\"0.34869224322391035-28\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 37
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=classType, using=name}"
+      ],
+      "result": "id: 0.34869224322391035-29",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "getElementTagName",
+      "args": [
+        "By.name: classType",
+        "{\"id\":\"0.34869224322391035-29\"}"
+      ],
+      "result": "getElementTagName:select",
+      "subLogs": [],
+      "duration": 6
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=classType, using=name}"
+      ],
+      "result": "id: 0.34869224322391035-29",
+      "subLogs": [],
+      "duration": 7
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "By.name: classType",
+        "{\"name\":\"multiple\",\"id\":\"0.34869224322391035-29\"}"
+      ],
+      "result": "getElementAttribute:null",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=classType, using=name}"
+      ],
+      "result": "id: 0.34869224322391035-29",
+      "subLogs": [],
+      "duration": 7
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.name: classType",
+        "{\"using\":\"tag name\",\"id\":\"0.34869224322391035-29\",\"value\":\"option\"}"
+      ],
+      "result": "findChildElements:[id: 0.34869224322391035-30, id: 0.34869224322391035-31, id: 0.34869224322391035-32]",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "id: 0.34869224322391035-30",
+        "{\"name\":\"index\",\"id\":\"0.34869224322391035-30\"}"
+      ],
+      "result": "getElementAttribute:0",
+      "subLogs": [],
+      "duration": 7
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "id: 0.34869224322391035-31",
+        "{\"name\":\"index\",\"id\":\"0.34869224322391035-31\"}"
+      ],
+      "result": "getElementAttribute:1",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "id: 0.34869224322391035-32",
+        "{\"name\":\"index\",\"id\":\"0.34869224322391035-32\"}"
+      ],
+      "result": "getElementAttribute:2",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "isElementSelected",
+      "args": [
+        "id: 0.34869224322391035-32",
+        "{\"id\":\"0.34869224322391035-32\"}"
+      ],
+      "result": "isElementSelected:false",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "id: 0.34869224322391035-32",
+        "{\"id\":\"0.34869224322391035-32\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=airlinePreference, using=name}"
+      ],
+      "result": "id: 0.34869224322391035-33",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "getElementTagName",
+      "args": [
+        "By.name: airlinePreference",
+        "{\"id\":\"0.34869224322391035-33\"}"
+      ],
+      "result": "getElementTagName:select",
+      "subLogs": [],
+      "duration": 5
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=airlinePreference, using=name}"
+      ],
+      "result": "id: 0.34869224322391035-33",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "By.name: airlinePreference",
+        "{\"name\":\"multiple\",\"id\":\"0.34869224322391035-33\"}"
+      ],
+      "result": "getElementAttribute:null",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=airlinePreference, using=name}"
+      ],
+      "result": "id: 0.34869224322391035-33",
+      "subLogs": [],
+      "duration": 5
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.name: airlinePreference",
+        "{\"using\":\"tag name\",\"id\":\"0.34869224322391035-33\",\"value\":\"option\"}"
+      ],
+      "result": "findChildElements:[id: 0.34869224322391035-34, id: 0.34869224322391035-35, id: 0.34869224322391035-36, id: 0.34869224322391035-37, id: 0.34869224322391035-38, id: 0.34869224322391035-39, id: 0.34869224322391035-40, id: 0.34869224322391035-41]",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "id: 0.34869224322391035-34",
+        "{\"name\":\"index\",\"id\":\"0.34869224322391035-34\"}"
+      ],
+      "result": "getElementAttribute:0",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "id: 0.34869224322391035-35",
+        "{\"name\":\"index\",\"id\":\"0.34869224322391035-35\"}"
+      ],
+      "result": "getElementAttribute:1",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "id: 0.34869224322391035-36",
+        "{\"name\":\"index\",\"id\":\"0.34869224322391035-36\"}"
+      ],
+      "result": "getElementAttribute:2",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "isElementSelected",
+      "args": [
+        "id: 0.34869224322391035-36",
+        "{\"id\":\"0.34869224322391035-36\"}"
+      ],
+      "result": "isElementSelected:false",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "id: 0.34869224322391035-36",
+        "{\"id\":\"0.34869224322391035-36\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 38
+    }
+  ],
+  "checkPoints": []
+}

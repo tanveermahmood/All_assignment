@@ -1,0 +1,11 @@
+{
+  "total": 3,
+  "pass": 3,
+  "fail": 0,
+  "skip": 0,
+  "classes": [
+    "domestictest.Excel_loap"
+  ],
+  "startTime": 1491212571256,
+  "endTime": 1491212593793
+}

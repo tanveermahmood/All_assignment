@@ -1,0 +1,24 @@
+{
+  "reports": [
+    {
+      "name": "Default suite",
+      "dir": "test-results/Wed3May17_0354PM",
+      "startTime": 1493807044803
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/Wed3May17_0327PM",
+      "startTime": 1493805457090
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/Wed3May17_0327PM",
+      "startTime": 1493805422381
+    },
+    {
+      "name": "Suite",
+      "dir": "test-results/03_May_2017_03_23_PM/json",
+      "startTime": 1493805225109
+    }
+  ]
+}

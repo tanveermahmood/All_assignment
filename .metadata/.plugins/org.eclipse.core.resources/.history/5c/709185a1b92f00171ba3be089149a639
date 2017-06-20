@@ -1,0 +1,5 @@
+mobile = {\"locator\":\"xpath=.//*[@id='container']/div/div[2]/div[2]/div[1]/div/a[2]\"}
+viewall = {\"locator\":\"xpath=//h2[text()='#OnlyonFlipkart']/following-sibling::div/a\"}
+mobilelist = {\"locator\":\"xpath=//*[@data-tracking-id='#OnlyonFlipkart']\"}
+mobilename = {\"locator\":\"xpath=//*[@data-tracking-id='#OnlyonFlipkart']/a/div[2]\"}
+mobileprice = {\"locator\":\"xpath=//*[@data-tracking-id='#OnlyonFlipkart']/a/div[4]\"}

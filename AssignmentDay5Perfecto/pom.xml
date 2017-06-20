@@ -1,0 +1,74 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>AssignmentDay5Perfecto</groupId>
+	<artifactId>AssignmentDay5Perfecto</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>qaf-blank-project-maven</name>
+	<url>http://maven.apache.org</url>
+
+
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<testSuiteFile>config/testng.xml</testSuiteFile>
+		<sourceVersion>1.7</sourceVersion>
+		<targetVersion>1.7</targetVersion>
+		<qaf.version>2.1.10</qaf.version>
+		<test.results.dir>test-results</test.results.dir>
+		<run.time>${maven.build.timestamp}</run.time>
+		<lib.dir>${project.basedir}/lib</lib.dir>
+		<resource.dir>${project.basedir}/resources</resource.dir>
+		<output.dir>${test.results.dir}/${run.time}</output.dir>
+		<maven.build.timestamp.format>dd_MMM_yyyy_hh_mm_aa</maven.build.timestamp.format>
+		<testng.report.title>QAF Demo</testng.report.title>
+	</properties>
+
+	<repositories>
+		<repository>
+			<id>qaf</id>
+			<url>https://qmetry.github.io/qaf/dist</url>
+		</repository>
+		<repository>
+			<id>jai</id>
+			<url>https://repository.jboss.org/nexus/content/repositories/thirdparty-releases</url>
+		</repository>
+	</repositories>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.qmetry</groupId>
+			<artifactId>qaf</artifactId>
+			<version>${qaf.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.qmetry</groupId>
+			<artifactId>qaf-support</artifactId>
+			<version>${qaf.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.qmetry</groupId>
+			<artifactId>qaf-support-ws</artifactId>
+			<version>2.1.11-RC2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>io.appium</groupId>
+			<artifactId>java-client</artifactId>
+			<version>3.3.0</version>
+		</dependency>
+	</dependencies>
+	<build>
+		<sourceDirectory>src</sourceDirectory>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.5.1</version>
+				<configuration>
+					<source />
+					<target />
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>

@@ -1,0 +1,20 @@
+radio.one.way = {\"locator\":\"name=tripType\",\"desc\":\"One way radio\",\"frame\":\"\"}
+text.origin = {\"locator\":\"name=origin\",\"desc\":\"Input for origin\",\"frame\":\"\"}
+text.destination = {\"locator\":\"name=destination\",\"desc\":\"Input for destination\",\"frame\":\"\"}
+select.child = {\"locator\":\"name=noOfChild\",\"desc\":\"Selection for 0\",\"frame\":\"\"}
+select.infant = {\"locator\":\"name=noOfInfant\",\"desc\":\"Selection for 0\",\"frame\":\"\"}
+option.adult = {\"locator\":\"css=#noOfAdult>option\",\"desc\":\"option 3\",\"frame\":\"\"}
+option.child = {\"locator\":\"css=#noOfChild>option\",\"desc\":\"option 3\",\"frame\":\"\"}
+option.infant = {\"locator\":\"css=#noOfInfant>option\",\"desc\":\"option 3\",\"frame\":\"\"}
+select.class = {\"locator\":\"name=classType\",\"desc\":\"Selection for E\",\"frame\":\"\"}
+option.class = {\"locator\":\"css=#classType>option\",\"desc\":\"option B\",\"frame\":\"\"}
+select.Preference = {\"locator\":\"name=airlinePreference\",\"desc\":\"Selection for ALL\",\"frame\":\"\"}
+option.Preference = {\"locator\":\"css=.autocombo>option\",\"desc\":\"option 0S\",\"frame\":\"\"}
+search = {\"locator\":\"css=.srchbtn\",\"desc\":\"Text div\",\"frame\":\"\"}
+calender = {\"locator\":\"xpath=.//*[@id='where']/div[4]/img\",\"desc\":\"click calender\"}
+date = {\"locator\":\"link=21\",\"desc\":\"click date\"}
+select.adult = {\"locator\":\"name=noOfAdult\",\"desc\":\"Selection for 1\",\"frame\":\"\"}
+april.full = {\"locator\":\"xpath=.//*[@id='ui-datepicker-div']\",\"desc\":\"pick all date from calender\"}
+next.calender = {\"locator\":\"xpath=.//*[@id='ui-datepicker-div']/div[2]/div/a/span\",\"desc\":\"next calender\"}
+origin.value = {\"locator\":\"xpath=//a[text()='Calcutta (Kolkata),CCU']\"}
+destination.value = {\"locator\":\"xpath=//a[text()='Pune,PNQ']\"}

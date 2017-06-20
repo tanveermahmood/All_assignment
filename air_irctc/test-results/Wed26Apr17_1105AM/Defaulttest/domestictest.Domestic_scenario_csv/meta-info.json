@@ -1,0 +1,90 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "from": "Hyderabad",
+          "to": "Pune"
+        }
+      ],
+      "metaData": {
+        "dataFile": "resources/data.csv",
+        "description": "fill domestic form",
+        "groups": [
+          "SMOKE"
+        ],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "scenario2",
+        "sheetName": "",
+        "sign": "Domestic_scenario_csv.scenario2(java.util.Map)[pri:0, instance:domestictest.Domestic_scenario_csv@3cc2931c]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1493184915573,
+      "duration": 13100,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        {
+          "from": "Pune",
+          "to": "Hyderabad"
+        }
+      ],
+      "metaData": {
+        "dataFile": "resources/data.csv",
+        "description": "fill domestic form",
+        "groups": [
+          "SMOKE"
+        ],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "scenario2",
+        "resultFileName": "scenario2pvKCgtIZnt",
+        "sheetName": "",
+        "sign": "Domestic_scenario_csv.scenario2(java.util.Map)[pri:0, instance:domestictest.Domestic_scenario_csv@3cc2931c]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1493184928727,
+      "duration": 5537,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 3,
+      "type": "test",
+      "args": [
+        {
+          "from": "Hyderabad",
+          "to": "Bangalore"
+        }
+      ],
+      "metaData": {
+        "dataFile": "resources/data.csv",
+        "description": "fill domestic form",
+        "groups": [
+          "SMOKE"
+        ],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "scenario2",
+        "resultFileName": "scenario2ZTyLixCfFO",
+        "sheetName": "",
+        "sign": "Domestic_scenario_csv.scenario2(java.util.Map)[pri:0, instance:domestictest.Domestic_scenario_csv@3cc2931c]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1493184934302,
+      "duration": 5541,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

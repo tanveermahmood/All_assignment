@@ -1,0 +1,111 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[/]"
+      ],
+      "result": "fail",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And click on 'radio.one.way'",
+      "args": [
+        "[radio.one.way]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "When sendKeys 'Bangalore,BLR' into 'text.origin'",
+      "args": [
+        "[Bangalore,BLR, text.origin]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "When sendKeys 'Pune,PNQ' into 'text.destination'",
+      "args": [
+        "[Pune,PNQ, text.destination]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And click on 'calender'",
+      "args": [
+        "[calender]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And click on 'date'",
+      "args": [
+        "[date]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given get '/'",
+      "type": "TestStepFail",
+      "duration": 15,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected condition failed: Unable to create driver instance in 1st attempt with retry timeout of 0 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure. (tried for 0 second(s) with 10 SECONDS interval)\njava.lang.NoSuchMethodException: org.openqa.selenium.firefox.FirefoxDriver.<init>(java.net.URL, org.openqa.selenium.Capabilities)\nBuild info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'\nSystem info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: driver.version: unknown",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And click on 'radio.one.way'",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When sendKeys 'Bangalore,BLR' into 'text.origin'",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When sendKeys 'Pune,PNQ' into 'text.destination'",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on 'calender'",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on 'date'",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "com.qmetry.qaf.automation.core.AutomationError: Expected condition failed: Unable to create driver instance in 1st attempt with retry timeout of 0 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure. (tried for 0 second(s) with 10 SECONDS interval)\njava.lang.NoSuchMethodException: org.openqa.selenium.firefox.FirefoxDriver.<init>(java.net.URL, org.openqa.selenium.Capabilities)\nBuild info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'\nSystem info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: driver.version: unknown\r\n\tat .Given get '/'(scenarios/Domestic_Bdd.bdd:17)\r\n\tat com.qmetry.qaf.automation.ui.UiDriverFactory.getDriverObj(UiDriverFactory.java:272)\r\n\tat com.qmetry.qaf.automation.ui.UiDriverFactory.access$4(UiDriverFactory.java:242)\r\n\tat com.qmetry.qaf.automation.ui.UiDriverFactory$Browsers.getDriver(UiDriverFactory.java:409)\r\n\tat com.qmetry.qaf.automation.ui.UiDriverFactory$Browsers.access$4(UiDriverFactory.java:397)\r\n\tat com.qmetry.qaf.automation.ui.UiDriverFactory.getDriver(UiDriverFactory.java:233)\r\n\tat com.qmetry.qaf.automation.ui.UiDriverFactory.get(UiDriverFactory.java:94)\r\n\tat com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:487)\r\n\tat com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:1)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)\r\n\tat com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:389)\r\n\tat com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:177)\r\n\tat com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:47)\r\n\tat com.qmetry.qaf.automation.step.CommonStep.get_aroundBody24(CommonStep.java:307)\r\n\tat com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:101)\r\n\tat com.qmetry.qaf.automation.step.CommonStep.get(CommonStep.java:306)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:155)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)\r\n"
+}

@@ -1,0 +1,34 @@
+{
+  "total": 1,
+  "pass": 0,
+  "fail": 1,
+  "skip": 0,
+  "classes": [
+    "com.flipkart.Test.FlipkartTestSteps"
+  ],
+  "envInfo": {
+    "execution-env-info": {
+      "os.version": "6.2",
+      "host": "ICPL11544",
+      "user.name": "tanveer.mahmood",
+      "os.arch": "amd64",
+      "java.arch": "64",
+      "java.version": "1.7.0_51",
+      "java.vendor": "Oracle Corporation",
+      "os.name": "Windows 8"
+    },
+    "isfw-build-info": {
+      "qaf-Build-Time": "22-Mar-2017 20:13:03",
+      "qaf-Revision": "11-RC2",
+      "qaf-Type": "core",
+      "qaf-Version": "2.1"
+    },
+    "run-parameters": {
+      "resources": "resources",
+      "baseurl": "https://www.flipkart.com/"
+    },
+    "browser-actual-capabilities": {}
+  },
+  "startTime": 1493805422522,
+  "endTime": 1493805457325
+}

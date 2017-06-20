@@ -1,0 +1,15 @@
+
+
+SCENARIO: scenario7
+META-DATA: {"description":"","key":"search.data"}
+	
+	
+	Given get '/'
+	And click on 'radio.one.way'
+	When sendKeys '${from}' into 'text.origin'
+	When sendKeys '${to}' into 'text.destination'
+	And click on 'calender'
+	And click on 'date'
+	
+	
+END

@@ -1,0 +1,89 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "getCurrentWindowHandle",
+      "args": [
+        "{}"
+      ],
+      "result": "{01ab58ba-4fdf-4156-926d-fa8be7ef5c47}",
+      "subLogs": [],
+      "duration": 57
+    },
+    {
+      "commandName": "get",
+      "args": [
+        "{url=https://accounts.google.com/SignUp?continue=https%3A%2F%2Faccounts.google.com%2FManageAccount}"
+      ],
+      "result": "",
+      "subLogs": [],
+      "duration": 2035
+    },
+    {
+      "commandName": "getCurrentWindowHandle",
+      "args": [
+        "{}"
+      ],
+      "result": "{01ab58ba-4fdf-4156-926d-fa8be7ef5c47}",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=#name-form-element>fieldset, using=css selector}"
+      ],
+      "result": "[id: {eaf1fe78-07d5-4794-90cb-3f8156ad08ef}]",
+      "subLogs": [],
+      "duration": 61
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=#name-form-element>fieldset, using=css selector}"
+      ],
+      "result": "id: {eaf1fe78-07d5-4794-90cb-3f8156ad08ef}",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.cssSelector: #name-form-element>fieldset",
+        "{\"id\":\"{eaf1fe78-07d5-4794-90cb-3f8156ad08ef}\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=#name-form-element>fieldset, using=css selector}"
+      ],
+      "result": "id: {eaf1fe78-07d5-4794-90cb-3f8156ad08ef}",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "clearElement",
+      "args": [
+        "By.cssSelector: #name-form-element>fieldset",
+        "{\"id\":\"{eaf1fe78-07d5-4794-90cb-3f8156ad08ef}\"}"
+      ],
+      "result": "Element must be user-editable in order to clear it.\nCommand duration or timeout: 17 milliseconds\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: bfaee1dc-e87a-402e-8491-07b2d8d79acf",
+      "subLogs": [],
+      "duration": 22
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Element must be user-editable in order to clear it.\nCommand duration or timeout: 17 milliseconds\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: bfaee1dc-e87a-402e-8491-07b2d8d79acf",
+      "type": "Fail",
+      "screenshot": "img/scenario3_1ntckqboigd843487.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.WebDriverException: Element must be user-editable in order to clear it.\nCommand duration or timeout: 17 milliseconds\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: bfaee1dc-e87a-402e-8491-07b2d8d79acf\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeWitoutLog(QAFExtendedWebDriver.java:245)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:221)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:140)\r\n\tat com.qmetry.qaf.automation.data.ElementInteractor.fillValueWD(ElementInteractor.java:176)\r\n\tat com.qmetry.qaf.automation.data.ElementInteractor.fillValue(ElementInteractor.java:79)\r\n\tat com.qmetry.qaf.automation.data.ElementInteractor.fillValue(ElementInteractor.java:86)\r\n\tat com.qmetry.qaf.automation.data.BaseFormDataBean.fillUiData(BaseFormDataBean.java:322)\r\n\tat com.qmetry.qaf.automation.data.BaseFormDataBean.fillUiElements(BaseFormDataBean.java:85)\r\n\tat com.air_irctc.GmailTestPage.fillData(GmailTestPage.java:61)\r\n\tat domestictest.Gmail_Main.scenario3(Gmail_Main.java:15)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:714)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:741)\r\n\tat org.testng.TestRunner.run(TestRunner.java:595)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:334)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:240)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1149)\r\n\tat org.testng.TestNG.run(TestNG.java:1057)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)\r\nCaused by: org.openqa.selenium.WebDriverException: Element must be user-editable in order to clear it.\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: driver.version: unknown\r\n\tat <anonymous class>.bot.Error(file:///C:/Users/TANVEE~1.MAH/AppData/Local/Temp/anonymous1623795473955315249webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:681)\r\n\tat <anonymous class>.bot.action.clear(file:///C:/Users/TANVEE~1.MAH/AppData/Local/Temp/anonymous1623795473955315249webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11685)\r\n\tat <anonymous class>.WebElement.clearElement(file:///C:/Users/TANVEE~1.MAH/AppData/Local/Temp/anonymous1623795473955315249webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12136)\r\n\tat <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/TANVEE~1.MAH/AppData/Local/Temp/anonymous1623795473955315249webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)\r\n\tat <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/TANVEE~1.MAH/AppData/Local/Temp/anonymous1623795473955315249webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)\r\n\tat <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/TANVEE~1.MAH/AppData/Local/Temp/anonymous1623795473955315249webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)\r\n"
+}

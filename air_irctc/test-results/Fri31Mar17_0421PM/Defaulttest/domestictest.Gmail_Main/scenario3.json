@@ -1,0 +1,195 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "getCurrentWindowHandle",
+      "args": [
+        "{}"
+      ],
+      "result": "{8122aa9a-ceaa-4ca0-bd92-76676f3c5e53}",
+      "subLogs": [],
+      "duration": 44
+    },
+    {
+      "commandName": "getCurrentWindowHandle",
+      "args": [
+        "{}"
+      ],
+      "result": "{8122aa9a-ceaa-4ca0-bd92-76676f3c5e53}",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=#name-form-element>fieldset, using=css selector}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=#name-form-element>fieldset, using=css selector}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=#name-form-element>fieldset, using=css selector}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=#name-form-element>fieldset, using=css selector}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=#name-form-element>fieldset, using=css selector}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=#name-form-element>fieldset, using=css selector}"
+      ],
+      "result": "Error communicating with the remote browser. It may have died.\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: driver.version: RemoteWebDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: ef9bce49-ac7c-4a2a-9b2c-056a8d68b832",
+      "subLogs": [],
+      "duration": 1014
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=#name-form-element>fieldset, using=css selector}"
+      ],
+      "result": "Error communicating with the remote browser. It may have died.\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: driver.version: RemoteWebDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: ef9bce49-ac7c-4a2a-9b2c-056a8d68b832",
+      "subLogs": [],
+      "duration": 999
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=#name-form-element>fieldset, using=css selector}"
+      ],
+      "result": "Error communicating with the remote browser. It may have died.\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: driver.version: RemoteWebDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: ef9bce49-ac7c-4a2a-9b2c-056a8d68b832",
+      "subLogs": [],
+      "duration": 1000
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=#name-form-element>fieldset, using=css selector}"
+      ],
+      "result": "Error communicating with the remote browser. It may have died.\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: driver.version: RemoteWebDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: ef9bce49-ac7c-4a2a-9b2c-056a8d68b832",
+      "subLogs": [],
+      "duration": 1000
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=#name-form-element>fieldset, using=css selector}"
+      ],
+      "result": "Error communicating with the remote browser. It may have died.\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: driver.version: RemoteWebDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: ef9bce49-ac7c-4a2a-9b2c-056a8d68b832",
+      "subLogs": [],
+      "duration": 1047
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=#name-form-element>fieldset, using=css selector}"
+      ],
+      "result": "Error communicating with the remote browser. It may have died.\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: driver.version: RemoteWebDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: ef9bce49-ac7c-4a2a-9b2c-056a8d68b832",
+      "subLogs": [],
+      "duration": 1016
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=#name-form-element>fieldset, using=css selector}"
+      ],
+      "result": "Error communicating with the remote browser. It may have died.\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: driver.version: RemoteWebDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: ef9bce49-ac7c-4a2a-9b2c-056a8d68b832",
+      "subLogs": [],
+      "duration": 1015
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=#name-form-element>fieldset, using=css selector}"
+      ],
+      "result": "Error communicating with the remote browser. It may have died.\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: driver.version: RemoteWebDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: ef9bce49-ac7c-4a2a-9b2c-056a8d68b832",
+      "subLogs": [],
+      "duration": 1016
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=#name-form-element>fieldset, using=css selector}"
+      ],
+      "result": "Error communicating with the remote browser. It may have died.\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: driver.version: RemoteWebDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: ef9bce49-ac7c-4a2a-9b2c-056a8d68b832",
+      "subLogs": [],
+      "duration": 1016
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=#name-form-element>fieldset, using=css selector}"
+      ],
+      "result": "Error communicating with the remote browser. It may have died.\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: driver.version: RemoteWebDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: ef9bce49-ac7c-4a2a-9b2c-056a8d68b832",
+      "subLogs": [],
+      "duration": 1000
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=#name-form-element>fieldset, using=css selector}"
+      ],
+      "result": "Error communicating with the remote browser. It may have died.\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: driver.version: RemoteWebDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: ef9bce49-ac7c-4a2a-9b2c-056a8d68b832",
+      "subLogs": [],
+      "duration": 1000
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=#name-form-element>fieldset, using=css selector}"
+      ],
+      "result": "Error communicating with the remote browser. It may have died.\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: driver.version: RemoteWebDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: ef9bce49-ac7c-4a2a-9b2c-056a8d68b832",
+      "subLogs": [],
+      "duration": 1032
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=#name-form-element>fieldset, using=css selector}"
+      ],
+      "result": "Error communicating with the remote browser. It may have died.\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: driver.version: RemoteWebDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: ef9bce49-ac7c-4a2a-9b2c-056a8d68b832",
+      "subLogs": [],
+      "duration": 1000
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Timed out after 30 seconds: Wait time out for Input for FirstName to be visible\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: driver.version: unknown",
+      "type": "Fail",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.TimeoutException: Timed out after 30 seconds: Wait time out for Input for FirstName to be visible\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: driver.version: unknown\r\n\tat org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:292)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.waitForVisible(QAFExtendedWebElement.java:447)\r\n\tat com.qmetry.qaf.automation.data.ElementInteractor.getElement(ElementInteractor.java:111)\r\n\tat com.qmetry.qaf.automation.data.ElementInteractor.fillValueWD(ElementInteractor.java:175)\r\n\tat com.qmetry.qaf.automation.data.ElementInteractor.fillValue(ElementInteractor.java:79)\r\n\tat com.qmetry.qaf.automation.data.ElementInteractor.fillValue(ElementInteractor.java:86)\r\n\tat com.qmetry.qaf.automation.data.BaseFormDataBean.fillUiData(BaseFormDataBean.java:322)\r\n\tat com.qmetry.qaf.automation.data.BaseFormDataBean.fillUiElements(BaseFormDataBean.java:85)\r\n\tat com.air_irctc.GmailTestPage.fillData(GmailTestPage.java:60)\r\n\tat domestictest.Gmail_Main.scenario3(Gmail_Main.java:15)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:714)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:741)\r\n\tat org.testng.TestRunner.run(TestRunner.java:595)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:334)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:240)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1149)\r\n\tat org.testng.TestNG.run(TestNG.java:1057)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)\r\n"
+}

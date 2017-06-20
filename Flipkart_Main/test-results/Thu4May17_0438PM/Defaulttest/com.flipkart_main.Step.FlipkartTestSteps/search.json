@@ -1,0 +1,1268 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://www.flipcart.com}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 11686
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{using=xpath, value=//a[@title='Electronics']}"
+      ],
+      "result": "id: 0.29783659425479425-1",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //a[@title='Electronics']",
+        "{\"id\":\"0.29783659425479425-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 56
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=xpath, value=//span[text()='Apple']}"
+      ],
+      "result": "[id: 0.29783659425479425-2]",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{using=xpath, value=//span[text()='Apple']}"
+      ],
+      "result": "id: 0.29783659425479425-2",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //span[text()='Apple']",
+        "{\"id\":\"0.29783659425479425-2\"}"
+      ],
+      "result": "isElementDisplayed:false",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=xpath, value=//span[text()='Apple']}"
+      ],
+      "result": "[id: 0.29783659425479425-2]",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{using=xpath, value=//span[text()='Apple']}"
+      ],
+      "result": "id: 0.29783659425479425-2",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //span[text()='Apple']",
+        "{\"id\":\"0.29783659425479425-2\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{using=xpath, value=//span[text()='Apple']}"
+      ],
+      "result": "id: 0.29783659425479425-2",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //span[text()='Apple']",
+        "{\"id\":\"0.29783659425479425-2\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 56
+    },
+    {
+      "commandName": "getTitle",
+      "args": [
+        "{}"
+      ],
+      "result": "Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{using=xpath, value=//div[@class=\"_3b7jyH\"]}"
+      ],
+      "result": "id: 0.29783659425479425-3",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //div[@class=\"_3b7jyH\"]",
+        "{\"id\":\"0.29783659425479425-3\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 3340
+    },
+    {
+      "commandName": "getTitle",
+      "args": [
+        "{}"
+      ],
+      "result": "Smartphones-Buy smartphones online from best brands at low prices| Flipkart.com",
+      "subLogs": [],
+      "duration": 6
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=xpath, value=//a[@class='_1UoZlX']}"
+      ],
+      "result": "[id: 0.7063519637779239-1, id: 0.7063519637779239-2, id: 0.7063519637779239-3, id: 0.7063519637779239-4, id: 0.7063519637779239-5, id: 0.7063519637779239-6, id: 0.7063519637779239-7, id: 0.7063519637779239-8, id: 0.7063519637779239-9, id: 0.7063519637779239-10, id: 0.7063519637779239-11, id: 0.7063519637779239-12, id: 0.7063519637779239-13, id: 0.7063519637779239-14, id: 0.7063519637779239-15, id: 0.7063519637779239-16, id: 0.7063519637779239-17, id: 0.7063519637779239-18, id: 0.7063519637779239-19, id: 0.7063519637779239-20, id: 0.7063519637779239-21, id: 0.7063519637779239-22, id: 0.7063519637779239-23, id: 0.7063519637779239-24, id: 0.7063519637779239-25, id: 0.7063519637779239-26, id: 0.7063519637779239-27, id: 0.7063519637779239-28, id: 0.7063519637779239-29, id: 0.7063519637779239-30, id: 0.7063519637779239-31, id: 0.7063519637779239-32, id: 0.7063519637779239-33, id: 0.7063519637779239-34, id: 0.7063519637779239-35, id: 0.7063519637779239-36, id: 0.7063519637779239-37, id: 0.7063519637779239-38, id: 0.7063519637779239-39, id: 0.7063519637779239-40, id: 0.7063519637779239-41, id: 0.7063519637779239-42, id: 0.7063519637779239-43, id: 0.7063519637779239-44, id: 0.7063519637779239-45, id: 0.7063519637779239-46, id: 0.7063519637779239-47, id: 0.7063519637779239-48, id: 0.7063519637779239-49, id: 0.7063519637779239-50, id: 0.7063519637779239-51, id: 0.7063519637779239-52, id: 0.7063519637779239-53, id: 0.7063519637779239-54, id: 0.7063519637779239-55, id: 0.7063519637779239-56, id: 0.7063519637779239-57, id: 0.7063519637779239-58, id: 0.7063519637779239-59, id: 0.7063519637779239-60]",
+      "subLogs": [],
+      "duration": 47
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=xpath, value=//div[@class='_3wU53n']}"
+      ],
+      "result": "[id: 0.7063519637779239-61, id: 0.7063519637779239-62, id: 0.7063519637779239-63, id: 0.7063519637779239-64, id: 0.7063519637779239-65, id: 0.7063519637779239-66, id: 0.7063519637779239-67, id: 0.7063519637779239-68, id: 0.7063519637779239-69, id: 0.7063519637779239-70, id: 0.7063519637779239-71, id: 0.7063519637779239-72, id: 0.7063519637779239-73, id: 0.7063519637779239-74, id: 0.7063519637779239-75, id: 0.7063519637779239-76, id: 0.7063519637779239-77, id: 0.7063519637779239-78, id: 0.7063519637779239-79, id: 0.7063519637779239-80, id: 0.7063519637779239-81, id: 0.7063519637779239-82, id: 0.7063519637779239-83, id: 0.7063519637779239-84, id: 0.7063519637779239-85, id: 0.7063519637779239-86, id: 0.7063519637779239-87, id: 0.7063519637779239-88, id: 0.7063519637779239-89, id: 0.7063519637779239-90, id: 0.7063519637779239-91, id: 0.7063519637779239-92, id: 0.7063519637779239-93, id: 0.7063519637779239-94, id: 0.7063519637779239-95, id: 0.7063519637779239-96, id: 0.7063519637779239-97, id: 0.7063519637779239-98, id: 0.7063519637779239-99, id: 0.7063519637779239-100, id: 0.7063519637779239-101, id: 0.7063519637779239-102, id: 0.7063519637779239-103, id: 0.7063519637779239-104, id: 0.7063519637779239-105, id: 0.7063519637779239-106, id: 0.7063519637779239-107, id: 0.7063519637779239-108, id: 0.7063519637779239-109, id: 0.7063519637779239-110, id: 0.7063519637779239-111, id: 0.7063519637779239-112, id: 0.7063519637779239-113, id: 0.7063519637779239-114, id: 0.7063519637779239-115, id: 0.7063519637779239-116, id: 0.7063519637779239-117, id: 0.7063519637779239-118, id: 0.7063519637779239-119, id: 0.7063519637779239-120]",
+      "subLogs": [],
+      "duration": 47
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-61\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 (Black, 32 GB)",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-62\"}"
+      ],
+      "result": "getElementText:Apple iPhone 6s (Rose Gold, 32 GB)",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-63\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 (Jet Black, 128 GB)",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-64\"}"
+      ],
+      "result": "getElementText:Apple iPhone 6s Plus (Rose Gold, 128 GB)",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-65\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 Plus (Black, 128 GB)",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-66\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 (Black, 256 GB)",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-67\"}"
+      ],
+      "result": "getElementText:Apple iPhone SE (Rose Gold, 16 GB)",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-68\"}"
+      ],
+      "result": "getElementText:Apple iPhone SE (Space Grey, 16 GB)",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-69\"}"
+      ],
+      "result": "getElementText:Apple iPhone 6s (Gold, 32 GB)",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-70\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 Plus (Jet Black, 128 GB)",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-71\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 Plus (Black, 32 GB)",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-72\"}"
+      ],
+      "result": "getElementText:Apple iPhone 6s (Space Grey, 32 GB)",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-73\"}"
+      ],
+      "result": "getElementText:Apple iPhone 6s Plus (Space Grey, 16 GB)",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-74\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 Plus (Silver, 32 GB)",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-75\"}"
+      ],
+      "result": "getElementText:Apple iPhone 6s Plus (Space Grey, 32 GB)",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-76\"}"
+      ],
+      "result": "getElementText:Apple iPhone SE (Silver, 16 GB)",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-77\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 (Red, 128 GB)",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-78\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 Plus (Silver, 128 GB)",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-79\"}"
+      ],
+      "result": "getElementText:Apple iPhone 6s (Silver, 32 GB)",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-80\"}"
+      ],
+      "result": "getElementText:Apple iPhone 6s Plus (Rose Gold, 32 GB)",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-81\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 (Rose Gold, 128 GB)",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-82\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 (Jet Black, 256 GB)",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-83\"}"
+      ],
+      "result": "getElementText:Apple iPhone 6s Plus (Silver, 16 GB)",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-84\"}"
+      ],
+      "result": "getElementText:Apple iPhone 6s Plus (Silver, 32 GB)",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-85\"}"
+      ],
+      "result": "getElementText:Apple iPhone 6s Plus (Gold, 32 GB)",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-86\"}"
+      ],
+      "result": "getElementText:Apple iPhone 6s Plus (Silver, 128 GB)",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-87\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 (Black, 128 GB)",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-88\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 (Silver, 32 GB)",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-89\"}"
+      ],
+      "result": "getElementText:Apple iPhone SE (Gold, 64 GB)",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-90\"}"
+      ],
+      "result": "getElementText:Apple iPhone 6 Plus (Silver, 64 GB)",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-91\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 (Gold, 256 GB)",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-92\"}"
+      ],
+      "result": "getElementText:Apple iPhone 6 Plus (Silver, 16 GB)",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-93\"}"
+      ],
+      "result": "getElementText:Apple iPhone SE (Gold, 16 GB)",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-94\"}"
+      ],
+      "result": "getElementText:Apple iPhone 6s (Silver, 64 GB)",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-95\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 (Rose Gold, 32 GB)",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-96\"}"
+      ],
+      "result": "getElementText:Apple iPhone SE (Rose Gold, 64 GB)",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-97\"}"
+      ],
+      "result": "getElementText:Apple iPhone 6s (Gold, 16 GB)",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-98\"}"
+      ],
+      "result": "getElementText:Apple iPhone SE (Silver, 64 GB)",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-99\"}"
+      ],
+      "result": "getElementText:Apple iPhone 6s (Silver, 16 GB)",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-100\"}"
+      ],
+      "result": "getElementText:Apple iPhone SE (Space Grey, 64 GB)",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-101\"}"
+      ],
+      "result": "getElementText:Apple iPhone 6s Plus (Gold, 128 GB)",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-102\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 (Rose Gold, 256 GB)",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-103\"}"
+      ],
+      "result": "getElementText:Apple iPhone 6 (Space Grey, 64 GB)",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-104\"}"
+      ],
+      "result": "getElementText:Apple iPhone 6s (Rose Gold, 16 GB)",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-105\"}"
+      ],
+      "result": "getElementText:Apple iPhone 6s (Space Grey, 16 GB)",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-106\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 Plus (Gold, 32 GB)",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-107\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 (Gold, 32 GB)",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-108\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 Plus (Rose Gold, 32 GB)",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-109\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 (Gold, 128 GB)",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-110\"}"
+      ],
+      "result": "getElementText:Apple iPhone 6 Plus (Space Grey, 16 GB)",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-111\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 (Silver, 128 GB)",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-112\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 Plus (Jet Black, 256 GB)",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-113\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 Plus (Black, 256 GB)",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-114\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 Plus (Rose Gold, 128 GB)",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-115\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 Plus (Gold, 256 GB)",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-116\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 Plus (Rose Gold, 256 GB)",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-117\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 Plus (Gold, 128 GB)",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-118\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 Plus (Silver, 256 GB)",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-119\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 (Silver, 256 GB)",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.7063519637779239-120\"}"
+      ],
+      "result": "getElementText:Apple iPhone 6s (Gold, 64 GB)",
+      "subLogs": [],
+      "duration": 15
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "\nExpected: a string containing \"Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart\"\n     Actual: was \"Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart\"",
+      "type": "Pass",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "\nExpected: a string containing \"Smartphones-Buy smartphones online from best brands at low prices| Flipkart.com\"\n     Actual: was \"Smartphones-Buy smartphones online from best brands at low prices| Flipkart.com\"",
+      "type": "Pass",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "\nExpected: a value greater than &lt;0&gt;\n     Actual: &lt;60&gt; was greater than &lt;0&gt;",
+      "type": "Pass",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 (Black, 32 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 6s (Rose Gold, 32 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 (Jet Black, 128 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 6s Plus (Rose Gold, 128 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 Plus (Black, 128 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 (Black, 256 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone SE (Rose Gold, 16 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone SE (Space Grey, 16 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 6s (Gold, 32 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 Plus (Jet Black, 128 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 Plus (Black, 32 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 6s (Space Grey, 32 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 6s Plus (Space Grey, 16 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 Plus (Silver, 32 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 6s Plus (Space Grey, 32 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone SE (Silver, 16 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 (Red, 128 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 Plus (Silver, 128 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 6s (Silver, 32 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 6s Plus (Rose Gold, 32 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 (Rose Gold, 128 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 (Jet Black, 256 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 6s Plus (Silver, 16 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 6s Plus (Silver, 32 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 6s Plus (Gold, 32 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 6s Plus (Silver, 128 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 (Black, 128 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 (Silver, 32 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone SE (Gold, 64 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 6 Plus (Silver, 64 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 (Gold, 256 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 6 Plus (Silver, 16 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone SE (Gold, 16 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 6s (Silver, 64 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 (Rose Gold, 32 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone SE (Rose Gold, 64 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 6s (Gold, 16 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone SE (Silver, 64 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 6s (Silver, 16 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone SE (Space Grey, 64 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 6s Plus (Gold, 128 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 (Rose Gold, 256 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 6 (Space Grey, 64 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 6s (Rose Gold, 16 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 6s (Space Grey, 16 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 Plus (Gold, 32 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 (Gold, 32 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 Plus (Rose Gold, 32 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 (Gold, 128 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 6 Plus (Space Grey, 16 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 (Silver, 128 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 Plus (Jet Black, 256 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 Plus (Black, 256 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 Plus (Rose Gold, 128 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 Plus (Gold, 256 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 Plus (Rose Gold, 256 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 Plus (Gold, 128 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 Plus (Silver, 256 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 (Silver, 256 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 6s (Gold, 64 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "book hotel",
+        "groups": [
+          "SMOKE"
+        ],
+        "name": "scenario1",
+        "sign": "BookHotel.scenario1()[pri:0, instance:com.treebo_comp.Step.BookHotel@7eb79ed4]"
+      },
+      "dependsOn": [],
+      "startTime": 1496906672390,
+      "duration": 15,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "total": 1,
+  "pass": 0,
+  "fail": 0,
+  "skip": 1,
+  "classes": [
+    "com.flipkart_mobile.step.Flipkart_homeeststep"
+  ],
+  "envInfo": {
+    "execution-env-info": {
+      "os.version": "6.2",
+      "host": "ICPL11544",
+      "user.name": "tanveer.mahmood",
+      "os.arch": "amd64",
+      "java.arch": "64",
+      "java.version": "1.7.0_51",
+      "java.vendor": "Oracle Corporation",
+      "os.name": "Windows 8"
+    },
+    "isfw-build-info": {
+      "qaf-Build-Time": "03-Jan-2017 14:01:00",
+      "qaf-Revision": "10",
+      "qaf-Type": "core",
+      "qaf-Version": "2.1"
+    },
+    "browser-desired-capabilities": {
+      "automationName": "Appium",
+      "newCommandTimeout": "120",
+      "cssSelectorsEnabled": true,
+      "javascriptEnabled": "true",
+      "deviceName": "192.168.32.101:5555",
+      "platformName": "Android",
+      "driver.class": "io.appium.java_client.android.AndroidDriver",
+      "appActivity": "com.flipkart.android.activity.HomeFragmentHolderActivity",
+      "appium-version": "3.3.0",
+      "browser_name": "",
+      "appPackage": "com.flipkart.android",
+      "takesScreenshot": true
+    },
+    "run-parameters": {
+      "resources": "resources",
+      "baseurl": "http://localhost:4723/wd/hub"
+    },
+    "browser-actual-capabilities": {}
+  },
+  "startTime": 1494329933850,
+  "endTime": 1494337659488
+}

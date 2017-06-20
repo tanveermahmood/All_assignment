@@ -1,0 +1,14 @@
+package com.flipcart1.Test;
+
+import org.testng.annotations.Test;
+
+import com.qmetry.qaf.automation.ui.WebDriverTestCase;
+
+public class FlipkartTestSteps extends WebDriverTestCase {
+
+	@Test(groups = { "P1", "P2", "SMOKE" }, description = "search mobile")
+	public void search() {
+		
+	}
+
+}

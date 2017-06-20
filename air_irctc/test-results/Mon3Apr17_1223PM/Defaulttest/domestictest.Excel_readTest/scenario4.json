@@ -1,0 +1,23 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "getCurrentWindowHandle",
+      "args": [
+        "{}"
+      ],
+      "result": "{3729bfab-326f-4f8d-8fa3-f94147ebdc06}",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "get",
+      "args": [
+        "{url=https://accounts.google.com/SignUp?continue=https%3A%2F%2Faccounts.google.com%2FManageAccount}"
+      ],
+      "result": "",
+      "subLogs": [],
+      "duration": 1519
+    }
+  ],
+  "checkPoints": []
+}

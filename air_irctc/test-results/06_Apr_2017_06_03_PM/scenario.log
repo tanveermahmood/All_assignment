@@ -1,0 +1,11 @@
+18:03:11 scenario.file.loc[Ljava.lang.String;@77ec78b9
+18:03:11 loading BDD file: scenarios/login.bdd
+18:03:11 total test found: 1
+18:03:11 
+
+Executing scenario: sec - fasdfsdg
+18:03:11 Invoking Teststep: Given opening browser and pass the url
+18:03:19 Completed Teststep: Given opening browser and pass the url
+18:03:19 Invoking Teststep: Then fill the domestic flight form
+18:03:27 Completed Teststep: Then fill the domestic flight form
+18:03:27 Competed scenario: sec with status SUCESS

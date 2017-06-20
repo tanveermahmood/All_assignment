@@ -1,0 +1,54 @@
+09:56:48 scenario.file.loc[Ljava.lang.String;@5ed828d
+09:56:48 loading BDD file: scenarios/Bdd_Driven.bdd
+09:56:48 total test found: 1
+09:56:48 
+
+Executing scenario: scenario7 - 
+09:56:48 Test Data{from=Hyderabad, to=pune}
+09:56:49 Invoking Teststep: Given get '/' with arguments: [/]
+09:56:56 Completed Teststep: Given get '/' with arguments: [/]
+09:56:56 Invoking Teststep: And click on 'radio.one.way' with arguments: [radio.one.way]
+09:56:56 Completed Teststep: And click on 'radio.one.way' with arguments: [radio.one.way]
+09:56:56 Invoking Teststep: When sendKeys '${from}' into 'text.origin' with arguments: [${from}, text.origin]
+09:56:56 Completed Teststep: When sendKeys 'Hyderabad' into 'text.origin' with arguments: [${from}, text.origin]
+09:56:56 Invoking Teststep: When sendKeys '${to}' into 'text.destination' with arguments: [${to}, text.destination]
+09:56:56 Completed Teststep: When sendKeys 'pune' into 'text.destination' with arguments: [${to}, text.destination]
+09:56:56 Invoking Teststep: And click on 'calender' with arguments: [calender]
+09:56:56 Completed Teststep: And click on 'calender' with arguments: [calender]
+09:56:56 Invoking Teststep: And click on 'date' with arguments: [date]
+09:56:57 Completed Teststep: And click on 'date' with arguments: [date]
+09:56:57 Competed scenario: scenario7 with status SUCESS
+09:56:57 
+
+Executing scenario: scenario7 - 
+09:56:57 Test Data{from=Bangalore, to=pune}
+09:56:57 Invoking Teststep: Given get '/' with arguments: [/]
+09:56:57 Completed Teststep: Given get '/' with arguments: [/]
+09:56:57 Invoking Teststep: And click on 'radio.one.way' with arguments: [radio.one.way]
+09:56:57 Completed Teststep: And click on 'radio.one.way' with arguments: [radio.one.way]
+09:56:57 Invoking Teststep: When sendKeys '${from}' into 'text.origin' with arguments: [${from}, text.origin]
+09:56:57 Completed Teststep: When sendKeys 'Bangalore' into 'text.origin' with arguments: [${from}, text.origin]
+09:56:57 Invoking Teststep: When sendKeys '${to}' into 'text.destination' with arguments: [${to}, text.destination]
+09:56:58 Completed Teststep: When sendKeys 'pune' into 'text.destination' with arguments: [${to}, text.destination]
+09:56:58 Invoking Teststep: And click on 'calender' with arguments: [calender]
+09:56:58 Completed Teststep: And click on 'calender' with arguments: [calender]
+09:56:58 Invoking Teststep: And click on 'date' with arguments: [date]
+09:56:58 Completed Teststep: And click on 'date' with arguments: [date]
+09:56:58 Competed scenario: scenario7 with status SUCESS
+09:56:58 
+
+Executing scenario: scenario7 - 
+09:56:58 Test Data{from=Hyderabad, to=Bangalore}
+09:56:58 Invoking Teststep: Given get '/' with arguments: [/]
+09:56:59 Completed Teststep: Given get '/' with arguments: [/]
+09:56:59 Invoking Teststep: And click on 'radio.one.way' with arguments: [radio.one.way]
+09:56:59 Completed Teststep: And click on 'radio.one.way' with arguments: [radio.one.way]
+09:56:59 Invoking Teststep: When sendKeys '${from}' into 'text.origin' with arguments: [${from}, text.origin]
+09:56:59 Completed Teststep: When sendKeys 'Hyderabad' into 'text.origin' with arguments: [${from}, text.origin]
+09:56:59 Invoking Teststep: When sendKeys '${to}' into 'text.destination' with arguments: [${to}, text.destination]
+09:56:59 Completed Teststep: When sendKeys 'Bangalore' into 'text.destination' with arguments: [${to}, text.destination]
+09:56:59 Invoking Teststep: And click on 'calender' with arguments: [calender]
+09:56:59 Completed Teststep: And click on 'calender' with arguments: [calender]
+09:56:59 Invoking Teststep: And click on 'date' with arguments: [date]
+09:56:59 Completed Teststep: And click on 'date' with arguments: [date]
+09:56:59 Competed scenario: scenario7 with status SUCESS

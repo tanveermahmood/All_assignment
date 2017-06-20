@@ -1,0 +1,215 @@
+package domestictest;
+
+import java.io.FileInputStream;
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
+
+import com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement;
+import com.qmetry.qaf.automation.ui.webdriver.QAFWebElement;
+
+import jxl.Sheet;
+import jxl.Workbook;
+
+public class Generic1 {
+	static WebDriver driver;
+	public static String folderpath ="/air_irctc/resources/data.xlsx";
+	public static Workbook book;
+	public static Sheet sh;
+	// wait for given time
+	public static void kw_synchronize(int value) throws InterruptedException
+	{
+		Thread.sleep(value);
+	}
+
+	// close the current browser
+	
+	public static void kw_close()
+	{
+		driver.close();
+	}
+
+	// maximize the window
+	
+	public static void kw_maximize()
+	{
+		driver.manage().window().maximize();
+	}
+
+	//entering text in a text field
+	
+	public static void kw_enter_text(QAFWebElement element,String text) 
+	{
+		element.sendKeys(text);
+	}
+	
+	// click button
+	
+	public static void kw_click_link(QAFWebElement element)
+	{
+		element.click();
+	}
+
+	//move to an element
+	
+	public static void kw_moveToElement(QAFWebElement element)
+	{
+	   Actions action = new Actions(driver);
+	   action.moveToElement(element).click().build().perform();
+	}
+   //selecting the element from dropdown
+	
+	public static void kw_dropdown(QAFWebElement ele,int index)
+	{
+		Select sel=new Select(ele);
+		sel.selectByIndex(index);
+	}
+	
+	//validating the string
+	
+	public static void kw_validate(QAFWebElement expected,QAFWebElement actual)
+	{
+		boolean booleanvalue = expected.equals(actual);
+		if(booleanvalue==false)
+		{
+			System.out.println("expected string"+expected+"Not matching actual string"+actual+"");
+	}
+		else
+		{
+			System.out.println("expected string"+expected+"Matching actual string"+actual+"");
+	}
+	}
+//validatig the page title
+		
+	public static void kw_validate_title(QAFWebElement exp_Title)
+	{
+		String actualtitle =driver.getTitle();
+		if(exp_Title.equals(actualtitle))
+		{
+			System.out.println("pass");
+		}
+		else
+		{
+			System.out.println("false");
+		}
+	}
+	// handling popup windows
+	
+	public static void kw_alertPopup()
+	{
+		Alert al = driver.switchTo().alert();
+		al.accept();
+	}
+
+	// for creating excel connection
+	public static void createExcelConnection(String filename,String sheetname)
+	{
+		try
+		{
+		FileInputStream fis = new FileInputStream( folderpath + filename);
+		book =Workbook.getWorkbook(fis);
+		sh = book.getSheet(sheetname);
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+	}
+	
+	//for counting no of rows
+		public static int rowCount()
+		{
+			return sh.getRows();
+		}
+		
+	//for counting no of columns
+		public static int colCount()
+		{
+			return sh.getColumns();
+		}
+		
+	//for fetching values from excel sheet
+		public static String readData(int cnum,int rnum)
+		{
+			return sh.getCell(cnum, rnum).getContents();
+		}
+		
+		public static void kw_date_picker(QAFWebElement Element,int value)
+		{
+			//QAFExtendedWebElement dateWidget = new QAFExtendedWebElement(locator);
+			List<WebElement> columns=Element.findElements(By.tagName("td"));
+
+			for (WebElement cell: columns){
+			   //Select 13th Date 
+				/*WebElement ele=cell.findElement(By.tagName("a"));*/
+			   if (cell.getText().equals(value)){
+			      cell.click();
+			      break;
+			 }
+		}
+		}
+		
+		/*public static void kw_date(String date,String TripType)
+		{
+			String[] a = date.split("/");
+			String day = a[0];
+			String[] months = {"January","February","March","April","May","June","July","August","September","October","November","December"};
+			int x = Integer.parseInt(a[1]);
+			String month = months[x-1];
+			String year =a[2];
+			
+			switch(TripType)
+			{
+			case "Depart":
+				driver.findElement(By.xpath("//*[@id='where']/div[4]/img")).click();
+				break;
+				
+			case "Return":
+				driver.findElement(By.xpath("//*[@id='lastwhenId']/img")).click();
+				break;	
+			}
+			
+			//Xpath of year in left calender
+			
+			String Cal_year = driver.findElement(By.xpath("//*[@id='ui-datepicker-div']/div[1]/div/div/span[2]")).getText();
+			//loop navigate until the required year reached
+			while(!Cal_year.equals(year))
+			{
+				//xpath of arrow in right calender
+				driver.findElement(By.xpath("//*[@id='ui-datepicker-div']/div[2]/div/a/span")).click();
+				//xpath of year on left calender
+				String Cal_year1 = driver.findElement(By.xpath("//*[@id='ui-datepicker-div']/div[1]/div/div/span[2]")).getText();
+				Cal_year = Cal_year1;
+			}
+			//xpath of month in left calender
+			String Cal_Month = driver.findElement(By.xpath("//*[@id='ui-datepicker-div']/div[1]/div/div/span[1]")).getText();
+			
+			//loop until the required year reached
+			while(!Cal_Month.equals(month))
+			{
+				//xpath of arrow in right calender
+				driver.findElement(By.xpath("//*[@id='ui-datepicker-div']/div[2]/div/a/span")).click();
+				String Cal_Month1 = driver.findElement(By.xpath("//*[@id='ui-datepicker-div']/div[1]/div/div/span[1]")).getText();
+				Cal_Month = Cal_Month1;
+			}
+			WebElement datewidget = driver.findElement(By.id("ui-datepicker-div"));
+			List<WebElement> columns = datewidget.findElements(By.tagName("td"));
+			for(WebElement cell : columns)
+			{
+				if(cell.getText().equals(day))
+				{
+					cell.findElement(By.linkText(day)).click();
+					break;
+					}
+				}
+			}
+			*/
+					}
+		
+		

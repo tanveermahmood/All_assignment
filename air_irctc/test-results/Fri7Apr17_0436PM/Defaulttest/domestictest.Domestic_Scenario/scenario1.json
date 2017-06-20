@@ -1,0 +1,89 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://www.air.irctc.co.in/IndianRailways/}"
+      ],
+      "result": "{}",
+      "subLogs": [],
+      "duration": 5677
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=tripType, using=name}"
+      ],
+      "result": "id: 05ba85e4-6238-46f0-8dc1-a6c1ee2a7fc5",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.name: tripType",
+        "{\"id\":\"05ba85e4-6238-46f0-8dc1-a6c1ee2a7fc5\"}"
+      ],
+      "result": "clickElement:{}",
+      "subLogs": [],
+      "duration": 69
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=origin, using=name}"
+      ],
+      "result": "id: 528adc73-b057-454f-8171-be3a816cf232",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.name: origin",
+        "{\"id\":\"528adc73-b057-454f-8171-be3a816cf232\",\"value\":[\"Calcutta (Kolkata),CCU\"]}"
+      ],
+      "result": "sendKeysToElement:{}",
+      "subLogs": [],
+      "duration": 77
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[text()='Calcutta (Kolkata),CCU'], using=xpath}"
+      ],
+      "result": "Unable to locate element: //a[text()='Calcutta (Kolkata),CCU']\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'\nSystem info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], profile=UEsDBBQACAgIAJSEh0oAAAAAAAAAAAAAAAAHAAAAdXNlci5qc51WTW/bMAy971cMOW3AKqTretlOXdcBA4Z1aFDsKMgSbauRJU0fcfPvR/mjSRNHbndKbJMS+fj4yOjBUeugfLconGnxiXhWQvdf6oo0TLXMAQHNCgVi8eFtyZSH91/exJ2nYAFtrHEhudTAVKj7Z4JGG8ln/DWE1rg1qUOwxNbS19uz9Nky788U6CrU6Pjx8vK52xiwAybwR0AAHkB8l86HK4yFK0C34OJhuKbBvB4pr51pgHrupA3URU2DbJLLxXL6osAKTxAOfauvlfEwnc1oLUyrlWEC79KsSsDWpv1Tg14hWgmpaXeLQdng02W0MYKpGexhE4xRnoBzxnGjvVH7cB+n72WljUbUGmgKcKvu0edz8eC9RKtgkAsOfETcSgyUcsd8nfdVUq+JsaApPAZwmqlUzFczqExlvYt6+rIWCuHkBp8Z54DljBoz90gHysEFP4nEU6Wkt4ptQdycL1e/DDInlfbTtDG+Erf6j9RYX3++JBIvMvd3P9FjwQoTw+dCMb1eHHOuT4gypeiDRzBSnLKH/ji2RysRbrQlbS0DKOkDHvA3SneKCYkGaxnI0E0j6zC5xIUsAIphYbAB8lTzibfRkhq7xuLZtAXFUwdFl0q6OEg5VVt3rCHRYoGBaIS23N6jyat1JNrUSjfZ8IBHJ8MWmaIA/xEfnOSBGicrqak1SvJtnqoaWmw7MuSTqeazQPuTSXq5ikUju1b53b286sj4Mt2cPCab8VN3DoVJRUHLE+q160NMs+34e9yIpizRDs6YtZ4g+0xLiy0VULKowrScjLBzbwf+TEd7zIcs20Y6I/dRqYLbkl4ZO/uPc7bZo0dEbu5/XpELwnZFOk7vgW1YPyGyonpYirFH8jw6jtvBQzfEspf0NE3H5/PcQ5zFYL71SrDiSIIkOufLUxran0o1C/hIYQN6RkH3JuMtMmw2nEIZvu407UWF8sAcrwfazE3dhvTkJiI2Nls0JPmLqPiMLwYBclJMC+qRBh2Kz8X05tOL9dnYfciiEGdG8mB7QlmGFWd+t9kbnL4b67vBiQoUO6nOIpeYNR3EXuuYftJ1K9APfd1vKSeXs2Fk0U6sBMKoK5rkf4YkNeC05DXw9bder772X14/zQgTQqaI2cwgmNyZ/3dXVqaq0sthictK/14vdRlfozRitxZSJfZpWdVBnRh2e67jjf+jbHRsBNLgWtgRcZFWSQcHGO02mbR5IrFxf5xZZXZ9r0ofbb8B7JaMf1BLBwh1hce1pQMAALUMAABQSwECFAAUAAgICACUhIdKdYXHtaUDAAC1DAAABwAAAAAAAAAAAAAAAAAAAAAAdXNlci5qc1BLBQYAAAAAAQABADUAAADaAwAAAAA=}, appBuildId=20160623154057, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=47.0.1, platformVersion=6.2, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, javascriptEnabled=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop, cssSelectorsEnabled=true}]\nSession ID: d903b24a-498b-4140-a596-94508065babf\n*** Element info: {Using=xpath, value=//a[text()='Calcutta (Kolkata),CCU']}",
+      "subLogs": [],
+      "duration": 34
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[text()='Calcutta (Kolkata),CCU'], using=xpath}"
+      ],
+      "result": "id: f9f2a058-46a9-44ea-a7ba-322f3c24dc2c",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "mouseMoveTo",
+      "args": [
+        "{element=f9f2a058-46a9-44ea-a7ba-322f3c24dc2c}"
+      ],
+      "result": "POST /session/d903b24a-498b-4140-a596-94508065babf/moveto did not match a known command\nBuild info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'\nSystem info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], profile=UEsDBBQACAgIAJSEh0oAAAAAAAAAAAAAAAAHAAAAdXNlci5qc51WTW/bMAy971cMOW3AKqTretlOXdcBA4Z1aFDsKMgSbauRJU0fcfPvR/mjSRNHbndKbJMS+fj4yOjBUeugfLconGnxiXhWQvdf6oo0TLXMAQHNCgVi8eFtyZSH91/exJ2nYAFtrHEhudTAVKj7Z4JGG8ln/DWE1rg1qUOwxNbS19uz9Nky788U6CrU6Pjx8vK52xiwAybwR0AAHkB8l86HK4yFK0C34OJhuKbBvB4pr51pgHrupA3URU2DbJLLxXL6osAKTxAOfauvlfEwnc1oLUyrlWEC79KsSsDWpv1Tg14hWgmpaXeLQdng02W0MYKpGexhE4xRnoBzxnGjvVH7cB+n72WljUbUGmgKcKvu0edz8eC9RKtgkAsOfETcSgyUcsd8nfdVUq+JsaApPAZwmqlUzFczqExlvYt6+rIWCuHkBp8Z54DljBoz90gHysEFP4nEU6Wkt4ptQdycL1e/DDInlfbTtDG+Erf6j9RYX3++JBIvMvd3P9FjwQoTw+dCMb1eHHOuT4gypeiDRzBSnLKH/ji2RysRbrQlbS0DKOkDHvA3SneKCYkGaxnI0E0j6zC5xIUsAIphYbAB8lTzibfRkhq7xuLZtAXFUwdFl0q6OEg5VVt3rCHRYoGBaIS23N6jyat1JNrUSjfZ8IBHJ8MWmaIA/xEfnOSBGicrqak1SvJtnqoaWmw7MuSTqeazQPuTSXq5ikUju1b53b286sj4Mt2cPCab8VN3DoVJRUHLE+q160NMs+34e9yIpizRDs6YtZ4g+0xLiy0VULKowrScjLBzbwf+TEd7zIcs20Y6I/dRqYLbkl4ZO/uPc7bZo0dEbu5/XpELwnZFOk7vgW1YPyGyonpYirFH8jw6jtvBQzfEspf0NE3H5/PcQ5zFYL71SrDiSIIkOufLUxran0o1C/hIYQN6RkH3JuMtMmw2nEIZvu407UWF8sAcrwfazE3dhvTkJiI2Nls0JPmLqPiMLwYBclJMC+qRBh2Kz8X05tOL9dnYfciiEGdG8mB7QlmGFWd+t9kbnL4b67vBiQoUO6nOIpeYNR3EXuuYftJ1K9APfd1vKSeXs2Fk0U6sBMKoK5rkf4YkNeC05DXw9bder772X14/zQgTQqaI2cwgmNyZ/3dXVqaq0sthictK/14vdRlfozRitxZSJfZpWdVBnRh2e67jjf+jbHRsBNLgWtgRcZFWSQcHGO02mbR5IrFxf5xZZXZ9r0ofbb8B7JaMf1BLBwh1hce1pQMAALUMAABQSwECFAAUAAgICACUhIdKdYXHtaUDAAC1DAAABwAAAAAAAAAAAAAAAAAAAAAAdXNlci5qc1BLBQYAAAAAAQABADUAAADaAwAAAAA=}, appBuildId=20160623154057, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=47.0.1, platformVersion=6.2, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, javascriptEnabled=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop, cssSelectorsEnabled=true}]\nSession ID: d903b24a-498b-4140-a596-94508065babf",
+      "subLogs": [],
+      "duration": 6
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "POST /session/d903b24a-498b-4140-a596-94508065babf/moveto did not match a known command\nBuild info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'\nSystem info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], profile=UEsDBBQACAgIAJSEh0oAAAAAAAAAAAAAAAAHAAAAdXNlci5qc51WTW/bMAy971cMOW3AKqTretlOXdcBA4Z1aFDsKMgSbauRJU0fcfPvR/mjSRNHbndKbJMS+fj4yOjBUeugfLconGnxiXhWQvdf6oo0TLXMAQHNCgVi8eFtyZSH91/exJ2nYAFtrHEhudTAVKj7Z4JGG8ln/DWE1rg1qUOwxNbS19uz9Nky788U6CrU6Pjx8vK52xiwAybwR0AAHkB8l86HK4yFK0C34OJhuKbBvB4pr51pgHrupA3URU2DbJLLxXL6osAKTxAOfauvlfEwnc1oLUyrlWEC79KsSsDWpv1Tg14hWgmpaXeLQdng02W0MYKpGexhE4xRnoBzxnGjvVH7cB+n72WljUbUGmgKcKvu0edz8eC9RKtgkAsOfETcSgyUcsd8nfdVUq+JsaApPAZwmqlUzFczqExlvYt6+rIWCuHkBp8Z54DljBoz90gHysEFP4nEU6Wkt4ptQdycL1e/DDInlfbTtDG+Erf6j9RYX3++JBIvMvd3P9FjwQoTw+dCMb1eHHOuT4gypeiDRzBSnLKH/ji2RysRbrQlbS0DKOkDHvA3SneKCYkGaxnI0E0j6zC5xIUsAIphYbAB8lTzibfRkhq7xuLZtAXFUwdFl0q6OEg5VVt3rCHRYoGBaIS23N6jyat1JNrUSjfZ8IBHJ8MWmaIA/xEfnOSBGicrqak1SvJtnqoaWmw7MuSTqeazQPuTSXq5ikUju1b53b286sj4Mt2cPCab8VN3DoVJRUHLE+q160NMs+34e9yIpizRDs6YtZ4g+0xLiy0VULKowrScjLBzbwf+TEd7zIcs20Y6I/dRqYLbkl4ZO/uPc7bZo0dEbu5/XpELwnZFOk7vgW1YPyGyonpYirFH8jw6jtvBQzfEspf0NE3H5/PcQ5zFYL71SrDiSIIkOufLUxran0o1C/hIYQN6RkH3JuMtMmw2nEIZvu407UWF8sAcrwfazE3dhvTkJiI2Nls0JPmLqPiMLwYBclJMC+qRBh2Kz8X05tOL9dnYfciiEGdG8mB7QlmGFWd+t9kbnL4b67vBiQoUO6nOIpeYNR3EXuuYftJ1K9APfd1vKSeXs2Fk0U6sBMKoK5rkf4YkNeC05DXw9bder772X14/zQgTQqaI2cwgmNyZ/3dXVqaq0sthictK/14vdRlfozRitxZSJfZpWdVBnRh2e67jjf+jbHRsBNLgWtgRcZFWSQcHGO02mbR5IrFxf5xZZXZ9r0ofbb8B7JaMf1BLBwh1hce1pQMAALUMAABQSwECFAAUAAgICACUhIdKdYXHtaUDAAC1DAAABwAAAAAAAAAAAAAAAAAAAAAAdXNlci5qc1BLBQYAAAAAAQABADUAAADaAwAAAAA=}, appBuildId=20160623154057, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=47.0.1, platformVersion=6.2, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, javascriptEnabled=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop, cssSelectorsEnabled=true}]\nSession ID: d903b24a-498b-4140-a596-94508065babf",
+      "type": "Fail",
+      "screenshot": "img/scenario1_161eqwhxyeps57671.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.UnsupportedCommandException: POST /session/d903b24a-498b-4140-a596-94508065babf/moveto did not match a known command\nBuild info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'\nSystem info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], profile=UEsDBBQACAgIAJSEh0oAAAAAAAAAAAAAAAAHAAAAdXNlci5qc51WTW/bMAy971cMOW3AKqTretlOXdcBA4Z1aFDsKMgSbauRJU0fcfPvR/mjSRNHbndKbJMS+fj4yOjBUeugfLconGnxiXhWQvdf6oo0TLXMAQHNCgVi8eFtyZSH91/exJ2nYAFtrHEhudTAVKj7Z4JGG8ln/DWE1rg1qUOwxNbS19uz9Nky788U6CrU6Pjx8vK52xiwAybwR0AAHkB8l86HK4yFK0C34OJhuKbBvB4pr51pgHrupA3URU2DbJLLxXL6osAKTxAOfauvlfEwnc1oLUyrlWEC79KsSsDWpv1Tg14hWgmpaXeLQdng02W0MYKpGexhE4xRnoBzxnGjvVH7cB+n72WljUbUGmgKcKvu0edz8eC9RKtgkAsOfETcSgyUcsd8nfdVUq+JsaApPAZwmqlUzFczqExlvYt6+rIWCuHkBp8Z54DljBoz90gHysEFP4nEU6Wkt4ptQdycL1e/DDInlfbTtDG+Erf6j9RYX3++JBIvMvd3P9FjwQoTw+dCMb1eHHOuT4gypeiDRzBSnLKH/ji2RysRbrQlbS0DKOkDHvA3SneKCYkGaxnI0E0j6zC5xIUsAIphYbAB8lTzibfRkhq7xuLZtAXFUwdFl0q6OEg5VVt3rCHRYoGBaIS23N6jyat1JNrUSjfZ8IBHJ8MWmaIA/xEfnOSBGicrqak1SvJtnqoaWmw7MuSTqeazQPuTSXq5ikUju1b53b286sj4Mt2cPCab8VN3DoVJRUHLE+q160NMs+34e9yIpizRDs6YtZ4g+0xLiy0VULKowrScjLBzbwf+TEd7zIcs20Y6I/dRqYLbkl4ZO/uPc7bZo0dEbu5/XpELwnZFOk7vgW1YPyGyonpYirFH8jw6jtvBQzfEspf0NE3H5/PcQ5zFYL71SrDiSIIkOufLUxran0o1C/hIYQN6RkH3JuMtMmw2nEIZvu407UWF8sAcrwfazE3dhvTkJiI2Nls0JPmLqPiMLwYBclJMC+qRBh2Kz8X05tOL9dnYfciiEGdG8mB7QlmGFWd+t9kbnL4b67vBiQoUO6nOIpeYNR3EXuuYftJ1K9APfd1vKSeXs2Fk0U6sBMKoK5rkf4YkNeC05DXw9bder772X14/zQgTQqaI2cwgmNyZ/3dXVqaq0sthictK/14vdRlfozRitxZSJfZpWdVBnRh2e67jjf+jbHRsBNLgWtgRcZFWSQcHGO02mbR5IrFxf5xZZXZ9r0ofbb8B7JaMf1BLBwh1hce1pQMAALUMAABQSwECFAAUAAgICACUhIdKdYXHtaUDAAC1DAAABwAAAAAAAAAAAAAAAAAAAAAAdXNlci5qc1BLBQYAAAAAAQABADUAAADaAwAAAAA=}, appBuildId=20160623154057, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=47.0.1, platformVersion=6.2, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, javascriptEnabled=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop, cssSelectorsEnabled=true}]\nSession ID: d903b24a-498b-4140-a596-94508065babf\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:127)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:93)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:42)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:234)\r\n\tat org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:35)\r\n\tat org.openqa.selenium.remote.RemoteMouse.mouseMove(RemoteMouse.java:89)\r\n\tat org.openqa.selenium.interactions.MoveMouseAction.perform(MoveMouseAction.java:39)\r\n\tat org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:50)\r\n\tat domestictest.Generic1.kw_moveToElement(Generic1.java:69)\r\n\tat domestictest.Domestic_Scenario.scenario1(Domestic_Scenario.java:28)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:643)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:806)\r\n\tat org.testng.TestRunner.run(TestRunner.java:656)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:366)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:268)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1169)\r\n\tat org.testng.TestNG.run(TestNG.java:1064)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)\r\n"
+}

@@ -1,0 +1,7 @@
+12:16:58 scenario.file.loc[Ljava.lang.String;@262b2c86
+12:16:58 loading BDD file: scenarios/login.bdd
+12:16:58 total test found: 1
+12:16:58 
+
+Executing scenario: sec - fasdfsdg
+12:16:58 Competed scenario: sec with status FAILURE

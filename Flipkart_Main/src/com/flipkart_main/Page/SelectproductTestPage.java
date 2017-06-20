@@ -1,0 +1,33 @@
+package com.flipkart_main.Page;
+
+import org.hamcrest.Matchers;
+import org.openqa.selenium.interactions.Actions;
+
+
+import com.qmetry.qaf.automation.core.ConfigurationManager;
+import com.qmetry.qaf.automation.ui.WebDriverBaseTestPage;
+import com.qmetry.qaf.automation.ui.api.PageLocator;
+import com.qmetry.qaf.automation.ui.api.WebDriverTestPage;
+import com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement;
+import com.qmetry.qaf.automation.util.Validator;
+
+public class SelectproductTestPage extends WebDriverBaseTestPage<WebDriverTestPage> {
+
+	@Override
+	protected void openPage(PageLocator pageLocator, Object... args) {
+	}
+
+	 public void selectProduct(String prodName)
+	  {
+	   Actions actions = new Actions(driver);
+	   QAFExtendedWebElement CatogoryElement=new QAFExtendedWebElement(String.format(ConfigurationManager.getBundle().getString("Selectproduct.link.prouctname"), prodName));
+	   actions.moveToElement(CatogoryElement);
+	   CatogoryElement.click();
+	  }
+	 
+	 public void verifyProduct()
+	 {
+		 Validator.verifyThat("",driver.getTitle(), Matchers.containsString("Mobile phones online @ Flipkart.com"));
+	 }
+
+}

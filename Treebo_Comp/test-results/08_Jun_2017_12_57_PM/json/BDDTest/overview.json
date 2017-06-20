@@ -1,0 +1,35 @@
+{
+  "total": 1,
+  "pass": 1,
+  "fail": 0,
+  "skip": 0,
+  "classes": [
+    "com.qmetry.qaf.automation.step.client.Scenario"
+  ],
+  "envInfo": {
+    "execution-env-info": {
+      "os.version": "6.2",
+      "host": "ICPL11544",
+      "user.name": "tanveer.mahmood",
+      "os.arch": "amd64",
+      "java.arch": "64",
+      "java.version": "1.7.0_51",
+      "java.vendor": "Oracle Corporation",
+      "os.name": "Windows 8"
+    },
+    "isfw-build-info": {
+      "qaf-Build-Time": "10-Apr-2017 23:17:07",
+      "qaf-Revision": "11",
+      "qaf-Type": "core",
+      "qaf-Version": "2.1"
+    },
+    "run-parameters": {
+      "resources": "resources",
+      "baseurl": "https://www.treebo.com/",
+      "driver.name": "firefoxDriver"
+    },
+    "browser-actual-capabilities": {}
+  },
+  "startTime": 1496906844936,
+  "endTime": 1496906844952
+}

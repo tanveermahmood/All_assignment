@@ -1,0 +1,33 @@
+package com.flipcart1.Page;
+
+//import static com.qmetry.qaf.automation.step.CommonStep.*;
+
+
+public class FlipkartTestPage extends WebDriverBaseTestPage<WebDriverTestPage> {
+
+	@FindBy(locator = "span.span")
+	private QAFWebElement spanSpan;
+	@FindBy(locator = "img.great.deals")
+	private QAFWebElement imgGreatDeals;
+
+	@Override
+	protected void openPage(PageLocator pageLocator, Object... args) {
+		driver.get("/");
+	}
+	
+	public boolean isPageActive()
+	{
+		return false;
+	}
+	
+
+	public QAFWebElement getSpanSpan() {
+		return spanSpan;
+	}
+
+	public QAFWebElement getImgGreatDeals() {
+		return imgGreatDeals;
+	}
+	
+	
+}

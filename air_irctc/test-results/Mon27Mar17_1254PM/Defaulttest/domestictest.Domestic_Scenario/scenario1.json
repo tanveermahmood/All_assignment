@@ -1,0 +1,118 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "getCurrentWindowHandle",
+      "args": [
+        "{}"
+      ],
+      "result": "{9a148b78-7f0e-4adc-87cb-687d5ec0d152}",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://www.air.irctc.co.in}"
+      ],
+      "result": "",
+      "subLogs": [],
+      "duration": 14323
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=tripType, using=name}"
+      ],
+      "result": "id: {3e4eed91-a0fa-4b1f-adf9-c4ea777436fe}",
+      "subLogs": [],
+      "duration": 66
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.name: tripType",
+        "{\"id\":\"{3e4eed91-a0fa-4b1f-adf9-c4ea777436fe}\"}"
+      ],
+      "result": "clickElement:ok",
+      "subLogs": [],
+      "duration": 103
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=origin, using=name}"
+      ],
+      "result": "id: {f1571e4f-08e7-4437-9edf-515457830703}",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.name: origin",
+        "{\"id\":\"{f1571e4f-08e7-4437-9edf-515457830703}\",\"value\":[\"Hyderabad,HYD\"]}"
+      ],
+      "result": "sendKeysToElement:",
+      "subLogs": [],
+      "duration": 71
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=destination, using=name}"
+      ],
+      "result": "id: {21c4a9c5-2b0f-4abc-9d0a-965343d03126}",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.name: destination",
+        "{\"id\":\"{21c4a9c5-2b0f-4abc-9d0a-965343d03126}\",\"value\":[\"Pune,PNQ\"]}"
+      ],
+      "result": "sendKeysToElement:",
+      "subLogs": [],
+      "duration": 54
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=.//*[@id='where']/div[4]/img, using=xpath}"
+      ],
+      "result": "id: {d5e13f1a-70b3-4938-9500-702210627a64}",
+      "subLogs": [],
+      "duration": 43
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: .//*[@id='where']/div[4]/img",
+        "{\"id\":\"{d5e13f1a-70b3-4938-9500-702210627a64}\"}"
+      ],
+      "result": "clickElement:ok",
+      "subLogs": [],
+      "duration": 136
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=.//*[@id='ui-datepicker-div']/div[1]/table/tbody/tr[5]/td[4]/a, using=xpath}"
+      ],
+      "result": "id: {2dd3f15d-707d-4f41-ba8a-915178a71531}",
+      "subLogs": [],
+      "duration": 130
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: .//*[@id='ui-datepicker-div']/div[1]/table/tbody/tr[5]/td[4]/a",
+        "{\"id\":\"{2dd3f15d-707d-4f41-ba8a-915178a71531}\"}"
+      ],
+      "result": "clickElement:ok",
+      "subLogs": [],
+      "duration": 131
+    }
+  ],
+  "checkPoints": []
+}

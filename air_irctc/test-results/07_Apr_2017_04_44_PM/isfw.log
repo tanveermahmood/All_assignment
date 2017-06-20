@@ -1,0 +1,661 @@
+[main] 16:44:45,254 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFAnnotationTransformer2] QAFTestNGListener registered!...
+[main] 16:44:45,269 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] QAFTestNGListener registered!...
+[main] 16:44:45,269 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFMethodInterceptor] QAFTestNGListener registered!...
+[main] 16:44:45,269 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] QAFTestNGListener registered!...
+[main] 16:44:45,269 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] QAFTestNGListener registered!...
+[main] 16:44:45,379 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] ISFW build info: {qaf-Type=core, qaf-Revision=11-RC2, qaf-Version=2.1, qaf-Build-Time=22-Mar-2017 20:13:03}
+[main] 16:44:45,394 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] Resource dir: D:\New_Project\air_irctc\resources. Found property files to load: 2
+[main] 16:44:45,410 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.name
+[main] 16:44:45,410 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.version
+[main] 16:44:45,410 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.arch
+[main] 16:44:45,410 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.home
+[main] 16:44:45,410 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.file.type.testRunner
+[main] 16:44:45,410 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.file.testRunner
+[main] 16:44:45,410 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.project.default-target
+[main] 16:44:45,410 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.project.name
+[main] 16:44:45,410 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.project.invoked-targets
+[main] 16:44:45,410 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.file
+[main] 16:44:45,410 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.file.TestAutomation
+[main] 16:44:45,410 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.file.type.TestAutomation
+[main] 16:44:45,410 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.version
+[main] 16:44:45,410 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.name
+[main] 16:44:45,410 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.language
+[main] 16:44:45,410 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.timezone
+[main] 16:44:45,410 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.country
+[main] 16:44:45,410 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.variant
+[main] 16:44:45,410 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.script
+[main] 16:44:45,410 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.home
+[main] 16:44:45,410 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.dir
+[main] 16:44:45,410 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:log4j.configuration
+[main] 16:44:45,410 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding.pkg
+[main] 16:44:45,410 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.separator
+[main] 16:44:45,410 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding
+[main] 16:44:45,410 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:test.results.dir
+[main] 16:44:45,410 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.relative.path
+[main] 16:44:45,410 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.dir
+[main] 16:44:45,410 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:awt.toolkit
+[main] 16:44:45,410 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:outputDir
+[main] 16:44:45,410 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:json.report.dir
+[main] 16:44:45,410 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:json.report.root.dir
+[main] 16:44:45,410 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:org.uncommons.reportng.title
+[main] 16:44:45,410 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:org.uncommons.reportng.escape-output
+[main] 16:44:45,410 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:line.separator
+[main] 16:44:45,410 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] Resource dir: D:\New_Project\air_irctc\resources. Found property files to load: 2
+[main] 16:44:45,426 DEBUG [org.apache.commons.configuration.ConfigurationUtils] ConfigurationUtils.locate(): base is null, name is null
+[main] 16:44:46,191 DEBUG [org.apache.commons.configuration.ConfigurationUtils] ConfigurationUtils.locate(): base is D:\New_Project\air_irctc\resources, name is data.xml
+[main] 16:44:46,207 DEBUG [org.apache.commons.configuration.DefaultFileSystem] Could not locate file data.xml at D:\New_Project\air_irctc\resources: unknown protocol: d
+[main] 16:44:46,207 DEBUG [org.apache.commons.configuration.ConfigurationUtils] Loading configuration from the path D:\New_Project\air_irctc\resources\data.xml
+[main] 16:44:46,504 DEBUG [org.apache.commons.configuration.ConfigurationUtils] ConfigurationUtils.locate(): base is null, name is null
+[main] 16:44:46,816 DEBUG [org.apache.commons.configuration.ConfigurationUtils] ConfigurationUtils.locate(): base is D:\New_Project\air_irctc\resources, name is data1.xml
+[main] 16:44:46,816 DEBUG [org.apache.commons.configuration.DefaultFileSystem] Could not locate file data1.xml at D:\New_Project\air_irctc\resources: unknown protocol: d
+[main] 16:44:46,816 DEBUG [org.apache.commons.configuration.ConfigurationUtils] Loading configuration from the path D:\New_Project\air_irctc\resources\data1.xml
+[main] 16:44:47,129 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.name
+[main] 16:44:47,129 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.version
+[main] 16:44:47,129 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.arch
+[main] 16:44:47,129 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.home
+[main] 16:44:47,129 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.file.type.testRunner
+[main] 16:44:47,129 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.file.testRunner
+[main] 16:44:47,129 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.project.default-target
+[main] 16:44:47,129 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.project.name
+[main] 16:44:47,129 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.project.invoked-targets
+[main] 16:44:47,129 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.file
+[main] 16:44:47,129 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.file.TestAutomation
+[main] 16:44:47,129 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.file.type.TestAutomation
+[main] 16:44:47,129 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.version
+[main] 16:44:47,129 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.name
+[main] 16:44:47,129 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.language
+[main] 16:44:47,129 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.timezone
+[main] 16:44:47,129 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.country
+[main] 16:44:47,129 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.variant
+[main] 16:44:47,129 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.script
+[main] 16:44:47,129 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.home
+[main] 16:44:47,129 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.dir
+[main] 16:44:47,129 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:log4j.configuration
+[main] 16:44:47,129 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding.pkg
+[main] 16:44:47,129 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.separator
+[main] 16:44:47,129 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding
+[main] 16:44:47,129 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:test.results.dir
+[main] 16:44:47,129 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.relative.path
+[main] 16:44:47,129 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.dir
+[main] 16:44:47,129 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:awt.toolkit
+[main] 16:44:47,129 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:outputDir
+[main] 16:44:47,129 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:json.report.dir
+[main] 16:44:47,129 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:json.report.root.dir
+[main] 16:44:47,129 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:org.uncommons.reportng.title
+[main] 16:44:47,129 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:org.uncommons.reportng.escape-output
+[main] 16:44:47,129 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:line.separator
+[main] 16:44:47,254 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setupSuit
+[main] 16:44:47,254 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setupSuit - com.qmetry.qaf.automation.ui is test:false
+[main] 16:44:47,254 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 16:44:47,254 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setupTest
+[main] 16:44:47,254 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setupTest - com.qmetry.qaf.automation.ui is test:false
+[main] 16:44:47,254 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 16:44:47,254 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFMethodInterceptor] Method Order interceptor called
+[main] 16:44:47,269 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setup
+[main] 16:44:47,269 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setup - com.qmetry.qaf.automation.ui is test:false
+[main] 16:44:47,269 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 16:44:47,269 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setupMethod
+[main] 16:44:47,269 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setupMethod - com.qmetry.qaf.automation.ui is test:false
+[main] 16:44:47,269 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 16:44:47,269 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] onTestStart: start
+[main] 16:44:47,269 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: scenario1
+[main] 16:44:47,269 INFO  [com.qmetry.qaf.automation.core.QAFTestBase] Initializing Driver...browser_str:chromeDriver,base_url:http://www.air.irctc.co.in/IndianRailways/,sel_server:localhost,port:4444
+[main] 16:44:47,285 INFO  [com.qmetry.qaf.automation.ui.UiDriverFactory] Driver: chromeDriver
+[main] 16:44:47,363 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] property [webdriver.chrome.driver] value [D:/chromedriver_win32/chromedriver.exe] ignored! It is overriden with System provided value: [D:\chromedriver_win32\chromedriver.exe]
+[main] 16:44:47,363 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] property [webdriver.chrome.driver] value [D:/chromedriver_win32/chromedriver.exe] ignored! It is overriden with System provided value: [D:\chromedriver_win32\chromedriver.exe]
+[Forwarding newSession on session null to remote] 16:44:48,301 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding newSession on session null to remote] 16:44:48,316 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding newSession on session null to remote] 16:44:48,316 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:32950][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+[Forwarding newSession on session null to remote] 16:44:48,332 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:32950][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding newSession on session null to remote] 16:44:48,332 DEBUG [org.apache.http.impl.execchain.MainClientExec] Opening connection {}->http://localhost:32950
+[Forwarding newSession on session null to remote] 16:44:48,332 DEBUG [org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] Connecting to localhost/127.0.0.1:32950
+[Forwarding newSession on session null to remote] 16:44:48,332 DEBUG [org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] Connection established 127.0.0.1:63027<->127.0.0.1:32950
+[Forwarding newSession on session null to remote] 16:44:48,332 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding newSession on session null to remote] 16:44:48,332 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /session HTTP/1.1
+[Forwarding newSession on session null to remote] 16:44:48,332 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding newSession on session null to remote] 16:44:48,332 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding newSession on session null to remote] 16:44:48,332 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /session HTTP/1.1
+[Forwarding newSession on session null to remote] 16:44:48,332 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding newSession on session null to remote] 16:44:48,332 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 379
+[Forwarding newSession on session null to remote] 16:44:48,332 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:32950
+[Forwarding newSession on session null to remote] 16:44:48,332 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding newSession on session null to remote] 16:44:48,332 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_121)
+[Forwarding newSession on session null to remote] 16:44:48,332 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding newSession on session null to remote] 16:44:48,332 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /session HTTP/1.1[\r][\n]"
+[Forwarding newSession on session null to remote] 16:44:48,332 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding newSession on session null to remote] 16:44:48,332 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 379[\r][\n]"
+[Forwarding newSession on session null to remote] 16:44:48,332 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:32950[\r][\n]"
+[Forwarding newSession on session null to remote] 16:44:48,332 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding newSession on session null to remote] 16:44:48,332 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_121)[\r][\n]"
+[Forwarding newSession on session null to remote] 16:44:48,332 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding newSession on session null to remote] 16:44:48,332 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding newSession on session null to remote] 16:44:48,332 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"capabilities": {"desiredCapabilities": {"browserName":"chrome","takesScreenshot":true,"javascriptEnabled":true,"version":"","platform":"ANY","cssSelectorsEnabled":true},"requiredCapabilities": {}},"desiredCapabilities": {"browserName":"chrome","takesScreenshot":true,"javascriptEnabled":true,"version":"","platform":"ANY","cssSelectorsEnabled":true},"requiredCapabilities": {}}"
+[Forwarding newSession on session null to remote] 16:44:49,982 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding newSession on session null to remote] 16:44:49,982 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length:756[\r][\n]"
+[Forwarding newSession on session null to remote] 16:44:49,982 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[Forwarding newSession on session null to remote] 16:44:49,982 DEBUG [org.apache.http.wire] http-outgoing-0 << "Connection:close[\r][\n]"
+[Forwarding newSession on session null to remote] 16:44:49,982 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding newSession on session null to remote] 16:44:49,982 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"sessionId":"6330e1fe5f7aa654352535f97f8100b6","status":0,"value":{"acceptSslCerts":true,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf)","userDataDir":"C:\\Users\\TANVEE~1.MAH\\AppData\\Local\\Temp\\scoped_dir6104_30810"},"cssSelectorsEnabled":true,"databaseEnabled":false,"handlesAlerts":true,"hasTouchScreen":false,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":false,"nativeEvents":true,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platform":"Windows NT","rotatable":false,"takesHeapSnapshot":true,"takesScreenshot":true,"version":"57.0.2987.133","webStorageEnabled":true}}"
+[Forwarding newSession on session null to remote] 16:44:49,982 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 200 OK
+[Forwarding newSession on session null to remote] 16:44:49,982 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length:756
+[Forwarding newSession on session null to remote] 16:44:49,982 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type:application/json; charset=utf-8
+[Forwarding newSession on session null to remote] 16:44:49,982 DEBUG [org.apache.http.headers] http-outgoing-0 << Connection:close
+[Forwarding newSession on session null to remote] 16:44:49,997 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: Close connection
+[Forwarding newSession on session null to remote] 16:44:49,997 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection discarded
+[Forwarding newSession on session null to remote] 16:44:49,997 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:32950][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+[main] 16:44:50,060 DEBUG [com.air_irctc.DomesticTestPage] Launching page: com.air_irctc.DomesticTestPage
+[main] 16:44:50,060 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing get parameters: {"url":"http://www.air.irctc.co.in/IndianRailways/"}
+[Forwarding get on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:50,060 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding get on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:50,060 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding get on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:50,060 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:32950][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+[Forwarding get on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:50,060 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 1][route: {}->http://localhost:32950][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding get on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:50,060 DEBUG [org.apache.http.impl.execchain.MainClientExec] Opening connection {}->http://localhost:32950
+[Forwarding get on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:50,060 DEBUG [org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] Connecting to localhost/127.0.0.1:32950
+[Forwarding get on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:50,060 DEBUG [org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] Connection established 127.0.0.1:63034<->127.0.0.1:32950
+[Forwarding get on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:50,060 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-1: set socket timeout to 10800000
+[Forwarding get on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:50,060 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /session/6330e1fe5f7aa654352535f97f8100b6/url HTTP/1.1
+[Forwarding get on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:50,060 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding get on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:50,060 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding get on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:50,060 DEBUG [org.apache.http.headers] http-outgoing-1 >> POST /session/6330e1fe5f7aa654352535f97f8100b6/url HTTP/1.1
+[Forwarding get on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:50,060 DEBUG [org.apache.http.headers] http-outgoing-1 >> Content-Type: application/json; charset=utf-8
+[Forwarding get on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:50,060 DEBUG [org.apache.http.headers] http-outgoing-1 >> Content-Length: 52
+[Forwarding get on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:50,060 DEBUG [org.apache.http.headers] http-outgoing-1 >> Host: localhost:32950
+[Forwarding get on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:50,060 DEBUG [org.apache.http.headers] http-outgoing-1 >> Connection: Keep-Alive
+[Forwarding get on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:50,060 DEBUG [org.apache.http.headers] http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_121)
+[Forwarding get on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:50,060 DEBUG [org.apache.http.headers] http-outgoing-1 >> Accept-Encoding: gzip,deflate
+[Forwarding get on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:50,060 DEBUG [org.apache.http.wire] http-outgoing-1 >> "POST /session/6330e1fe5f7aa654352535f97f8100b6/url HTTP/1.1[\r][\n]"
+[Forwarding get on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:50,060 DEBUG [org.apache.http.wire] http-outgoing-1 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding get on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:50,060 DEBUG [org.apache.http.wire] http-outgoing-1 >> "Content-Length: 52[\r][\n]"
+[Forwarding get on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:50,060 DEBUG [org.apache.http.wire] http-outgoing-1 >> "Host: localhost:32950[\r][\n]"
+[Forwarding get on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:50,060 DEBUG [org.apache.http.wire] http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding get on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:50,060 DEBUG [org.apache.http.wire] http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_121)[\r][\n]"
+[Forwarding get on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:50,060 DEBUG [org.apache.http.wire] http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding get on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:50,060 DEBUG [org.apache.http.wire] http-outgoing-1 >> "[\r][\n]"
+[Forwarding get on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:50,060 DEBUG [org.apache.http.wire] http-outgoing-1 >> "{"url":"http://www.air.irctc.co.in/IndianRailways/"}"
+[Forwarding get on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:55,493 DEBUG [org.apache.http.wire] http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding get on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:55,493 DEBUG [org.apache.http.wire] http-outgoing-1 << "Content-Length:72[\r][\n]"
+[Forwarding get on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:55,493 DEBUG [org.apache.http.wire] http-outgoing-1 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[Forwarding get on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:55,493 DEBUG [org.apache.http.wire] http-outgoing-1 << "Connection:close[\r][\n]"
+[Forwarding get on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:55,493 DEBUG [org.apache.http.wire] http-outgoing-1 << "[\r][\n]"
+[Forwarding get on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:55,493 DEBUG [org.apache.http.wire] http-outgoing-1 << "{"sessionId":"6330e1fe5f7aa654352535f97f8100b6","status":0,"value":null}"
+[Forwarding get on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:55,493 DEBUG [org.apache.http.headers] http-outgoing-1 << HTTP/1.1 200 OK
+[Forwarding get on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:55,493 DEBUG [org.apache.http.headers] http-outgoing-1 << Content-Length:72
+[Forwarding get on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:55,493 DEBUG [org.apache.http.headers] http-outgoing-1 << Content-Type:application/json; charset=utf-8
+[Forwarding get on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:55,493 DEBUG [org.apache.http.headers] http-outgoing-1 << Connection:close
+[Forwarding get on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:55,493 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-1: Close connection
+[Forwarding get on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:55,493 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection discarded
+[Forwarding get on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:55,493 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 1][route: {}->http://localhost:32950][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+[main] 16:44:55,493 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: get[ param-1: {url=http://www.air.irctc.co.in/IndianRailways/}] Result: null
+[main] 16:44:55,493 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"using":"name","value":"tripType"}
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:55,493 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:55,493 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:55,493 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:32950][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:55,493 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 2][route: {}->http://localhost:32950][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:55,493 DEBUG [org.apache.http.impl.execchain.MainClientExec] Opening connection {}->http://localhost:32950
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:55,493 DEBUG [org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] Connecting to localhost/127.0.0.1:32950
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:55,493 DEBUG [org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] Connection established 127.0.0.1:63051<->127.0.0.1:32950
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:55,493 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-2: set socket timeout to 10800000
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:55,493 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /session/6330e1fe5f7aa654352535f97f8100b6/element HTTP/1.1
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:55,493 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:55,493 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:55,493 DEBUG [org.apache.http.headers] http-outgoing-2 >> POST /session/6330e1fe5f7aa654352535f97f8100b6/element HTTP/1.1
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:55,493 DEBUG [org.apache.http.headers] http-outgoing-2 >> Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:55,493 DEBUG [org.apache.http.headers] http-outgoing-2 >> Content-Length: 35
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:55,493 DEBUG [org.apache.http.headers] http-outgoing-2 >> Host: localhost:32950
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:55,493 DEBUG [org.apache.http.headers] http-outgoing-2 >> Connection: Keep-Alive
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:55,493 DEBUG [org.apache.http.headers] http-outgoing-2 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_121)
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:55,493 DEBUG [org.apache.http.headers] http-outgoing-2 >> Accept-Encoding: gzip,deflate
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:55,493 DEBUG [org.apache.http.wire] http-outgoing-2 >> "POST /session/6330e1fe5f7aa654352535f97f8100b6/element HTTP/1.1[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:55,493 DEBUG [org.apache.http.wire] http-outgoing-2 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:55,493 DEBUG [org.apache.http.wire] http-outgoing-2 >> "Content-Length: 35[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:55,493 DEBUG [org.apache.http.wire] http-outgoing-2 >> "Host: localhost:32950[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:55,493 DEBUG [org.apache.http.wire] http-outgoing-2 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:55,493 DEBUG [org.apache.http.wire] http-outgoing-2 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_121)[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:55,493 DEBUG [org.apache.http.wire] http-outgoing-2 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:55,493 DEBUG [org.apache.http.wire] http-outgoing-2 >> "[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:55,493 DEBUG [org.apache.http.wire] http-outgoing-2 >> "{"value":"tripType","using":"name"}"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:59,543 DEBUG [org.apache.http.wire] http-outgoing-2 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:59,543 DEBUG [org.apache.http.wire] http-outgoing-2 << "Content-Length:266[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:59,543 DEBUG [org.apache.http.wire] http-outgoing-2 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:59,543 DEBUG [org.apache.http.wire] http-outgoing-2 << "Connection:close[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:59,543 DEBUG [org.apache.http.wire] http-outgoing-2 << "[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:59,543 DEBUG [org.apache.http.wire] http-outgoing-2 << "{"sessionId":"6330e1fe5f7aa654352535f97f8100b6","status":100,"value":{"message":"chrome not reachable\n  (Session info: chrome=57.0.2987.133)\n  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.2.9200 x86_64)"}}"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:59,543 DEBUG [org.apache.http.headers] http-outgoing-2 << HTTP/1.1 200 OK
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:59,543 DEBUG [org.apache.http.headers] http-outgoing-2 << Content-Length:266
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:59,543 DEBUG [org.apache.http.headers] http-outgoing-2 << Content-Type:application/json; charset=utf-8
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:59,543 DEBUG [org.apache.http.headers] http-outgoing-2 << Connection:close
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:59,543 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-2: Close connection
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:59,543 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection discarded
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:44:59,543 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 2][route: {}->http://localhost:32950][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+[main] 16:44:59,590 ERROR [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=tripType, using=name}] Result: chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.07 seconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\TANVEE~1.MAH\AppData\Local\Temp\scoped_dir6104_30810}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6330e1fe5f7aa654352535f97f8100b6
+*** Element info: {Using=name, value=tripType}
+[main] 16:45:00,684 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"using":"name","value":"tripType"}
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:00,684 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:00,684 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:00,684 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:32950][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:00,684 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 3][route: {}->http://localhost:32950][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:00,684 DEBUG [org.apache.http.impl.execchain.MainClientExec] Opening connection {}->http://localhost:32950
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:00,684 DEBUG [org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] Connecting to localhost/127.0.0.1:32950
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:00,684 DEBUG [org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] Connection established 127.0.0.1:63065<->127.0.0.1:32950
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:00,684 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-3: set socket timeout to 10800000
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:00,684 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /session/6330e1fe5f7aa654352535f97f8100b6/element HTTP/1.1
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:00,684 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:00,684 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:00,684 DEBUG [org.apache.http.headers] http-outgoing-3 >> POST /session/6330e1fe5f7aa654352535f97f8100b6/element HTTP/1.1
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:00,684 DEBUG [org.apache.http.headers] http-outgoing-3 >> Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:00,684 DEBUG [org.apache.http.headers] http-outgoing-3 >> Content-Length: 35
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:00,684 DEBUG [org.apache.http.headers] http-outgoing-3 >> Host: localhost:32950
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:00,684 DEBUG [org.apache.http.headers] http-outgoing-3 >> Connection: Keep-Alive
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:00,684 DEBUG [org.apache.http.headers] http-outgoing-3 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_121)
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:00,684 DEBUG [org.apache.http.headers] http-outgoing-3 >> Accept-Encoding: gzip,deflate
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:00,684 DEBUG [org.apache.http.wire] http-outgoing-3 >> "POST /session/6330e1fe5f7aa654352535f97f8100b6/element HTTP/1.1[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:00,684 DEBUG [org.apache.http.wire] http-outgoing-3 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:00,684 DEBUG [org.apache.http.wire] http-outgoing-3 >> "Content-Length: 35[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:00,684 DEBUG [org.apache.http.wire] http-outgoing-3 >> "Host: localhost:32950[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:00,684 DEBUG [org.apache.http.wire] http-outgoing-3 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:00,684 DEBUG [org.apache.http.wire] http-outgoing-3 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_121)[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:00,684 DEBUG [org.apache.http.wire] http-outgoing-3 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:00,684 DEBUG [org.apache.http.wire] http-outgoing-3 >> "[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:00,684 DEBUG [org.apache.http.wire] http-outgoing-3 >> "{"value":"tripType","using":"name"}"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:04,762 DEBUG [org.apache.http.wire] http-outgoing-3 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:04,762 DEBUG [org.apache.http.wire] http-outgoing-3 << "Content-Length:266[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:04,762 DEBUG [org.apache.http.wire] http-outgoing-3 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:04,762 DEBUG [org.apache.http.wire] http-outgoing-3 << "Connection:close[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:04,762 DEBUG [org.apache.http.wire] http-outgoing-3 << "[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:04,762 DEBUG [org.apache.http.wire] http-outgoing-3 << "{"sessionId":"6330e1fe5f7aa654352535f97f8100b6","status":100,"value":{"message":"chrome not reachable\n  (Session info: chrome=57.0.2987.133)\n  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.2.9200 x86_64)"}}"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:04,762 DEBUG [org.apache.http.headers] http-outgoing-3 << HTTP/1.1 200 OK
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:04,762 DEBUG [org.apache.http.headers] http-outgoing-3 << Content-Length:266
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:04,762 DEBUG [org.apache.http.headers] http-outgoing-3 << Content-Type:application/json; charset=utf-8
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:04,762 DEBUG [org.apache.http.headers] http-outgoing-3 << Connection:close
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:04,762 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-3: Close connection
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:04,762 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection discarded
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:04,762 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 3][route: {}->http://localhost:32950][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+[main] 16:45:04,762 ERROR [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=tripType, using=name}] Result: chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.08 seconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\TANVEE~1.MAH\AppData\Local\Temp\scoped_dir6104_30810}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6330e1fe5f7aa654352535f97f8100b6
+*** Element info: {Using=name, value=tripType}
+[main] 16:45:05,762 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"using":"name","value":"tripType"}
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:05,762 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:05,762 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:05,762 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:32950][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:05,762 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 4][route: {}->http://localhost:32950][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:05,762 DEBUG [org.apache.http.impl.execchain.MainClientExec] Opening connection {}->http://localhost:32950
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:05,762 DEBUG [org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] Connecting to localhost/127.0.0.1:32950
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:05,762 DEBUG [org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] Connection established 127.0.0.1:63076<->127.0.0.1:32950
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:05,762 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-4: set socket timeout to 10800000
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:05,762 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /session/6330e1fe5f7aa654352535f97f8100b6/element HTTP/1.1
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:05,762 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:05,762 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:05,762 DEBUG [org.apache.http.headers] http-outgoing-4 >> POST /session/6330e1fe5f7aa654352535f97f8100b6/element HTTP/1.1
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:05,762 DEBUG [org.apache.http.headers] http-outgoing-4 >> Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:05,762 DEBUG [org.apache.http.headers] http-outgoing-4 >> Content-Length: 35
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:05,762 DEBUG [org.apache.http.headers] http-outgoing-4 >> Host: localhost:32950
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:05,762 DEBUG [org.apache.http.headers] http-outgoing-4 >> Connection: Keep-Alive
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:05,762 DEBUG [org.apache.http.headers] http-outgoing-4 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_121)
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:05,762 DEBUG [org.apache.http.headers] http-outgoing-4 >> Accept-Encoding: gzip,deflate
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:05,762 DEBUG [org.apache.http.wire] http-outgoing-4 >> "POST /session/6330e1fe5f7aa654352535f97f8100b6/element HTTP/1.1[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:05,762 DEBUG [org.apache.http.wire] http-outgoing-4 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:05,762 DEBUG [org.apache.http.wire] http-outgoing-4 >> "Content-Length: 35[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:05,762 DEBUG [org.apache.http.wire] http-outgoing-4 >> "Host: localhost:32950[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:05,762 DEBUG [org.apache.http.wire] http-outgoing-4 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:05,762 DEBUG [org.apache.http.wire] http-outgoing-4 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_121)[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:05,762 DEBUG [org.apache.http.wire] http-outgoing-4 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:05,762 DEBUG [org.apache.http.wire] http-outgoing-4 >> "[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:05,762 DEBUG [org.apache.http.wire] http-outgoing-4 >> "{"value":"tripType","using":"name"}"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:09,793 DEBUG [org.apache.http.wire] http-outgoing-4 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:09,793 DEBUG [org.apache.http.wire] http-outgoing-4 << "Content-Length:266[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:09,793 DEBUG [org.apache.http.wire] http-outgoing-4 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:09,793 DEBUG [org.apache.http.wire] http-outgoing-4 << "Connection:close[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:09,793 DEBUG [org.apache.http.wire] http-outgoing-4 << "[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:09,793 DEBUG [org.apache.http.wire] http-outgoing-4 << "{"sessionId":"6330e1fe5f7aa654352535f97f8100b6","status":100,"value":{"message":"chrome not reachable\n  (Session info: chrome=57.0.2987.133)\n  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.2.9200 x86_64)"}}"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:09,793 DEBUG [org.apache.http.headers] http-outgoing-4 << HTTP/1.1 200 OK
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:09,793 DEBUG [org.apache.http.headers] http-outgoing-4 << Content-Length:266
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:09,793 DEBUG [org.apache.http.headers] http-outgoing-4 << Content-Type:application/json; charset=utf-8
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:09,793 DEBUG [org.apache.http.headers] http-outgoing-4 << Connection:close
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:09,793 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-4: Close connection
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:09,793 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection discarded
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:09,793 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 4][route: {}->http://localhost:32950][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+[main] 16:45:09,793 ERROR [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=tripType, using=name}] Result: chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.03 seconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\TANVEE~1.MAH\AppData\Local\Temp\scoped_dir6104_30810}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6330e1fe5f7aa654352535f97f8100b6
+*** Element info: {Using=name, value=tripType}
+[main] 16:45:10,793 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"using":"name","value":"tripType"}
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:10,793 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:10,793 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:10,793 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:32950][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:10,793 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 5][route: {}->http://localhost:32950][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:10,793 DEBUG [org.apache.http.impl.execchain.MainClientExec] Opening connection {}->http://localhost:32950
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:10,793 DEBUG [org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] Connecting to localhost/127.0.0.1:32950
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:10,793 DEBUG [org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] Connection established 127.0.0.1:63089<->127.0.0.1:32950
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:10,793 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-5: set socket timeout to 10800000
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:10,793 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /session/6330e1fe5f7aa654352535f97f8100b6/element HTTP/1.1
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:10,793 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:10,793 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:10,793 DEBUG [org.apache.http.headers] http-outgoing-5 >> POST /session/6330e1fe5f7aa654352535f97f8100b6/element HTTP/1.1
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:10,793 DEBUG [org.apache.http.headers] http-outgoing-5 >> Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:10,793 DEBUG [org.apache.http.headers] http-outgoing-5 >> Content-Length: 35
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:10,793 DEBUG [org.apache.http.headers] http-outgoing-5 >> Host: localhost:32950
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:10,793 DEBUG [org.apache.http.headers] http-outgoing-5 >> Connection: Keep-Alive
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:10,793 DEBUG [org.apache.http.headers] http-outgoing-5 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_121)
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:10,793 DEBUG [org.apache.http.headers] http-outgoing-5 >> Accept-Encoding: gzip,deflate
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:10,793 DEBUG [org.apache.http.wire] http-outgoing-5 >> "POST /session/6330e1fe5f7aa654352535f97f8100b6/element HTTP/1.1[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:10,793 DEBUG [org.apache.http.wire] http-outgoing-5 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:10,793 DEBUG [org.apache.http.wire] http-outgoing-5 >> "Content-Length: 35[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:10,793 DEBUG [org.apache.http.wire] http-outgoing-5 >> "Host: localhost:32950[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:10,793 DEBUG [org.apache.http.wire] http-outgoing-5 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:10,793 DEBUG [org.apache.http.wire] http-outgoing-5 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_121)[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:10,793 DEBUG [org.apache.http.wire] http-outgoing-5 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:10,793 DEBUG [org.apache.http.wire] http-outgoing-5 >> "[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:10,793 DEBUG [org.apache.http.wire] http-outgoing-5 >> "{"value":"tripType","using":"name"}"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:14,871 DEBUG [org.apache.http.wire] http-outgoing-5 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:14,871 DEBUG [org.apache.http.wire] http-outgoing-5 << "Content-Length:266[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:14,871 DEBUG [org.apache.http.wire] http-outgoing-5 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:14,871 DEBUG [org.apache.http.wire] http-outgoing-5 << "Connection:close[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:14,871 DEBUG [org.apache.http.wire] http-outgoing-5 << "[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:14,871 DEBUG [org.apache.http.wire] http-outgoing-5 << "{"sessionId":"6330e1fe5f7aa654352535f97f8100b6","status":100,"value":{"message":"chrome not reachable\n  (Session info: chrome=57.0.2987.133)\n  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.2.9200 x86_64)"}}"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:14,871 DEBUG [org.apache.http.headers] http-outgoing-5 << HTTP/1.1 200 OK
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:14,871 DEBUG [org.apache.http.headers] http-outgoing-5 << Content-Length:266
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:14,871 DEBUG [org.apache.http.headers] http-outgoing-5 << Content-Type:application/json; charset=utf-8
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:14,871 DEBUG [org.apache.http.headers] http-outgoing-5 << Connection:close
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:14,871 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-5: Close connection
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:14,871 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection discarded
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:14,871 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 5][route: {}->http://localhost:32950][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+[main] 16:45:14,871 ERROR [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=tripType, using=name}] Result: chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.08 seconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\TANVEE~1.MAH\AppData\Local\Temp\scoped_dir6104_30810}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6330e1fe5f7aa654352535f97f8100b6
+*** Element info: {Using=name, value=tripType}
+[main] 16:45:15,871 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"using":"name","value":"tripType"}
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:15,871 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:15,871 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:15,871 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:32950][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:15,871 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 6][route: {}->http://localhost:32950][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:15,871 DEBUG [org.apache.http.impl.execchain.MainClientExec] Opening connection {}->http://localhost:32950
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:15,871 DEBUG [org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] Connecting to localhost/127.0.0.1:32950
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:15,871 DEBUG [org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] Connection established 127.0.0.1:63100<->127.0.0.1:32950
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:15,871 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-6: set socket timeout to 10800000
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:15,871 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /session/6330e1fe5f7aa654352535f97f8100b6/element HTTP/1.1
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:15,871 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:15,871 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:15,871 DEBUG [org.apache.http.headers] http-outgoing-6 >> POST /session/6330e1fe5f7aa654352535f97f8100b6/element HTTP/1.1
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:15,871 DEBUG [org.apache.http.headers] http-outgoing-6 >> Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:15,871 DEBUG [org.apache.http.headers] http-outgoing-6 >> Content-Length: 35
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:15,871 DEBUG [org.apache.http.headers] http-outgoing-6 >> Host: localhost:32950
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:15,871 DEBUG [org.apache.http.headers] http-outgoing-6 >> Connection: Keep-Alive
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:15,871 DEBUG [org.apache.http.headers] http-outgoing-6 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_121)
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:15,871 DEBUG [org.apache.http.headers] http-outgoing-6 >> Accept-Encoding: gzip,deflate
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:15,871 DEBUG [org.apache.http.wire] http-outgoing-6 >> "POST /session/6330e1fe5f7aa654352535f97f8100b6/element HTTP/1.1[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:15,871 DEBUG [org.apache.http.wire] http-outgoing-6 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:15,871 DEBUG [org.apache.http.wire] http-outgoing-6 >> "Content-Length: 35[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:15,871 DEBUG [org.apache.http.wire] http-outgoing-6 >> "Host: localhost:32950[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:15,871 DEBUG [org.apache.http.wire] http-outgoing-6 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:15,871 DEBUG [org.apache.http.wire] http-outgoing-6 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_121)[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:15,871 DEBUG [org.apache.http.wire] http-outgoing-6 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:15,871 DEBUG [org.apache.http.wire] http-outgoing-6 >> "[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:15,871 DEBUG [org.apache.http.wire] http-outgoing-6 >> "{"value":"tripType","using":"name"}"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:19,942 DEBUG [org.apache.http.wire] http-outgoing-6 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:19,942 DEBUG [org.apache.http.wire] http-outgoing-6 << "Content-Length:266[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:19,942 DEBUG [org.apache.http.wire] http-outgoing-6 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:19,942 DEBUG [org.apache.http.wire] http-outgoing-6 << "Connection:close[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:19,942 DEBUG [org.apache.http.wire] http-outgoing-6 << "[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:19,942 DEBUG [org.apache.http.wire] http-outgoing-6 << "{"sessionId":"6330e1fe5f7aa654352535f97f8100b6","status":100,"value":{"message":"chrome not reachable\n  (Session info: chrome=57.0.2987.133)\n  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.2.9200 x86_64)"}}"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:19,942 DEBUG [org.apache.http.headers] http-outgoing-6 << HTTP/1.1 200 OK
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:19,942 DEBUG [org.apache.http.headers] http-outgoing-6 << Content-Length:266
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:19,942 DEBUG [org.apache.http.headers] http-outgoing-6 << Content-Type:application/json; charset=utf-8
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:19,942 DEBUG [org.apache.http.headers] http-outgoing-6 << Connection:close
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:19,942 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-6: Close connection
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:19,942 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection discarded
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:19,942 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 6][route: {}->http://localhost:32950][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+[main] 16:45:19,942 ERROR [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=tripType, using=name}] Result: chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.07 seconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\TANVEE~1.MAH\AppData\Local\Temp\scoped_dir6104_30810}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6330e1fe5f7aa654352535f97f8100b6
+*** Element info: {Using=name, value=tripType}
+[main] 16:45:20,942 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"using":"name","value":"tripType"}
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:20,942 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:20,942 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:20,942 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:32950][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:20,942 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 7][route: {}->http://localhost:32950][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:20,942 DEBUG [org.apache.http.impl.execchain.MainClientExec] Opening connection {}->http://localhost:32950
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:20,942 DEBUG [org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] Connecting to localhost/127.0.0.1:32950
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:20,942 DEBUG [org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] Connection established 127.0.0.1:63115<->127.0.0.1:32950
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:20,942 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-7: set socket timeout to 10800000
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:20,942 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /session/6330e1fe5f7aa654352535f97f8100b6/element HTTP/1.1
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:20,942 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:20,942 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:20,942 DEBUG [org.apache.http.headers] http-outgoing-7 >> POST /session/6330e1fe5f7aa654352535f97f8100b6/element HTTP/1.1
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:20,942 DEBUG [org.apache.http.headers] http-outgoing-7 >> Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:20,942 DEBUG [org.apache.http.headers] http-outgoing-7 >> Content-Length: 35
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:20,942 DEBUG [org.apache.http.headers] http-outgoing-7 >> Host: localhost:32950
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:20,942 DEBUG [org.apache.http.headers] http-outgoing-7 >> Connection: Keep-Alive
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:20,942 DEBUG [org.apache.http.headers] http-outgoing-7 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_121)
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:20,942 DEBUG [org.apache.http.headers] http-outgoing-7 >> Accept-Encoding: gzip,deflate
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:20,942 DEBUG [org.apache.http.wire] http-outgoing-7 >> "POST /session/6330e1fe5f7aa654352535f97f8100b6/element HTTP/1.1[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:20,942 DEBUG [org.apache.http.wire] http-outgoing-7 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:20,942 DEBUG [org.apache.http.wire] http-outgoing-7 >> "Content-Length: 35[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:20,942 DEBUG [org.apache.http.wire] http-outgoing-7 >> "Host: localhost:32950[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:20,942 DEBUG [org.apache.http.wire] http-outgoing-7 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:20,942 DEBUG [org.apache.http.wire] http-outgoing-7 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_121)[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:20,942 DEBUG [org.apache.http.wire] http-outgoing-7 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:20,942 DEBUG [org.apache.http.wire] http-outgoing-7 >> "[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:20,942 DEBUG [org.apache.http.wire] http-outgoing-7 >> "{"value":"tripType","using":"name"}"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:24,973 DEBUG [org.apache.http.wire] http-outgoing-7 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:24,973 DEBUG [org.apache.http.wire] http-outgoing-7 << "Content-Length:266[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:24,973 DEBUG [org.apache.http.wire] http-outgoing-7 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:24,973 DEBUG [org.apache.http.wire] http-outgoing-7 << "Connection:close[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:24,973 DEBUG [org.apache.http.wire] http-outgoing-7 << "[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:24,973 DEBUG [org.apache.http.wire] http-outgoing-7 << "{"sessionId":"6330e1fe5f7aa654352535f97f8100b6","status":100,"value":{"message":"chrome not reachable\n  (Session info: chrome=57.0.2987.133)\n  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.2.9200 x86_64)"}}"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:24,973 DEBUG [org.apache.http.headers] http-outgoing-7 << HTTP/1.1 200 OK
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:24,973 DEBUG [org.apache.http.headers] http-outgoing-7 << Content-Length:266
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:24,973 DEBUG [org.apache.http.headers] http-outgoing-7 << Content-Type:application/json; charset=utf-8
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:24,973 DEBUG [org.apache.http.headers] http-outgoing-7 << Connection:close
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:24,973 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-7: Close connection
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:24,973 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection discarded
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:24,973 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 7][route: {}->http://localhost:32950][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+[main] 16:45:24,973 ERROR [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=tripType, using=name}] Result: chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.03 seconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\TANVEE~1.MAH\AppData\Local\Temp\scoped_dir6104_30810}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6330e1fe5f7aa654352535f97f8100b6
+*** Element info: {Using=name, value=tripType}
+[main] 16:45:25,973 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"using":"name","value":"tripType"}
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:25,973 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:25,973 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:25,973 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:32950][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:25,973 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 8][route: {}->http://localhost:32950][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:25,973 DEBUG [org.apache.http.impl.execchain.MainClientExec] Opening connection {}->http://localhost:32950
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:25,973 DEBUG [org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] Connecting to localhost/127.0.0.1:32950
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:25,973 DEBUG [org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] Connection established 127.0.0.1:63126<->127.0.0.1:32950
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:25,973 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-8: set socket timeout to 10800000
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:25,973 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /session/6330e1fe5f7aa654352535f97f8100b6/element HTTP/1.1
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:25,973 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:25,973 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:25,973 DEBUG [org.apache.http.headers] http-outgoing-8 >> POST /session/6330e1fe5f7aa654352535f97f8100b6/element HTTP/1.1
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:25,973 DEBUG [org.apache.http.headers] http-outgoing-8 >> Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:25,973 DEBUG [org.apache.http.headers] http-outgoing-8 >> Content-Length: 35
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:25,973 DEBUG [org.apache.http.headers] http-outgoing-8 >> Host: localhost:32950
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:25,973 DEBUG [org.apache.http.headers] http-outgoing-8 >> Connection: Keep-Alive
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:25,973 DEBUG [org.apache.http.headers] http-outgoing-8 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_121)
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:25,973 DEBUG [org.apache.http.headers] http-outgoing-8 >> Accept-Encoding: gzip,deflate
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:25,973 DEBUG [org.apache.http.wire] http-outgoing-8 >> "POST /session/6330e1fe5f7aa654352535f97f8100b6/element HTTP/1.1[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:25,973 DEBUG [org.apache.http.wire] http-outgoing-8 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:25,973 DEBUG [org.apache.http.wire] http-outgoing-8 >> "Content-Length: 35[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:25,973 DEBUG [org.apache.http.wire] http-outgoing-8 >> "Host: localhost:32950[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:25,973 DEBUG [org.apache.http.wire] http-outgoing-8 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:25,973 DEBUG [org.apache.http.wire] http-outgoing-8 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_121)[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:25,973 DEBUG [org.apache.http.wire] http-outgoing-8 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:25,973 DEBUG [org.apache.http.wire] http-outgoing-8 >> "[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:25,973 DEBUG [org.apache.http.wire] http-outgoing-8 >> "{"value":"tripType","using":"name"}"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:30,020 DEBUG [org.apache.http.wire] http-outgoing-8 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:30,020 DEBUG [org.apache.http.wire] http-outgoing-8 << "Content-Length:266[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:30,020 DEBUG [org.apache.http.wire] http-outgoing-8 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:30,020 DEBUG [org.apache.http.wire] http-outgoing-8 << "Connection:close[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:30,020 DEBUG [org.apache.http.wire] http-outgoing-8 << "[\r][\n]"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:30,020 DEBUG [org.apache.http.wire] http-outgoing-8 << "{"sessionId":"6330e1fe5f7aa654352535f97f8100b6","status":100,"value":{"message":"chrome not reachable\n  (Session info: chrome=57.0.2987.133)\n  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.2.9200 x86_64)"}}"
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:30,020 DEBUG [org.apache.http.headers] http-outgoing-8 << HTTP/1.1 200 OK
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:30,020 DEBUG [org.apache.http.headers] http-outgoing-8 << Content-Length:266
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:30,020 DEBUG [org.apache.http.headers] http-outgoing-8 << Content-Type:application/json; charset=utf-8
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:30,020 DEBUG [org.apache.http.headers] http-outgoing-8 << Connection:close
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:30,020 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-8: Close connection
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:30,020 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection discarded
+[Forwarding findElement on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:30,020 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 8][route: {}->http://localhost:32950][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+[main] 16:45:30,020 ERROR [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=tripType, using=name}] Result: chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.05 seconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\TANVEE~1.MAH\AppData\Local\Temp\scoped_dir6104_30810}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6330e1fe5f7aa654352535f97f8100b6
+*** Element info: {Using=name, value=tripType}
+[main] 16:45:30,020 DEBUG [com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement] Executing listener com.qmetry.qaf.automation.ui.WebDriverCommandLogger
+[main] 16:45:30,020 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: clickElement[ param-1: By.name: tripType param-2: {"id":"-1"}] Result: Expected condition failed: waiting for presence of element located by: By.name: tripType (tried for 30 second(s) with 1000 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'
+Driver info: driver.version: QAFExtendedWebDriver
+[main] 16:45:30,020 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: scenario1 - domestictest is test:true
+[main] 16:45:30,020 ERROR [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.name: tripType (tried for 30 second(s) with 1000 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'
+Driver info: driver.version: QAFExtendedWebDriver
+[main] 16:45:30,035 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing screenshot parameters: {}
+[Forwarding screenshot on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:30,035 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding screenshot on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:30,035 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding screenshot on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:30,035 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:32950][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+[Forwarding screenshot on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:30,035 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 9][route: {}->http://localhost:32950][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding screenshot on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:30,035 DEBUG [org.apache.http.impl.execchain.MainClientExec] Opening connection {}->http://localhost:32950
+[Forwarding screenshot on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:30,035 DEBUG [org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] Connecting to localhost/127.0.0.1:32950
+[Forwarding screenshot on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:30,035 DEBUG [org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] Connection established 127.0.0.1:63137<->127.0.0.1:32950
+[Forwarding screenshot on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:30,035 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-9: set socket timeout to 10800000
+[Forwarding screenshot on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:30,035 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request GET /session/6330e1fe5f7aa654352535f97f8100b6/screenshot HTTP/1.1
+[Forwarding screenshot on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:30,035 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding screenshot on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:30,035 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding screenshot on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:30,035 DEBUG [org.apache.http.headers] http-outgoing-9 >> GET /session/6330e1fe5f7aa654352535f97f8100b6/screenshot HTTP/1.1
+[Forwarding screenshot on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:30,035 DEBUG [org.apache.http.headers] http-outgoing-9 >> Cache-Control: no-cache
+[Forwarding screenshot on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:30,035 DEBUG [org.apache.http.headers] http-outgoing-9 >> Host: localhost:32950
+[Forwarding screenshot on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:30,035 DEBUG [org.apache.http.headers] http-outgoing-9 >> Connection: Keep-Alive
+[Forwarding screenshot on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:30,035 DEBUG [org.apache.http.headers] http-outgoing-9 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_121)
+[Forwarding screenshot on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:30,035 DEBUG [org.apache.http.headers] http-outgoing-9 >> Accept-Encoding: gzip,deflate
+[Forwarding screenshot on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:30,035 DEBUG [org.apache.http.wire] http-outgoing-9 >> "GET /session/6330e1fe5f7aa654352535f97f8100b6/screenshot HTTP/1.1[\r][\n]"
+[Forwarding screenshot on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:30,035 DEBUG [org.apache.http.wire] http-outgoing-9 >> "Cache-Control: no-cache[\r][\n]"
+[Forwarding screenshot on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:30,035 DEBUG [org.apache.http.wire] http-outgoing-9 >> "Host: localhost:32950[\r][\n]"
+[Forwarding screenshot on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:30,035 DEBUG [org.apache.http.wire] http-outgoing-9 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding screenshot on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:30,035 DEBUG [org.apache.http.wire] http-outgoing-9 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_121)[\r][\n]"
+[Forwarding screenshot on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:30,035 DEBUG [org.apache.http.wire] http-outgoing-9 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding screenshot on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:30,035 DEBUG [org.apache.http.wire] http-outgoing-9 >> "[\r][\n]"
+[Forwarding screenshot on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:34,082 DEBUG [org.apache.http.wire] http-outgoing-9 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding screenshot on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:34,082 DEBUG [org.apache.http.wire] http-outgoing-9 << "Content-Length:266[\r][\n]"
+[Forwarding screenshot on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:34,082 DEBUG [org.apache.http.wire] http-outgoing-9 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[Forwarding screenshot on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:34,082 DEBUG [org.apache.http.wire] http-outgoing-9 << "Connection:close[\r][\n]"
+[Forwarding screenshot on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:34,082 DEBUG [org.apache.http.wire] http-outgoing-9 << "[\r][\n]"
+[Forwarding screenshot on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:34,082 DEBUG [org.apache.http.wire] http-outgoing-9 << "{"sessionId":"6330e1fe5f7aa654352535f97f8100b6","status":100,"value":{"message":"chrome not reachable\n  (Session info: chrome=57.0.2987.133)\n  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.2.9200 x86_64)"}}"
+[Forwarding screenshot on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:34,082 DEBUG [org.apache.http.headers] http-outgoing-9 << HTTP/1.1 200 OK
+[Forwarding screenshot on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:34,082 DEBUG [org.apache.http.headers] http-outgoing-9 << Content-Length:266
+[Forwarding screenshot on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:34,082 DEBUG [org.apache.http.headers] http-outgoing-9 << Content-Type:application/json; charset=utf-8
+[Forwarding screenshot on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:34,082 DEBUG [org.apache.http.headers] http-outgoing-9 << Connection:close
+[Forwarding screenshot on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:34,082 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-9: Close connection
+[Forwarding screenshot on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:34,082 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection discarded
+[Forwarding screenshot on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:34,082 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 9][route: {}->http://localhost:32950][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+[main] 16:45:34,082 ERROR [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: screenshot[ param-1: {}] Result: chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.05 seconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\TANVEE~1.MAH\AppData\Local\Temp\scoped_dir6104_30810}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6330e1fe5f7aa654352535f97f8100b6
+[main] 16:45:34,098 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 16:45:34,114 DEBUG [com.qmetry.qaf.automation.testng.report.ReporterUtil] method:  result: fail groups: {description=fill domestic form, groups=[Ljava.lang.String;@291f18, name=scenario1, sign=Domestic_Scenario.scenario1()[pri:0, instance:domestictest.Domestic_Scenario@17c1bced]}
+[main] 16:45:34,129 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: afterMethod
+[main] 16:45:34,129 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: afterMethod - com.qmetry.qaf.automation.ui is test:false
+[main] 16:45:34,129 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 16:45:34,129 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: afterClass
+[main] 16:45:34,129 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: afterClass - com.qmetry.qaf.automation.ui is test:false
+[main] 16:45:34,129 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 16:45:34,129 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: afterTest
+[main] 16:45:34,129 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing quit parameters: {}
+[Forwarding quit on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:34,129 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding quit on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:34,129 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding quit on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:34,129 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:32950][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+[Forwarding quit on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:34,129 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 10][route: {}->http://localhost:32950][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding quit on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:34,129 DEBUG [org.apache.http.impl.execchain.MainClientExec] Opening connection {}->http://localhost:32950
+[Forwarding quit on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:34,129 DEBUG [org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] Connecting to localhost/127.0.0.1:32950
+[Forwarding quit on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:34,129 DEBUG [org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] Connection established 127.0.0.1:63148<->127.0.0.1:32950
+[Forwarding quit on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:34,129 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-10: set socket timeout to 10800000
+[Forwarding quit on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:34,129 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request DELETE /session/6330e1fe5f7aa654352535f97f8100b6 HTTP/1.1
+[Forwarding quit on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:34,129 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding quit on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:34,129 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding quit on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:34,129 DEBUG [org.apache.http.headers] http-outgoing-10 >> DELETE /session/6330e1fe5f7aa654352535f97f8100b6 HTTP/1.1
+[Forwarding quit on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:34,129 DEBUG [org.apache.http.headers] http-outgoing-10 >> Host: localhost:32950
+[Forwarding quit on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:34,129 DEBUG [org.apache.http.headers] http-outgoing-10 >> Connection: Keep-Alive
+[Forwarding quit on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:34,129 DEBUG [org.apache.http.headers] http-outgoing-10 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_121)
+[Forwarding quit on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:34,129 DEBUG [org.apache.http.headers] http-outgoing-10 >> Accept-Encoding: gzip,deflate
+[Forwarding quit on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:34,129 DEBUG [org.apache.http.wire] http-outgoing-10 >> "DELETE /session/6330e1fe5f7aa654352535f97f8100b6 HTTP/1.1[\r][\n]"
+[Forwarding quit on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:34,129 DEBUG [org.apache.http.wire] http-outgoing-10 >> "Host: localhost:32950[\r][\n]"
+[Forwarding quit on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:34,129 DEBUG [org.apache.http.wire] http-outgoing-10 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding quit on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:34,129 DEBUG [org.apache.http.wire] http-outgoing-10 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_121)[\r][\n]"
+[Forwarding quit on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:34,129 DEBUG [org.apache.http.wire] http-outgoing-10 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding quit on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:34,129 DEBUG [org.apache.http.wire] http-outgoing-10 >> "[\r][\n]"
+[Forwarding quit on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:34,145 DEBUG [org.apache.http.wire] http-outgoing-10 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding quit on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:34,145 DEBUG [org.apache.http.wire] http-outgoing-10 << "Content-Length:72[\r][\n]"
+[Forwarding quit on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:34,145 DEBUG [org.apache.http.wire] http-outgoing-10 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[Forwarding quit on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:34,145 DEBUG [org.apache.http.wire] http-outgoing-10 << "Connection:close[\r][\n]"
+[Forwarding quit on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:34,145 DEBUG [org.apache.http.wire] http-outgoing-10 << "[\r][\n]"
+[Forwarding quit on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:34,145 DEBUG [org.apache.http.wire] http-outgoing-10 << "{"sessionId":"6330e1fe5f7aa654352535f97f8100b6","status":0,"value":null}"
+[Forwarding quit on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:34,145 DEBUG [org.apache.http.headers] http-outgoing-10 << HTTP/1.1 200 OK
+[Forwarding quit on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:34,145 DEBUG [org.apache.http.headers] http-outgoing-10 << Content-Length:72
+[Forwarding quit on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:34,145 DEBUG [org.apache.http.headers] http-outgoing-10 << Content-Type:application/json; charset=utf-8
+[Forwarding quit on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:34,145 DEBUG [org.apache.http.headers] http-outgoing-10 << Connection:close
+[Forwarding quit on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:34,145 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-10: Close connection
+[Forwarding quit on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:34,145 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection discarded
+[Forwarding quit on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:34,145 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 10][route: {}->http://localhost:32950][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+[Forwarding quit on session 6330e1fe5f7aa654352535f97f8100b6 to remote] 16:45:34,145 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Closing connections idle longer than 0 SECONDS
+[main] 16:45:34,145 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: quit[ param-1: {}] Result: null
+[main] 16:45:34,145 INFO  [com.qmetry.qaf.automation.ui.UiDriverFactory] UI-driver tear down complete...
+[main] 16:45:34,145 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: afterTest - com.qmetry.qaf.automation.ui is test:false
+[main] 16:45:34,145 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 16:45:34,176 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] onfinish testcntext: start
+[main] 16:45:34,176 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: afterSuit
+[main] 16:45:34,192 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: afterSuit - com.qmetry.qaf.automation.ui is test:false
+[main] 16:45:34,192 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 16:45:34,192 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] onFinish: start
+[main] 16:45:34,192 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] onFinish: done
+[Thread-0] 16:45:34,317 INFO  [com.qmetry.qaf.automation.ui.webdriver.ChromeDriverHelper] Stopping chrome driver service.
+[Thread-0] 16:45:34,949 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] property [webdriver.chrome.driver] value [D:/chromedriver_win32/chromedriver.exe] ignored! It is overriden with System provided value: [D:\chromedriver_win32\chromedriver.exe]
+[Thread-0] 16:45:35,136 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] property [webdriver.chrome.driver] value [D:/chromedriver_win32/chromedriver.exe] ignored! It is overriden with System provided value: [D:\chromedriver_win32\chromedriver.exe]

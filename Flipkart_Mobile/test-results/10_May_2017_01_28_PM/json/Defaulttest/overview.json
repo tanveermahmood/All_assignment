@@ -1,0 +1,73 @@
+{
+  "total": 1,
+  "pass": 0,
+  "fail": 1,
+  "skip": 0,
+  "classes": [
+    "com.flipkart_mobile.step.Flipkart_homeeststep"
+  ],
+  "envInfo": {
+    "execution-env-info": {
+      "os.version": "6.2",
+      "host": "ICPL11544",
+      "user.name": "tanveer.mahmood",
+      "os.arch": "amd64",
+      "java.arch": "64",
+      "java.version": "1.7.0_51",
+      "java.vendor": "Oracle Corporation",
+      "os.name": "Windows 8"
+    },
+    "isfw-build-info": {
+      "qaf-Build-Time": "03-Jan-2017 14:01:00",
+      "qaf-Revision": "10",
+      "qaf-Type": "core",
+      "qaf-Version": "2.1"
+    },
+    "browser-desired-capabilities": {
+      "automationName": "Appium",
+      "newCommandTimeout": "120",
+      "cssSelectorsEnabled": true,
+      "javascriptEnabled": "true",
+      "deviceName": "192.168.32.101:5555",
+      "platformName": "Android",
+      "driver.class": "io.appium.java_client.android.AndroidDriver",
+      "appActivity": "com.flipkart.android.activity.HomeFragmentHolderActivity",
+      "appium-version": "3.3.0",
+      "browser_name": "",
+      "appPackage": "com.flipkart.android",
+      "takesScreenshot": true
+    },
+    "run-parameters": {
+      "resources": "resources",
+      "baseurl": "http://localhost:4723/wd/hub"
+    },
+    "browser-actual-capabilities": {
+      "automationName": "Appium",
+      "platform": "LINUX",
+      "javascriptEnabled": "true",
+      "driver.class": "io.appium.java_client.android.AndroidDriver",
+      "appActivity": "com.flipkart.android.activity.HomeFragmentHolderActivity",
+      "deviceModel": "Samsung Galaxy Note 3 - 4.3 - API 18 - 1080x1920",
+      "networkConnectionEnabled": "true",
+      "desired": "{automationName=Appium, newCommandTimeout=120, cssSelectorsEnabled=true, javascriptEnabled=true, deviceName=192.168.32.101:5555, platformName=Android, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, appium-version=3.3.0, browser_name=, appPackage=com.flipkart.android, takesScreenshot=true}",
+      "locationContextEnabled": "false",
+      "deviceUDID": "192.168.32.101:5555",
+      "appPackage": "com.flipkart.android",
+      "newCommandTimeout": "120",
+      "platformVersion": "4.3",
+      "databaseEnabled": "false",
+      "cssSelectorsEnabled": "true",
+      "deviceScreenSize": "1080x1920",
+      "deviceName": "192.168.32.101:5555",
+      "platformName": "Android",
+      "deviceManufacturer": "Genymotion",
+      "appium-version": "3.3.0",
+      "browser_name": "",
+      "webStorageEnabled": "false",
+      "warnings": "{}",
+      "takesScreenshot": "true"
+    }
+  },
+  "startTime": 1494423022906,
+  "endTime": 1494425232857
+}

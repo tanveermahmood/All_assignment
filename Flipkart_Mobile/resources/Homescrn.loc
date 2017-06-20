@@ -1,0 +1,1 @@
+Homesrcn.img.logo = {\"locator\":\"xpath=//android.widget.TextView[@text='Home']\",\"desc\":\"verfication of hoem screen\"}

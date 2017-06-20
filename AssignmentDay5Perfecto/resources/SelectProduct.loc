@@ -1,0 +1,1 @@
+selectproduct.lnk.productname = {\"locator\":\"xpath=//p[text()='%s']\",\"desc\":\"select productlocators\"}

@@ -1,0 +1,2 @@
+span.span = {\"locator\":\"css=._1QZ6fC>span\",\"desc\":\"Text span\",\"frame\":\"\"}
+img.great.deals = {\"locator\":\"xpath=.//*[@id='container']/div/div[2]/div[2]/div[2]/div/div[1]/div/div[4]/a/div/img[2]\",\"desc\":\"Image of Great Deals\"}

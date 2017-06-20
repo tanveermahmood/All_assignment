@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="1" time="73.96" errors="0" skipped="0" tests="1" name="TestSuite">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_51\jre\bin"/>
+    <property name="java.vm.version" value="24.51-b03"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\New_Project\Flipkart_Mobile"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\New_Project\Flipkart_Mobile"/>
+    <property name="java.runtime.version" value="1.7.0_51-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_51\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\TANVEE~1.MAH\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8"/>
+    <property name="classworlds.conf" value="D:\New_Project\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8463693251402957677.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_51\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_121/bin/server;C:/Program Files/Java/jre1.8.0_121/bin;C:/Program Files/Java/jre1.8.0_121/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\TortoiseSVN\bin;D:\maven\bin;D:\Gaurav\Software\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.7.0_51\bin;C:\Program Files\Java\jre7\bin;D:\Gaurav\Software\apache-ant-1.9.6\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Java\jdk1.8.0_121;C:\apache-ant-1.9.6\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\GitExtensions\;C:\Program Files (x86)\Kaspersky Lab\Kaspersky Endpoint Security 10 for Windows SP2\;C:\Program Files\nodejs\;C:\Users\tanveer.mahmood\AppData\Local\Android\sdk\build-tools;C:\Users\tanveer.mahmood\AppData\Local\Android\sdk\platform-tools;C:\Users\tanveer.mahmood\AppData\Local\Android\sdk\tools;C:\Users\tanveer.mahmood\AppData\Roaming\npm;D:\QAS1.0.9;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.2"/>
+    <property name="user.home" value="C:\Users\tanveer.mahmood"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="tanveer.mahmood"/>
+    <property name="java.class.path" value="/D:/QAS1.0.9/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_51\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_51"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_51\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_51\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_51\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\New_Project\Flipkart_Mobile\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase time="60.124" classname="com.flipkart_mobile.step.Flipkart_homeeststep" name="search">
+    <failure message="Timed out after 30 seconds waiting for presence of element located by: By.xpath: //android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ICPL11544&apos;, ip: &apos;10.11.31.147&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_51&apos;
+Driver info: driver.version: QAFExtendedWebDriver" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for presence of element located by: By.xpath: //android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ICPL11544&apos;, ip: &apos;10.11.31.147&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_51&apos;
+Driver info: driver.version: QAFExtendedWebDriver
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:292)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.load(QAFExtendedWebDriver.java:214)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.load(QAFExtendedWebElement.java:284)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:239)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at com.flipkart_mobile.page.Product_resultTestPage.selectProduct(Product_resultTestPage.java:45)
+	at com.flipkart_mobile.step.Flipkart_homeeststep.search(Flipkart_homeeststep.java:22)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 124 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ICPL11544&apos;, ip: &apos;10.11.31.147&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_51&apos;
+*** Element info: {Using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}
+Session ID: 83015cd8-15a5-4b2d-9760-a26ce62dc0b9
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{automationName=Appium, platform=LINUX, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, deviceModel=Samsung Galaxy Note 3 - 4.3 - API 18 - 1080x1920, networkConnectionEnabled=true, desired={automationName=Appium, newCommandTimeout=120, cssSelectorsEnabled=true, javascriptEnabled=true, deviceName=192.168.32.101:5555, platformName=Android, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, appium-version=3.3.0, browser_name=, appPackage=com.flipkart.android, takesScreenshot=true}, locationContextEnabled=false, deviceUDID=192.168.32.101:5555, appPackage=com.flipkart.android, newCommandTimeout=120, platformVersion=4.3, databaseEnabled=false, cssSelectorsEnabled=true, deviceScreenSize=1080x1920, deviceName=192.168.32.101:5555, platformName=Android, deviceManufacturer=Genymotion, appium-version=3.3.0, browser_name=, webStorageEnabled=false, warnings={}, takesScreenshot=true}]
+	at sun.reflect.GeneratedConstructorAccessor11.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:234)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElementByXPath(QAFExtendedWebDriver.java:396)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElementByXPath(QAFExtendedWebDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElement(QAFExtendedWebDriver.java:169)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElement(QAFExtendedWebDriver.java:1)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:911)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:41)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:181)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:178)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	... 39 more
+</failure>
+    <system-out>[ConfigurationManager] - ISFW build info: {qaf-Build-Time=03-Jan-2017 14:01:00, qaf-Revision=10, qaf-Type=core, qaf-Version=2.1}
+[ConfigurationManager] - Resource dir: D:\New_Project\Flipkart_Mobile\resources. Found property files to load: 3
+[ConfigurationManager] - Resource dir: D:\New_Project\Flipkart_Mobile\resources. Found property files to load: 0
+[QAFTestBase] - Initializing Driver...browser_str:appiumDriver,base_url:http://localhost:4723/wd/hub,sel_server:localhost,port:4723
+[UiDriverFactory] - Driver: appiumDriver
+driver init done
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;id&quot;,&quot;value&quot;:&quot;com.flipkart.android:id/btn_skip&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {using=id, value=com.flipkart.android:id/btn_skip}] Result: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 391 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ICPL11544&apos;, ip: &apos;10.11.31.147&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_51&apos;
+*** Element info: {Using=id, value=com.flipkart.android:id/btn_skip}
+Session ID: 83015cd8-15a5-4b2d-9760-a26ce62dc0b9
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{automationName=Appium, platform=LINUX, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, deviceModel=Samsung Galaxy Note 3 - 4.3 - API 18 - 1080x1920, networkConnectionEnabled=true, desired={automationName=Appium, newCommandTimeout=120, cssSelectorsEnabled=true, javascriptEnabled=true, deviceName=192.168.32.101:5555, platformName=Android, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, appium-version=3.3.0, browser_name=, appPackage=com.flipkart.android, takesScreenshot=true}, locationContextEnabled=false, deviceUDID=192.168.32.101:5555, appPackage=com.flipkart.android, newCommandTimeout=120, platformVersion=4.3, databaseEnabled=false, cssSelectorsEnabled=true, deviceScreenSize=1080x1920, deviceName=192.168.32.101:5555, platformName=Android, deviceManufacturer=Genymotion, appium-version=3.3.0, browser_name=, webStorageEnabled=false, warnings={}, takesScreenshot=true}]
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;id&quot;,&quot;value&quot;:&quot;com.flipkart.android:id/btn_skip&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {using=id, value=com.flipkart.android:id/btn_skip}] Result: id: 1
+[WebDriverCommandLogger] - Executing clickElement element: By.id: com.flipkart.android:id/btn_skip parameters: {&quot;id&quot;:&quot;1&quot;}
+[WebDriverCommandLogger] - command: clickElement[ param-1: By.id: com.flipkart.android:id/btn_skip param-2: {&quot;id&quot;:&quot;1&quot;}] Result: clickElement:true
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;accessibility id&quot;,&quot;value&quot;:&quot;Open Drawer&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {using=accessibility id, value=Open Drawer}] Result: [id: 2]
+[WebDriverCommandLogger] - Executing isElementEnabled element: [unknown locator] parameters: {&quot;id&quot;:&quot;2&quot;}
+[WebDriverCommandLogger] - command: isElementEnabled[ param-1: [unknown locator] param-2: {&quot;id&quot;:&quot;2&quot;}] Result: isElementEnabled:true
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;accessibility id&quot;,&quot;value&quot;:&quot;Open Drawer&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {using=accessibility id, value=Open Drawer}] Result: [id: 3]
+[WebDriverCommandLogger] - Executing clickElement element: [unknown locator] parameters: {&quot;id&quot;:&quot;3&quot;}
+[WebDriverCommandLogger] - command: clickElement[ param-1: [unknown locator] param-2: {&quot;id&quot;:&quot;3&quot;}] Result: clickElement:true
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//android.widget.TextView[@text=&apos;Electronics&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {using=xpath, value=//android.widget.TextView[@text=&apos;Electronics&apos;]}] Result: [id: 4]
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//android.widget.TextView[@text=&apos;Electronics&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {using=xpath, value=//android.widget.TextView[@text=&apos;Electronics&apos;]}] Result: id: 5
+[WebDriverCommandLogger] - Executing isElementDisplayed element: By.xpath: //android.widget.TextView[@text=&apos;Electronics&apos;] parameters: {&quot;id&quot;:&quot;5&quot;}
+[WebDriverCommandLogger] - command: isElementDisplayed[ param-1: By.xpath: //android.widget.TextView[@text=&apos;Electronics&apos;] param-2: {&quot;id&quot;:&quot;5&quot;}] Result: isElementDisplayed:true
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//android.widget.TextView[@text=&apos;Electronics&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {using=xpath, value=//android.widget.TextView[@text=&apos;Electronics&apos;]}] Result: id: 6
+[WebDriverCommandLogger] - Executing clickElement element: By.xpath: //android.widget.TextView[@text=&apos;Electronics&apos;] parameters: {&quot;id&quot;:&quot;6&quot;}
+[WebDriverCommandLogger] - command: clickElement[ param-1: By.xpath: //android.widget.TextView[@text=&apos;Electronics&apos;] param-2: {&quot;id&quot;:&quot;6&quot;}] Result: clickElement:true
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//android.widget.TextView[@text=&apos;Mobiles&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {using=xpath, value=//android.widget.TextView[@text=&apos;Mobiles&apos;]}] Result: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 485 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ICPL11544&apos;, ip: &apos;10.11.31.147&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_51&apos;
+*** Element info: {Using=xpath, value=//android.widget.TextView[@text=&apos;Mobiles&apos;]}
+Session ID: 83015cd8-15a5-4b2d-9760-a26ce62dc0b9
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{automationName=Appium, platform=LINUX, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, deviceModel=Samsung Galaxy Note 3 - 4.3 - API 18 - 1080x1920, networkConnectionEnabled=true, desired={automationName=Appium, newCommandTimeout=120, cssSelectorsEnabled=true, javascriptEnabled=true, deviceName=192.168.32.101:5555, platformName=Android, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, appium-version=3.3.0, browser_name=, appPackage=com.flipkart.android, takesScreenshot=true}, locationContextEnabled=false, deviceUDID=192.168.32.101:5555, appPackage=com.flipkart.android, newCommandTimeout=120, platformVersion=4.3, databaseEnabled=false, cssSelectorsEnabled=true, deviceScreenSize=1080x1920, deviceName=192.168.32.101:5555, platformName=Android, deviceManufacturer=Genymotion, appium-version=3.3.0, browser_name=, webStorageEnabled=false, warnings={}, takesScreenshot=true}]
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//android.widget.TextView[@text=&apos;Mobiles&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {using=xpath, value=//android.widget.TextView[@text=&apos;Mobiles&apos;]}] Result: id: 7
+[WebDriverCommandLogger] - Executing isElementEnabled element: By.xpath: //android.widget.TextView[@text=&apos;Mobiles&apos;] parameters: {&quot;id&quot;:&quot;7&quot;}
+[WebDriverCommandLogger] - command: isElementEnabled[ param-1: By.xpath: //android.widget.TextView[@text=&apos;Mobiles&apos;] param-2: {&quot;id&quot;:&quot;7&quot;}] Result: isElementEnabled:true
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//android.widget.TextView[@text=&apos;Mobiles&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {using=xpath, value=//android.widget.TextView[@text=&apos;Mobiles&apos;]}] Result: id: 8
+[WebDriverCommandLogger] - Executing clickElement element: By.xpath: //android.widget.TextView[@text=&apos;Mobiles&apos;] parameters: {&quot;id&quot;:&quot;8&quot;}
+[WebDriverCommandLogger] - command: clickElement[ param-1: By.xpath: //android.widget.TextView[@text=&apos;Mobiles&apos;] param-2: {&quot;id&quot;:&quot;8&quot;}] Result: clickElement:true
+1
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}] Result: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 190 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ICPL11544&apos;, ip: &apos;10.11.31.147&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_51&apos;
+*** Element info: {Using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}
+Session ID: 83015cd8-15a5-4b2d-9760-a26ce62dc0b9
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{automationName=Appium, platform=LINUX, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, deviceModel=Samsung Galaxy Note 3 - 4.3 - API 18 - 1080x1920, networkConnectionEnabled=true, desired={automationName=Appium, newCommandTimeout=120, cssSelectorsEnabled=true, javascriptEnabled=true, deviceName=192.168.32.101:5555, platformName=Android, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, appium-version=3.3.0, browser_name=, appPackage=com.flipkart.android, takesScreenshot=true}, locationContextEnabled=false, deviceUDID=192.168.32.101:5555, appPackage=com.flipkart.android, newCommandTimeout=120, platformVersion=4.3, databaseEnabled=false, cssSelectorsEnabled=true, deviceScreenSize=1080x1920, deviceName=192.168.32.101:5555, platformName=Android, deviceManufacturer=Genymotion, appium-version=3.3.0, browser_name=, webStorageEnabled=false, warnings={}, takesScreenshot=true}]
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}] Result: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 159 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ICPL11544&apos;, ip: &apos;10.11.31.147&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_51&apos;
+*** Element info: {Using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}
+Session ID: 83015cd8-15a5-4b2d-9760-a26ce62dc0b9
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{automationName=Appium, platform=LINUX, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, deviceModel=Samsung Galaxy Note 3 - 4.3 - API 18 - 1080x1920, networkConnectionEnabled=true, desired={automationName=Appium, newCommandTimeout=120, cssSelectorsEnabled=true, javascriptEnabled=true, deviceName=192.168.32.101:5555, platformName=Android, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, appium-version=3.3.0, browser_name=, appPackage=com.flipkart.android, takesScreenshot=true}, locationContextEnabled=false, deviceUDID=192.168.32.101:5555, appPackage=com.flipkart.android, newCommandTimeout=120, platformVersion=4.3, databaseEnabled=false, cssSelectorsEnabled=true, deviceScreenSize=1080x1920, deviceName=192.168.32.101:5555, platformName=Android, deviceManufacturer=Genymotion, appium-version=3.3.0, browser_name=, webStorageEnabled=false, warnings={}, takesScreenshot=true}]
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}] Result: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 128 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ICPL11544&apos;, ip: &apos;10.11.31.147&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_51&apos;
+*** Element info: {Using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}
+Session ID: 83015cd8-15a5-4b2d-9760-a26ce62dc0b9
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{automationName=Appium, platform=LINUX, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, deviceModel=Samsung Galaxy Note 3 - 4.3 - API 18 - 1080x1920, networkConnectionEnabled=true, desired={automationName=Appium, newCommandTimeout=120, cssSelectorsEnabled=true, javascriptEnabled=true, deviceName=192.168.32.101:5555, platformName=Android, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, appium-version=3.3.0, browser_name=, appPackage=com.flipkart.android, takesScreenshot=true}, locationContextEnabled=false, deviceUDID=192.168.32.101:5555, appPackage=com.flipkart.android, newCommandTimeout=120, platformVersion=4.3, databaseEnabled=false, cssSelectorsEnabled=true, deviceScreenSize=1080x1920, deviceName=192.168.32.101:5555, platformName=Android, deviceManufacturer=Genymotion, appium-version=3.3.0, browser_name=, webStorageEnabled=false, warnings={}, takesScreenshot=true}]
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}] Result: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 122 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ICPL11544&apos;, ip: &apos;10.11.31.147&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_51&apos;
+*** Element info: {Using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}
+Session ID: 83015cd8-15a5-4b2d-9760-a26ce62dc0b9
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{automationName=Appium, platform=LINUX, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, deviceModel=Samsung Galaxy Note 3 - 4.3 - API 18 - 1080x1920, networkConnectionEnabled=true, desired={automationName=Appium, newCommandTimeout=120, cssSelectorsEnabled=true, javascriptEnabled=true, deviceName=192.168.32.101:5555, platformName=Android, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, appium-version=3.3.0, browser_name=, appPackage=com.flipkart.android, takesScreenshot=true}, locationContextEnabled=false, deviceUDID=192.168.32.101:5555, appPackage=com.flipkart.android, newCommandTimeout=120, platformVersion=4.3, databaseEnabled=false, cssSelectorsEnabled=true, deviceScreenSize=1080x1920, deviceName=192.168.32.101:5555, platformName=Android, deviceManufacturer=Genymotion, appium-version=3.3.0, browser_name=, webStorageEnabled=false, warnings={}, takesScreenshot=true}]
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}] Result: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 121 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ICPL11544&apos;, ip: &apos;10.11.31.147&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_51&apos;
+*** Element info: {Using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}
+Session ID: 83015cd8-15a5-4b2d-9760-a26ce62dc0b9
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{automationName=Appium, platform=LINUX, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, deviceModel=Samsung Galaxy Note 3 - 4.3 - API 18 - 1080x1920, networkConnectionEnabled=true, desired={automationName=Appium, newCommandTimeout=120, cssSelectorsEnabled=true, javascriptEnabled=true, deviceName=192.168.32.101:5555, platformName=Android, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, appium-version=3.3.0, browser_name=, appPackage=com.flipkart.android, takesScreenshot=true}, locationContextEnabled=false, deviceUDID=192.168.32.101:5555, appPackage=com.flipkart.android, newCommandTimeout=120, platformVersion=4.3, databaseEnabled=false, cssSelectorsEnabled=true, deviceScreenSize=1080x1920, deviceName=192.168.32.101:5555, platformName=Android, deviceManufacturer=Genymotion, appium-version=3.3.0, browser_name=, webStorageEnabled=false, warnings={}, takesScreenshot=true}]
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}] Result: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 118 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ICPL11544&apos;, ip: &apos;10.11.31.147&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_51&apos;
+*** Element info: {Using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}
+Session ID: 83015cd8-15a5-4b2d-9760-a26ce62dc0b9
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{automationName=Appium, platform=LINUX, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, deviceModel=Samsung Galaxy Note 3 - 4.3 - API 18 - 1080x1920, networkConnectionEnabled=true, desired={automationName=Appium, newCommandTimeout=120, cssSelectorsEnabled=true, javascriptEnabled=true, deviceName=192.168.32.101:5555, platformName=Android, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, appium-version=3.3.0, browser_name=, appPackage=com.flipkart.android, takesScreenshot=true}, locationContextEnabled=false, deviceUDID=192.168.32.101:5555, appPackage=com.flipkart.android, newCommandTimeout=120, platformVersion=4.3, databaseEnabled=false, cssSelectorsEnabled=true, deviceScreenSize=1080x1920, deviceName=192.168.32.101:5555, platformName=Android, deviceManufacturer=Genymotion, appium-version=3.3.0, browser_name=, webStorageEnabled=false, warnings={}, takesScreenshot=true}]
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}] Result: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 118 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ICPL11544&apos;, ip: &apos;10.11.31.147&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_51&apos;
+*** Element info: {Using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}
+Session ID: 83015cd8-15a5-4b2d-9760-a26ce62dc0b9
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{automationName=Appium, platform=LINUX, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, deviceModel=Samsung Galaxy Note 3 - 4.3 - API 18 - 1080x1920, networkConnectionEnabled=true, desired={automationName=Appium, newCommandTimeout=120, cssSelectorsEnabled=true, javascriptEnabled=true, deviceName=192.168.32.101:5555, platformName=Android, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, appium-version=3.3.0, browser_name=, appPackage=com.flipkart.android, takesScreenshot=true}, locationContextEnabled=false, deviceUDID=192.168.32.101:5555, appPackage=com.flipkart.android, newCommandTimeout=120, platformVersion=4.3, databaseEnabled=false, cssSelectorsEnabled=true, deviceScreenSize=1080x1920, deviceName=192.168.32.101:5555, platformName=Android, deviceManufacturer=Genymotion, appium-version=3.3.0, browser_name=, webStorageEnabled=false, warnings={}, takesScreenshot=true}]
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}] Result: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 101 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ICPL11544&apos;, ip: &apos;10.11.31.147&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_51&apos;
+*** Element info: {Using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}
+Session ID: 83015cd8-15a5-4b2d-9760-a26ce62dc0b9
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{automationName=Appium, platform=LINUX, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, deviceModel=Samsung Galaxy Note 3 - 4.3 - API 18 - 1080x1920, networkConnectionEnabled=true, desired={automationName=Appium, newCommandTimeout=120, cssSelectorsEnabled=true, javascriptEnabled=true, deviceName=192.168.32.101:5555, platformName=Android, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, appium-version=3.3.0, browser_name=, appPackage=com.flipkart.android, takesScreenshot=true}, locationContextEnabled=false, deviceUDID=192.168.32.101:5555, appPackage=com.flipkart.android, newCommandTimeout=120, platformVersion=4.3, databaseEnabled=false, cssSelectorsEnabled=true, deviceScreenSize=1080x1920, deviceName=192.168.32.101:5555, platformName=Android, deviceManufacturer=Genymotion, appium-version=3.3.0, browser_name=, webStorageEnabled=false, warnings={}, takesScreenshot=true}]
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}] Result: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 118 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ICPL11544&apos;, ip: &apos;10.11.31.147&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_51&apos;
+*** Element info: {Using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}
+Session ID: 83015cd8-15a5-4b2d-9760-a26ce62dc0b9
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{automationName=Appium, platform=LINUX, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, deviceModel=Samsung Galaxy Note 3 - 4.3 - API 18 - 1080x1920, networkConnectionEnabled=true, desired={automationName=Appium, newCommandTimeout=120, cssSelectorsEnabled=true, javascriptEnabled=true, deviceName=192.168.32.101:5555, platformName=Android, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, appium-version=3.3.0, browser_name=, appPackage=com.flipkart.android, takesScreenshot=true}, locationContextEnabled=false, deviceUDID=192.168.32.101:5555, appPackage=com.flipkart.android, newCommandTimeout=120, platformVersion=4.3, databaseEnabled=false, cssSelectorsEnabled=true, deviceScreenSize=1080x1920, deviceName=192.168.32.101:5555, platformName=Android, deviceManufacturer=Genymotion, appium-version=3.3.0, browser_name=, webStorageEnabled=false, warnings={}, takesScreenshot=true}]
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}] Result: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 123 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ICPL11544&apos;, ip: &apos;10.11.31.147&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_51&apos;
+*** Element info: {Using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}
+Session ID: 83015cd8-15a5-4b2d-9760-a26ce62dc0b9
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{automationName=Appium, platform=LINUX, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, deviceModel=Samsung Galaxy Note 3 - 4.3 - API 18 - 1080x1920, networkConnectionEnabled=true, desired={automationName=Appium, newCommandTimeout=120, cssSelectorsEnabled=true, javascriptEnabled=true, deviceName=192.168.32.101:5555, platformName=Android, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, appium-version=3.3.0, browser_name=, appPackage=com.flipkart.android, takesScreenshot=true}, locationContextEnabled=false, deviceUDID=192.168.32.101:5555, appPackage=com.flipkart.android, newCommandTimeout=120, platformVersion=4.3, databaseEnabled=false, cssSelectorsEnabled=true, deviceScreenSize=1080x1920, deviceName=192.168.32.101:5555, platformName=Android, deviceManufacturer=Genymotion, appium-version=3.3.0, browser_name=, webStorageEnabled=false, warnings={}, takesScreenshot=true}]
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}] Result: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 111 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ICPL11544&apos;, ip: &apos;10.11.31.147&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_51&apos;
+*** Element info: {Using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}
+Session ID: 83015cd8-15a5-4b2d-9760-a26ce62dc0b9
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{automationName=Appium, platform=LINUX, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, deviceModel=Samsung Galaxy Note 3 - 4.3 - API 18 - 1080x1920, networkConnectionEnabled=true, desired={automationName=Appium, newCommandTimeout=120, cssSelectorsEnabled=true, javascriptEnabled=true, deviceName=192.168.32.101:5555, platformName=Android, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, appium-version=3.3.0, browser_name=, appPackage=com.flipkart.android, takesScreenshot=true}, locationContextEnabled=false, deviceUDID=192.168.32.101:5555, appPackage=com.flipkart.android, newCommandTimeout=120, platformVersion=4.3, databaseEnabled=false, cssSelectorsEnabled=true, deviceScreenSize=1080x1920, deviceName=192.168.32.101:5555, platformName=Android, deviceManufacturer=Genymotion, appium-version=3.3.0, browser_name=, webStorageEnabled=false, warnings={}, takesScreenshot=true}]
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}] Result: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 121 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ICPL11544&apos;, ip: &apos;10.11.31.147&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_51&apos;
+*** Element info: {Using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}
+Session ID: 83015cd8-15a5-4b2d-9760-a26ce62dc0b9
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{automationName=Appium, platform=LINUX, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, deviceModel=Samsung Galaxy Note 3 - 4.3 - API 18 - 1080x1920, networkConnectionEnabled=true, desired={automationName=Appium, newCommandTimeout=120, cssSelectorsEnabled=true, javascriptEnabled=true, deviceName=192.168.32.101:5555, platformName=Android, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, appium-version=3.3.0, browser_name=, appPackage=com.flipkart.android, takesScreenshot=true}, locationContextEnabled=false, deviceUDID=192.168.32.101:5555, appPackage=com.flipkart.android, newCommandTimeout=120, platformVersion=4.3, databaseEnabled=false, cssSelectorsEnabled=true, deviceScreenSize=1080x1920, deviceName=192.168.32.101:5555, platformName=Android, deviceManufacturer=Genymotion, appium-version=3.3.0, browser_name=, webStorageEnabled=false, warnings={}, takesScreenshot=true}]
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}] Result: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 111 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ICPL11544&apos;, ip: &apos;10.11.31.147&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_51&apos;
+*** Element info: {Using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}
+Session ID: 83015cd8-15a5-4b2d-9760-a26ce62dc0b9
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{automationName=Appium, platform=LINUX, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, deviceModel=Samsung Galaxy Note 3 - 4.3 - API 18 - 1080x1920, networkConnectionEnabled=true, desired={automationName=Appium, newCommandTimeout=120, cssSelectorsEnabled=true, javascriptEnabled=true, deviceName=192.168.32.101:5555, platformName=Android, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, appium-version=3.3.0, browser_name=, appPackage=com.flipkart.android, takesScreenshot=true}, locationContextEnabled=false, deviceUDID=192.168.32.101:5555, appPackage=com.flipkart.android, newCommandTimeout=120, platformVersion=4.3, databaseEnabled=false, cssSelectorsEnabled=true, deviceScreenSize=1080x1920, deviceName=192.168.32.101:5555, platformName=Android, deviceManufacturer=Genymotion, appium-version=3.3.0, browser_name=, webStorageEnabled=false, warnings={}, takesScreenshot=true}]
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}] Result: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 100 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ICPL11544&apos;, ip: &apos;10.11.31.147&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_51&apos;
+*** Element info: {Using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}
+Session ID: 83015cd8-15a5-4b2d-9760-a26ce62dc0b9
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{automationName=Appium, platform=LINUX, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, deviceModel=Samsung Galaxy Note 3 - 4.3 - API 18 - 1080x1920, networkConnectionEnabled=true, desired={automationName=Appium, newCommandTimeout=120, cssSelectorsEnabled=true, javascriptEnabled=true, deviceName=192.168.32.101:5555, platformName=Android, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, appium-version=3.3.0, browser_name=, appPackage=com.flipkart.android, takesScreenshot=true}, locationContextEnabled=false, deviceUDID=192.168.32.101:5555, appPackage=com.flipkart.android, newCommandTimeout=120, platformVersion=4.3, databaseEnabled=false, cssSelectorsEnabled=true, deviceScreenSize=1080x1920, deviceName=192.168.32.101:5555, platformName=Android, deviceManufacturer=Genymotion, appium-version=3.3.0, browser_name=, webStorageEnabled=false, warnings={}, takesScreenshot=true}]
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}] Result: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 138 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ICPL11544&apos;, ip: &apos;10.11.31.147&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_51&apos;
+*** Element info: {Using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}
+Session ID: 83015cd8-15a5-4b2d-9760-a26ce62dc0b9
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{automationName=Appium, platform=LINUX, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, deviceModel=Samsung Galaxy Note 3 - 4.3 - API 18 - 1080x1920, networkConnectionEnabled=true, desired={automationName=Appium, newCommandTimeout=120, cssSelectorsEnabled=true, javascriptEnabled=true, deviceName=192.168.32.101:5555, platformName=Android, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, appium-version=3.3.0, browser_name=, appPackage=com.flipkart.android, takesScreenshot=true}, locationContextEnabled=false, deviceUDID=192.168.32.101:5555, appPackage=com.flipkart.android, newCommandTimeout=120, platformVersion=4.3, databaseEnabled=false, cssSelectorsEnabled=true, deviceScreenSize=1080x1920, deviceName=192.168.32.101:5555, platformName=Android, deviceManufacturer=Genymotion, appium-version=3.3.0, browser_name=, webStorageEnabled=false, warnings={}, takesScreenshot=true}]
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}] Result: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 147 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ICPL11544&apos;, ip: &apos;10.11.31.147&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_51&apos;
+*** Element info: {Using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}
+Session ID: 83015cd8-15a5-4b2d-9760-a26ce62dc0b9
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{automationName=Appium, platform=LINUX, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, deviceModel=Samsung Galaxy Note 3 - 4.3 - API 18 - 1080x1920, networkConnectionEnabled=true, desired={automationName=Appium, newCommandTimeout=120, cssSelectorsEnabled=true, javascriptEnabled=true, deviceName=192.168.32.101:5555, platformName=Android, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, appium-version=3.3.0, browser_name=, appPackage=com.flipkart.android, takesScreenshot=true}, locationContextEnabled=false, deviceUDID=192.168.32.101:5555, appPackage=com.flipkart.android, newCommandTimeout=120, platformVersion=4.3, databaseEnabled=false, cssSelectorsEnabled=true, deviceScreenSize=1080x1920, deviceName=192.168.32.101:5555, platformName=Android, deviceManufacturer=Genymotion, appium-version=3.3.0, browser_name=, webStorageEnabled=false, warnings={}, takesScreenshot=true}]
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}] Result: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 102 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ICPL11544&apos;, ip: &apos;10.11.31.147&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_51&apos;
+*** Element info: {Using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}
+Session ID: 83015cd8-15a5-4b2d-9760-a26ce62dc0b9
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{automationName=Appium, platform=LINUX, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, deviceModel=Samsung Galaxy Note 3 - 4.3 - API 18 - 1080x1920, networkConnectionEnabled=true, desired={automationName=Appium, newCommandTimeout=120, cssSelectorsEnabled=true, javascriptEnabled=true, deviceName=192.168.32.101:5555, platformName=Android, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, appium-version=3.3.0, browser_name=, appPackage=com.flipkart.android, takesScreenshot=true}, locationContextEnabled=false, deviceUDID=192.168.32.101:5555, appPackage=com.flipkart.android, newCommandTimeout=120, platformVersion=4.3, databaseEnabled=false, cssSelectorsEnabled=true, deviceScreenSize=1080x1920, deviceName=192.168.32.101:5555, platformName=Android, deviceManufacturer=Genymotion, appium-version=3.3.0, browser_name=, webStorageEnabled=false, warnings={}, takesScreenshot=true}]
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}] Result: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 115 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ICPL11544&apos;, ip: &apos;10.11.31.147&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_51&apos;
+*** Element info: {Using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}
+Session ID: 83015cd8-15a5-4b2d-9760-a26ce62dc0b9
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{automationName=Appium, platform=LINUX, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, deviceModel=Samsung Galaxy Note 3 - 4.3 - API 18 - 1080x1920, networkConnectionEnabled=true, desired={automationName=Appium, newCommandTimeout=120, cssSelectorsEnabled=true, javascriptEnabled=true, deviceName=192.168.32.101:5555, platformName=Android, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, appium-version=3.3.0, browser_name=, appPackage=com.flipkart.android, takesScreenshot=true}, locationContextEnabled=false, deviceUDID=192.168.32.101:5555, appPackage=com.flipkart.android, newCommandTimeout=120, platformVersion=4.3, databaseEnabled=false, cssSelectorsEnabled=true, deviceScreenSize=1080x1920, deviceName=192.168.32.101:5555, platformName=Android, deviceManufacturer=Genymotion, appium-version=3.3.0, browser_name=, webStorageEnabled=false, warnings={}, takesScreenshot=true}]
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}] Result: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 105 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ICPL11544&apos;, ip: &apos;10.11.31.147&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_51&apos;
+*** Element info: {Using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}
+Session ID: 83015cd8-15a5-4b2d-9760-a26ce62dc0b9
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{automationName=Appium, platform=LINUX, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, deviceModel=Samsung Galaxy Note 3 - 4.3 - API 18 - 1080x1920, networkConnectionEnabled=true, desired={automationName=Appium, newCommandTimeout=120, cssSelectorsEnabled=true, javascriptEnabled=true, deviceName=192.168.32.101:5555, platformName=Android, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, appium-version=3.3.0, browser_name=, appPackage=com.flipkart.android, takesScreenshot=true}, locationContextEnabled=false, deviceUDID=192.168.32.101:5555, appPackage=com.flipkart.android, newCommandTimeout=120, platformVersion=4.3, databaseEnabled=false, cssSelectorsEnabled=true, deviceScreenSize=1080x1920, deviceName=192.168.32.101:5555, platformName=Android, deviceManufacturer=Genymotion, appium-version=3.3.0, browser_name=, webStorageEnabled=false, warnings={}, takesScreenshot=true}]
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}] Result: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 107 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ICPL11544&apos;, ip: &apos;10.11.31.147&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_51&apos;
+*** Element info: {Using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}
+Session ID: 83015cd8-15a5-4b2d-9760-a26ce62dc0b9
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{automationName=Appium, platform=LINUX, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, deviceModel=Samsung Galaxy Note 3 - 4.3 - API 18 - 1080x1920, networkConnectionEnabled=true, desired={automationName=Appium, newCommandTimeout=120, cssSelectorsEnabled=true, javascriptEnabled=true, deviceName=192.168.32.101:5555, platformName=Android, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, appium-version=3.3.0, browser_name=, appPackage=com.flipkart.android, takesScreenshot=true}, locationContextEnabled=false, deviceUDID=192.168.32.101:5555, appPackage=com.flipkart.android, newCommandTimeout=120, platformVersion=4.3, databaseEnabled=false, cssSelectorsEnabled=true, deviceScreenSize=1080x1920, deviceName=192.168.32.101:5555, platformName=Android, deviceManufacturer=Genymotion, appium-version=3.3.0, browser_name=, webStorageEnabled=false, warnings={}, takesScreenshot=true}]
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}] Result: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 105 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ICPL11544&apos;, ip: &apos;10.11.31.147&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_51&apos;
+*** Element info: {Using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}
+Session ID: 83015cd8-15a5-4b2d-9760-a26ce62dc0b9
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{automationName=Appium, platform=LINUX, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, deviceModel=Samsung Galaxy Note 3 - 4.3 - API 18 - 1080x1920, networkConnectionEnabled=true, desired={automationName=Appium, newCommandTimeout=120, cssSelectorsEnabled=true, javascriptEnabled=true, deviceName=192.168.32.101:5555, platformName=Android, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, appium-version=3.3.0, browser_name=, appPackage=com.flipkart.android, takesScreenshot=true}, locationContextEnabled=false, deviceUDID=192.168.32.101:5555, appPackage=com.flipkart.android, newCommandTimeout=120, platformVersion=4.3, databaseEnabled=false, cssSelectorsEnabled=true, deviceScreenSize=1080x1920, deviceName=192.168.32.101:5555, platformName=Android, deviceManufacturer=Genymotion, appium-version=3.3.0, browser_name=, webStorageEnabled=false, warnings={}, takesScreenshot=true}]
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}] Result: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 118 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ICPL11544&apos;, ip: &apos;10.11.31.147&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_51&apos;
+*** Element info: {Using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}
+Session ID: 83015cd8-15a5-4b2d-9760-a26ce62dc0b9
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{automationName=Appium, platform=LINUX, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, deviceModel=Samsung Galaxy Note 3 - 4.3 - API 18 - 1080x1920, networkConnectionEnabled=true, desired={automationName=Appium, newCommandTimeout=120, cssSelectorsEnabled=true, javascriptEnabled=true, deviceName=192.168.32.101:5555, platformName=Android, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, appium-version=3.3.0, browser_name=, appPackage=com.flipkart.android, takesScreenshot=true}, locationContextEnabled=false, deviceUDID=192.168.32.101:5555, appPackage=com.flipkart.android, newCommandTimeout=120, platformVersion=4.3, databaseEnabled=false, cssSelectorsEnabled=true, deviceScreenSize=1080x1920, deviceName=192.168.32.101:5555, platformName=Android, deviceManufacturer=Genymotion, appium-version=3.3.0, browser_name=, webStorageEnabled=false, warnings={}, takesScreenshot=true}]
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}] Result: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 112 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ICPL11544&apos;, ip: &apos;10.11.31.147&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_51&apos;
+*** Element info: {Using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}
+Session ID: 83015cd8-15a5-4b2d-9760-a26ce62dc0b9
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{automationName=Appium, platform=LINUX, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, deviceModel=Samsung Galaxy Note 3 - 4.3 - API 18 - 1080x1920, networkConnectionEnabled=true, desired={automationName=Appium, newCommandTimeout=120, cssSelectorsEnabled=true, javascriptEnabled=true, deviceName=192.168.32.101:5555, platformName=Android, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, appium-version=3.3.0, browser_name=, appPackage=com.flipkart.android, takesScreenshot=true}, locationContextEnabled=false, deviceUDID=192.168.32.101:5555, appPackage=com.flipkart.android, newCommandTimeout=120, platformVersion=4.3, databaseEnabled=false, cssSelectorsEnabled=true, deviceScreenSize=1080x1920, deviceName=192.168.32.101:5555, platformName=Android, deviceManufacturer=Genymotion, appium-version=3.3.0, browser_name=, webStorageEnabled=false, warnings={}, takesScreenshot=true}]
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}] Result: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 116 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ICPL11544&apos;, ip: &apos;10.11.31.147&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_51&apos;
+*** Element info: {Using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}
+Session ID: 83015cd8-15a5-4b2d-9760-a26ce62dc0b9
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{automationName=Appium, platform=LINUX, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, deviceModel=Samsung Galaxy Note 3 - 4.3 - API 18 - 1080x1920, networkConnectionEnabled=true, desired={automationName=Appium, newCommandTimeout=120, cssSelectorsEnabled=true, javascriptEnabled=true, deviceName=192.168.32.101:5555, platformName=Android, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, appium-version=3.3.0, browser_name=, appPackage=com.flipkart.android, takesScreenshot=true}, locationContextEnabled=false, deviceUDID=192.168.32.101:5555, appPackage=com.flipkart.android, newCommandTimeout=120, platformVersion=4.3, databaseEnabled=false, cssSelectorsEnabled=true, deviceScreenSize=1080x1920, deviceName=192.168.32.101:5555, platformName=Android, deviceManufacturer=Genymotion, appium-version=3.3.0, browser_name=, webStorageEnabled=false, warnings={}, takesScreenshot=true}]
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}] Result: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 114 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ICPL11544&apos;, ip: &apos;10.11.31.147&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_51&apos;
+*** Element info: {Using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}
+Session ID: 83015cd8-15a5-4b2d-9760-a26ce62dc0b9
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{automationName=Appium, platform=LINUX, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, deviceModel=Samsung Galaxy Note 3 - 4.3 - API 18 - 1080x1920, networkConnectionEnabled=true, desired={automationName=Appium, newCommandTimeout=120, cssSelectorsEnabled=true, javascriptEnabled=true, deviceName=192.168.32.101:5555, platformName=Android, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, appium-version=3.3.0, browser_name=, appPackage=com.flipkart.android, takesScreenshot=true}, locationContextEnabled=false, deviceUDID=192.168.32.101:5555, appPackage=com.flipkart.android, newCommandTimeout=120, platformVersion=4.3, databaseEnabled=false, cssSelectorsEnabled=true, deviceScreenSize=1080x1920, deviceName=192.168.32.101:5555, platformName=Android, deviceManufacturer=Genymotion, appium-version=3.3.0, browser_name=, webStorageEnabled=false, warnings={}, takesScreenshot=true}]
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}] Result: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 121 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ICPL11544&apos;, ip: &apos;10.11.31.147&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_51&apos;
+*** Element info: {Using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}
+Session ID: 83015cd8-15a5-4b2d-9760-a26ce62dc0b9
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{automationName=Appium, platform=LINUX, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, deviceModel=Samsung Galaxy Note 3 - 4.3 - API 18 - 1080x1920, networkConnectionEnabled=true, desired={automationName=Appium, newCommandTimeout=120, cssSelectorsEnabled=true, javascriptEnabled=true, deviceName=192.168.32.101:5555, platformName=Android, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, appium-version=3.3.0, browser_name=, appPackage=com.flipkart.android, takesScreenshot=true}, locationContextEnabled=false, deviceUDID=192.168.32.101:5555, appPackage=com.flipkart.android, newCommandTimeout=120, platformVersion=4.3, databaseEnabled=false, cssSelectorsEnabled=true, deviceScreenSize=1080x1920, deviceName=192.168.32.101:5555, platformName=Android, deviceManufacturer=Genymotion, appium-version=3.3.0, browser_name=, webStorageEnabled=false, warnings={}, takesScreenshot=true}]
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}] Result: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 125 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ICPL11544&apos;, ip: &apos;10.11.31.147&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_51&apos;
+*** Element info: {Using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}
+Session ID: 83015cd8-15a5-4b2d-9760-a26ce62dc0b9
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{automationName=Appium, platform=LINUX, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, deviceModel=Samsung Galaxy Note 3 - 4.3 - API 18 - 1080x1920, networkConnectionEnabled=true, desired={automationName=Appium, newCommandTimeout=120, cssSelectorsEnabled=true, javascriptEnabled=true, deviceName=192.168.32.101:5555, platformName=Android, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, appium-version=3.3.0, browser_name=, appPackage=com.flipkart.android, takesScreenshot=true}, locationContextEnabled=false, deviceUDID=192.168.32.101:5555, appPackage=com.flipkart.android, newCommandTimeout=120, platformVersion=4.3, databaseEnabled=false, cssSelectorsEnabled=true, deviceScreenSize=1080x1920, deviceName=192.168.32.101:5555, platformName=Android, deviceManufacturer=Genymotion, appium-version=3.3.0, browser_name=, webStorageEnabled=false, warnings={}, takesScreenshot=true}]
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}] Result: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 124 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ICPL11544&apos;, ip: &apos;10.11.31.147&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_51&apos;
+*** Element info: {Using=xpath, value=//android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]}
+Session ID: 83015cd8-15a5-4b2d-9760-a26ce62dc0b9
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{automationName=Appium, platform=LINUX, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, deviceModel=Samsung Galaxy Note 3 - 4.3 - API 18 - 1080x1920, networkConnectionEnabled=true, desired={automationName=Appium, newCommandTimeout=120, cssSelectorsEnabled=true, javascriptEnabled=true, deviceName=192.168.32.101:5555, platformName=Android, driver.class=io.appium.java_client.android.AndroidDriver, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, appium-version=3.3.0, browser_name=, appPackage=com.flipkart.android, takesScreenshot=true}, locationContextEnabled=false, deviceUDID=192.168.32.101:5555, appPackage=com.flipkart.android, newCommandTimeout=120, platformVersion=4.3, databaseEnabled=false, cssSelectorsEnabled=true, deviceScreenSize=1080x1920, deviceName=192.168.32.101:5555, platformName=Android, deviceManufacturer=Genymotion, appium-version=3.3.0, browser_name=, webStorageEnabled=false, warnings={}, takesScreenshot=true}]
+[WebDriverCommandLogger] - command: clickElement[ param-1: By.xpath: //android.widget.TextView[text()=&apos;Smartron srt.phone&apos;] param-2: {&quot;id&quot;:&quot;-1&quot;}] Result: Timed out after 30 seconds waiting for presence of element located by: By.xpath: //android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ICPL11544&apos;, ip: &apos;10.11.31.147&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_51&apos;
+Driver info: driver.version: QAFExtendedWebDriver
+[QAFInvokedMethodListener2] - org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for presence of element located by: By.xpath: //android.widget.TextView[text()=&apos;Smartron srt.phone&apos;]
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ICPL11544&apos;, ip: &apos;10.11.31.147&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_51&apos;
+Driver info: driver.version: QAFExtendedWebDriver
+[WebDriverCommandLogger] - Executing screenshot parameters: {}
+[QAFTestBase] - Capturing screen shotsearch_o9986pjlzoiy46630.png
+</system-out>
+    <system-err>log4j:WARN No such property [follow] in org.apache.log4j.FileAppender.
+</system-err>
+  </testcase>
+</testsuite>

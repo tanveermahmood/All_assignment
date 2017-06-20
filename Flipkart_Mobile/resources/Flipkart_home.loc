@@ -1,0 +1,2 @@
+FlipkartHome.menu.btn.click = {\"locator\":\"accessibility id=Open Drawer\",\"desc\":\"click on menu button\"}
+skipbutton.click = {\"locator\":\"id=com.flipkart.android:id/btn_skip\"}

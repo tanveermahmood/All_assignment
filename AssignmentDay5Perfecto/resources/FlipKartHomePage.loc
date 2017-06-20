@@ -1,0 +1,3 @@
+homepage.lnk.menuname = {\"locator\":\"xpath=//span[@title='%s']\",\"desc\":\"menu home page locator\"}
+homepage.lnk.submenu = {\"locator\":\"xpath=//span[text()='%s']\",\"desc\":\"sub catogory\"}
+homepage.lnk.openDrawer = {\"locator\":\"xpath=//*[@class=\\\"_2MXt9f\\\"]\",\"desc\":\"opening drawer from left side\"}

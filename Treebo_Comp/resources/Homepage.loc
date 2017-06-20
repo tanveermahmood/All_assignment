@@ -1,0 +1,5 @@
+Homepage.Input.txt = {\"locator\":\"xpath=.//*[@id='wrapper']/div[2]/section[1]/div[1]/div/div[2]/div/div/div/div/div[1]/div/input\",\"desc\":\"Input for Search by city, locality, hotel name\"}
+Homepage.CheckIn.txt = {\"locator\":\"xpath=.//*[@id='startDate']\",\"desc\":\"Input for CheckIn\"}
+Homepage.CheckOut.txt = {\"locator\":\"xpath=.//*[@id='endDate']\",\"desc\":\"Input for CheckOut\"}
+Homepage.Search.btn = {\"locator\":\"xpath=//button[text()='Search']\",\"desc\":\"Click on Search Button\"}
+Homepage.Room.txt = {\"locator\":\"xpath=//div[@class='occupancy__header']\",\"desc\":\"Input for Room\"}

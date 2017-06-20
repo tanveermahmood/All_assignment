@@ -1,0 +1,39 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "Given opening browser and pass the url",
+      "args": [
+        "[]"
+      ],
+      "result": "Error: Step Not Found",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then fill the domestic flight form",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given opening browser and pass the url :: Not Found.",
+      "type": "Warn",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then fill the domestic flight form",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "com.qmetry.qaf.automation.step.StepInvocationException: Test Step (Given opening browser and pass the url) Not Found.\n Please provide implementation or check 'step.provider.pkg' property value points to appropriate package.\r\n\tat .Given opening browser and pass the url(scenarios/login.bdd:6)\r\n"
+}

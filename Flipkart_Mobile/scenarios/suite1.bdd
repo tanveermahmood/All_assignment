@@ -1,0 +1,11 @@
+
+
+SCENARIO: SampleTest
+META-DATA: {"description":"Sample Test Scenario","groups":["SMOKE"]}
+	
+ Given user lauched flipkart application
+ And user clicks on skip button on register page and clicks on open drawer icon
+ And user selects Mobiles from Electronics category
+ 
+	
+END

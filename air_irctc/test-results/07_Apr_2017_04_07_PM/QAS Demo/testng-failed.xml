@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [QAS Demo]">
+  <parameter name="driver.name" value="firefoxDriver"/>
+  <test name="Test">
+    <method-selectors>
+      <method-selector>
+        <selector-class name="com.qmetry.qaf.automation.testng.pro.QAFMethodSelector" priority="1"/>
+      </method-selector>
+    </method-selectors>
+    <classes>
+      <class name="domestictest.Domestic_Scenario"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="domestictest.Domestic_Scenario">
+        <methods>
+          <include name="afterSuit"/>
+          <include name="setupMethod"/>
+          <include name="setupSuit"/>
+          <include name="setupTest"/>
+          <include name="scenario1"/>
+          <include name="afterClass"/>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- domestictest.Domestic_Scenario -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [QAS Demo] -->

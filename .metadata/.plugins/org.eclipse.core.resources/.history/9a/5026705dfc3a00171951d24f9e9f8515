@@ -1,0 +1,19 @@
+package com.act_test.Steps;
+
+import org.testng.annotations.Test;
+
+import com.act_test.Pages.HomescrnTestPage;
+import com.qmetry.qaf.automation.ui.WebDriverTestCase;
+
+public class Search extends WebDriverTestCase {
+
+	@Test(description = "xvsd")
+	public void test() throws InterruptedException {
+		HomescrnTestPage home = new HomescrnTestPage();
+		home.launchPage(null);
+		
+		home.verifyHomeScren();
+		home.selectQuiz(2);
+		
+	}
+}

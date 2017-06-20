@@ -1,0 +1,3554 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://www.flipcart.com}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 11582
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{using=xpath, value=//a[@title='Electronics']}"
+      ],
+      "result": "id: 0.3241571144138191-1",
+      "subLogs": [],
+      "duration": 240
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //a[@title='Electronics']",
+        "{\"id\":\"0.3241571144138191-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 112
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=xpath, value=//span[text()='Apple']}"
+      ],
+      "result": "[id: 0.3241571144138191-2]",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{using=xpath, value=//span[text()='Apple']}"
+      ],
+      "result": "id: 0.3241571144138191-2",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //span[text()='Apple']",
+        "{\"id\":\"0.3241571144138191-2\"}"
+      ],
+      "result": "isElementDisplayed:false",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=xpath, value=//span[text()='Apple']}"
+      ],
+      "result": "[id: 0.3241571144138191-2]",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{using=xpath, value=//span[text()='Apple']}"
+      ],
+      "result": "id: 0.3241571144138191-2",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //span[text()='Apple']",
+        "{\"id\":\"0.3241571144138191-2\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{using=xpath, value=//span[text()='Apple']}"
+      ],
+      "result": "id: 0.3241571144138191-2",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //span[text()='Apple']",
+        "{\"id\":\"0.3241571144138191-2\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 52
+    },
+    {
+      "commandName": "getTitle",
+      "args": [
+        "{}"
+      ],
+      "result": "Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{using=xpath, value=//div[@class=\"_3b7jyH\"]}"
+      ],
+      "result": "id: 0.3241571144138191-3",
+      "subLogs": [],
+      "duration": 39
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //div[@class=\"_3b7jyH\"]",
+        "{\"id\":\"0.3241571144138191-3\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 4289
+    },
+    {
+      "commandName": "getTitle",
+      "args": [
+        "{}"
+      ],
+      "result": "Smartphones-Buy smartphones online from best brands at low prices| Flipkart.com",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=xpath, value=//a[@class='_1UoZlX']}"
+      ],
+      "result": "[id: 0.1338825022788641-1, id: 0.1338825022788641-2, id: 0.1338825022788641-3, id: 0.1338825022788641-4, id: 0.1338825022788641-5, id: 0.1338825022788641-6, id: 0.1338825022788641-7, id: 0.1338825022788641-8, id: 0.1338825022788641-9, id: 0.1338825022788641-10, id: 0.1338825022788641-11, id: 0.1338825022788641-12, id: 0.1338825022788641-13, id: 0.1338825022788641-14, id: 0.1338825022788641-15, id: 0.1338825022788641-16, id: 0.1338825022788641-17, id: 0.1338825022788641-18, id: 0.1338825022788641-19, id: 0.1338825022788641-20, id: 0.1338825022788641-21, id: 0.1338825022788641-22, id: 0.1338825022788641-23, id: 0.1338825022788641-24, id: 0.1338825022788641-25, id: 0.1338825022788641-26, id: 0.1338825022788641-27, id: 0.1338825022788641-28, id: 0.1338825022788641-29, id: 0.1338825022788641-30, id: 0.1338825022788641-31, id: 0.1338825022788641-32, id: 0.1338825022788641-33, id: 0.1338825022788641-34, id: 0.1338825022788641-35, id: 0.1338825022788641-36, id: 0.1338825022788641-37, id: 0.1338825022788641-38, id: 0.1338825022788641-39, id: 0.1338825022788641-40, id: 0.1338825022788641-41, id: 0.1338825022788641-42, id: 0.1338825022788641-43, id: 0.1338825022788641-44, id: 0.1338825022788641-45, id: 0.1338825022788641-46, id: 0.1338825022788641-47, id: 0.1338825022788641-48, id: 0.1338825022788641-49, id: 0.1338825022788641-50, id: 0.1338825022788641-51, id: 0.1338825022788641-52, id: 0.1338825022788641-53, id: 0.1338825022788641-54, id: 0.1338825022788641-55, id: 0.1338825022788641-56, id: 0.1338825022788641-57, id: 0.1338825022788641-58, id: 0.1338825022788641-59, id: 0.1338825022788641-60]",
+      "subLogs": [],
+      "duration": 33
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=xpath, value=//div[@class='_3wU53n']}"
+      ],
+      "result": "[id: 0.1338825022788641-61, id: 0.1338825022788641-62, id: 0.1338825022788641-63, id: 0.1338825022788641-64, id: 0.1338825022788641-65, id: 0.1338825022788641-66, id: 0.1338825022788641-67, id: 0.1338825022788641-68, id: 0.1338825022788641-69, id: 0.1338825022788641-70, id: 0.1338825022788641-71, id: 0.1338825022788641-72, id: 0.1338825022788641-73, id: 0.1338825022788641-74, id: 0.1338825022788641-75, id: 0.1338825022788641-76, id: 0.1338825022788641-77, id: 0.1338825022788641-78, id: 0.1338825022788641-79, id: 0.1338825022788641-80, id: 0.1338825022788641-81, id: 0.1338825022788641-82, id: 0.1338825022788641-83, id: 0.1338825022788641-84, id: 0.1338825022788641-85, id: 0.1338825022788641-86, id: 0.1338825022788641-87, id: 0.1338825022788641-88, id: 0.1338825022788641-89, id: 0.1338825022788641-90, id: 0.1338825022788641-91, id: 0.1338825022788641-92, id: 0.1338825022788641-93, id: 0.1338825022788641-94, id: 0.1338825022788641-95, id: 0.1338825022788641-96, id: 0.1338825022788641-97, id: 0.1338825022788641-98, id: 0.1338825022788641-99, id: 0.1338825022788641-100, id: 0.1338825022788641-101, id: 0.1338825022788641-102, id: 0.1338825022788641-103, id: 0.1338825022788641-104, id: 0.1338825022788641-105, id: 0.1338825022788641-106, id: 0.1338825022788641-107, id: 0.1338825022788641-108, id: 0.1338825022788641-109, id: 0.1338825022788641-110, id: 0.1338825022788641-111, id: 0.1338825022788641-112, id: 0.1338825022788641-113, id: 0.1338825022788641-114, id: 0.1338825022788641-115, id: 0.1338825022788641-116, id: 0.1338825022788641-117, id: 0.1338825022788641-118, id: 0.1338825022788641-119, id: 0.1338825022788641-120]",
+      "subLogs": [],
+      "duration": 34
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-61\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 (Black, 32 GB)",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-62\"}"
+      ],
+      "result": "getElementText:Apple iPhone 6s (Rose Gold, 32 GB)",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-63\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 (Black, 256 GB)",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-64\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 (Jet Black, 128 GB)",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-65\"}"
+      ],
+      "result": "getElementText:Apple iPhone 6s Plus (Rose Gold, 128 GB)",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-66\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 Plus (Black, 128 GB)",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-67\"}"
+      ],
+      "result": "getElementText:Apple iPhone SE (Space Grey, 16 GB)",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-68\"}"
+      ],
+      "result": "getElementText:Apple iPhone 6s (Gold, 32 GB)",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-69\"}"
+      ],
+      "result": "getElementText:Apple iPhone 6s Plus (Space Grey, 16 GB)",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-70\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 (Red, 128 GB)",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-71\"}"
+      ],
+      "result": "getElementText:Apple iPhone 6s Plus (Space Grey, 32 GB)",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-72\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 (Rose Gold, 32 GB)",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-73\"}"
+      ],
+      "result": "getElementText:Apple iPhone SE (Silver, 16 GB)",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-74\"}"
+      ],
+      "result": "getElementText:Apple iPhone 6s (Space Grey, 32 GB)",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-75\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 Plus (Black, 32 GB)",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-76\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 Plus (Silver, 128 GB)",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-77\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 Plus (Jet Black, 128 GB)",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-78\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 Plus (Silver, 32 GB)",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-79\"}"
+      ],
+      "result": "getElementText:Apple iPhone 6s Plus (Rose Gold, 32 GB)",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-80\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 (Jet Black, 256 GB)",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-81\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 (Rose Gold, 128 GB)",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-82\"}"
+      ],
+      "result": "getElementText:Apple iPhone 6s (Silver, 32 GB)",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-83\"}"
+      ],
+      "result": "getElementText:Apple iPhone 6s Plus (Silver, 128 GB)",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-84\"}"
+      ],
+      "result": "getElementText:Apple iPhone 6s Plus (Gold, 32 GB)",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-85\"}"
+      ],
+      "result": "getElementText:Apple iPhone 6s Plus (Silver, 16 GB)",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-86\"}"
+      ],
+      "result": "getElementText:Apple iPhone 6s Plus (Silver, 32 GB)",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-87\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 (Black, 128 GB)",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-88\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 (Gold, 32 GB)",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-89\"}"
+      ],
+      "result": "getElementText:Apple iPhone 6s (Silver, 16 GB)",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-90\"}"
+      ],
+      "result": "getElementText:Apple iPhone 6s (Space Grey, 128 GB)",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-91\"}"
+      ],
+      "result": "getElementText:Apple iPhone 6s (Gold, 16 GB)",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-92\"}"
+      ],
+      "result": "getElementText:Apple iPhone SE (Rose Gold, 16 GB)",
+      "subLogs": [],
+      "duration": 33
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-93\"}"
+      ],
+      "result": "getElementText:Apple iPhone 6 Plus (Silver, 64 GB)",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-94\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 (Gold, 256 GB)",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-95\"}"
+      ],
+      "result": "getElementText:Apple iPhone SE (Gold, 64 GB)",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-96\"}"
+      ],
+      "result": "getElementText:Apple iPhone 6 Plus (Silver, 16 GB)",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-97\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 (Silver, 32 GB)",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-98\"}"
+      ],
+      "result": "getElementText:Apple iPhone SE (Gold, 16 GB)",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-99\"}"
+      ],
+      "result": "getElementText:Apple iPhone 6s (Silver, 64 GB)",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-100\"}"
+      ],
+      "result": "getElementText:Apple iPhone SE (Rose Gold, 64 GB)",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-101\"}"
+      ],
+      "result": "getElementText:Apple iPhone 6s Plus (Gold, 128 GB)",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-102\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 (Rose Gold, 256 GB)",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-103\"}"
+      ],
+      "result": "getElementText:Apple iPhone 6 (Space Grey, 64 GB)",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-104\"}"
+      ],
+      "result": "getElementText:Apple iPhone 6s (Rose Gold, 16 GB)",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-105\"}"
+      ],
+      "result": "getElementText:Apple iPhone 6s (Space Grey, 16 GB)",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-106\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 Plus (Gold, 32 GB)",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-107\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 Plus (Rose Gold, 32 GB)",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-108\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 (Gold, 128 GB)",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-109\"}"
+      ],
+      "result": "getElementText:Apple iPhone 6 Plus (Space Grey, 16 GB)",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-110\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 (Silver, 128 GB)",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-111\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 Plus (Black, 256 GB)",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-112\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 Plus (Rose Gold, 128 GB)",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-113\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 Plus (Rose Gold, 256 GB)",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-114\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 Plus (Gold, 256 GB)",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-115\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 Plus (Silver, 256 GB)",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-116\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 Plus (Gold, 128 GB)",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-117\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 (Silver, 256 GB)",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-118\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 Plus (Jet Black, 256 GB)",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-119\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 (PRODUCT) (Red, 256 GB)",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-120\"}"
+      ],
+      "result": "getElementText:Apple iPhone 7 Plus (Red, 128 GB)",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=xpath, value=//div[@class='_1vC4OE _2rQ-NK']}"
+      ],
+      "result": "[id: 0.1338825022788641-121, id: 0.1338825022788641-122, id: 0.1338825022788641-123, id: 0.1338825022788641-124, id: 0.1338825022788641-125, id: 0.1338825022788641-126, id: 0.1338825022788641-127, id: 0.1338825022788641-128, id: 0.1338825022788641-129, id: 0.1338825022788641-130, id: 0.1338825022788641-131, id: 0.1338825022788641-132, id: 0.1338825022788641-133, id: 0.1338825022788641-134, id: 0.1338825022788641-135, id: 0.1338825022788641-136, id: 0.1338825022788641-137, id: 0.1338825022788641-138, id: 0.1338825022788641-139, id: 0.1338825022788641-140, id: 0.1338825022788641-141, id: 0.1338825022788641-142, id: 0.1338825022788641-143, id: 0.1338825022788641-144, id: 0.1338825022788641-145, id: 0.1338825022788641-146, id: 0.1338825022788641-147, id: 0.1338825022788641-148, id: 0.1338825022788641-149, id: 0.1338825022788641-150, id: 0.1338825022788641-151, id: 0.1338825022788641-152, id: 0.1338825022788641-153, id: 0.1338825022788641-154, id: 0.1338825022788641-155, id: 0.1338825022788641-156, id: 0.1338825022788641-157, id: 0.1338825022788641-158, id: 0.1338825022788641-159, id: 0.1338825022788641-160, id: 0.1338825022788641-161, id: 0.1338825022788641-162, id: 0.1338825022788641-163, id: 0.1338825022788641-164, id: 0.1338825022788641-165, id: 0.1338825022788641-166, id: 0.1338825022788641-167, id: 0.1338825022788641-168, id: 0.1338825022788641-169, id: 0.1338825022788641-170, id: 0.1338825022788641-171, id: 0.1338825022788641-172, id: 0.1338825022788641-173, id: 0.1338825022788641-174, id: 0.1338825022788641-175, id: 0.1338825022788641-176, id: 0.1338825022788641-177, id: 0.1338825022788641-178, id: 0.1338825022788641-179, id: 0.1338825022788641-180]",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-121\"}"
+      ],
+      "result": "getElementText:₹47,999",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-122\"}"
+      ],
+      "result": "getElementText:₹36,999",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-123\"}"
+      ],
+      "result": "getElementText:₹68,999",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-124\"}"
+      ],
+      "result": "getElementText:₹57,499",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-125\"}"
+      ],
+      "result": "getElementText:₹70,000",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-126\"}"
+      ],
+      "result": "getElementText:₹70,899",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-127\"}"
+      ],
+      "result": "getElementText:₹20,999",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-128\"}"
+      ],
+      "result": "getElementText:₹36,999",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-129\"}"
+      ],
+      "result": "getElementText:₹49,999",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-130\"}"
+      ],
+      "result": "getElementText:₹66,000",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-131\"}"
+      ],
+      "result": "getElementText:₹56,999",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-132\"}"
+      ],
+      "result": "getElementText:₹47,999",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-133\"}"
+      ],
+      "result": "getElementText:₹20,999",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-134\"}"
+      ],
+      "result": "getElementText:₹36,999",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-135\"}"
+      ],
+      "result": "getElementText:₹61,399",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-136\"}"
+      ],
+      "result": "getElementText:₹70,899",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-137\"}"
+      ],
+      "result": "getElementText:₹70,899",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-138\"}"
+      ],
+      "result": "getElementText:₹61,399",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-139\"}"
+      ],
+      "result": "getElementText:₹56,999",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-140\"}"
+      ],
+      "result": "getElementText:₹68,999",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-141\"}"
+      ],
+      "result": "getElementText:₹57,499",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-142\"}"
+      ],
+      "result": "getElementText:₹36,999",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-143\"}"
+      ],
+      "result": "getElementText:₹70,000",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-144\"}"
+      ],
+      "result": "getElementText:₹56,999",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-145\"}"
+      ],
+      "result": "getElementText:₹49,999",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-146\"}"
+      ],
+      "result": "getElementText:₹56,999",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-147\"}"
+      ],
+      "result": "getElementText:₹57,499",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-148\"}"
+      ],
+      "result": "getElementText:₹47,999",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-149\"}"
+      ],
+      "result": "getElementText:₹47,999",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-150\"}"
+      ],
+      "result": "getElementText:₹56,895",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-151\"}"
+      ],
+      "result": "getElementText:₹49,500",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-152\"}"
+      ],
+      "result": "getElementText:₹22,700",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-153\"}"
+      ],
+      "result": "getElementText:₹71,000",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-154\"}"
+      ],
+      "result": "getElementText:₹65,990",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-155\"}"
+      ],
+      "result": "getElementText:₹32,470",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-156\"}"
+      ],
+      "result": "getElementText:₹50,499",
+      "subLogs": [],
+      "duration": 63
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-157\"}"
+      ],
+      "result": "getElementText:₹52,000",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-158\"}"
+      ],
+      "result": "getElementText:₹22,222",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-159\"}"
+      ],
+      "result": "getElementText:₹69,900",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-160\"}"
+      ],
+      "result": "getElementText:₹31,350",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-161\"}"
+      ],
+      "result": "getElementText:₹69,990",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-162\"}"
+      ],
+      "result": "getElementText:₹65,990",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-163\"}"
+      ],
+      "result": "getElementText:₹59,900",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-164\"}"
+      ],
+      "result": "getElementText:₹52,000",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-165\"}"
+      ],
+      "result": "getElementText:₹49,990",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-166\"}"
+      ],
+      "result": "getElementText:₹59,790",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-167\"}"
+      ],
+      "result": "getElementText:₹59,790",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-168\"}"
+      ],
+      "result": "getElementText:₹58,999",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-169\"}"
+      ],
+      "result": "getElementText:₹51,000",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-170\"}"
+      ],
+      "result": "getElementText:₹62,500",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-171\"}"
+      ],
+      "result": "getElementText:₹81,000",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-172\"}"
+      ],
+      "result": "getElementText:₹70,700",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-173\"}"
+      ],
+      "result": "getElementText:₹81,000",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-174\"}"
+      ],
+      "result": "getElementText:₹81,000",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-175\"}"
+      ],
+      "result": "getElementText:₹81,000",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-176\"}"
+      ],
+      "result": "getElementText:₹69,500",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-177\"}"
+      ],
+      "result": "getElementText:₹75,000",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-178\"}"
+      ],
+      "result": "getElementText:₹86,500",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-179\"}"
+      ],
+      "result": "getElementText:₹77,900",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-180\"}"
+      ],
+      "result": "getElementText:₹81,500",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=xpath, value=//div[@class='_1vC4OE _2rQ-NK']}"
+      ],
+      "result": "[id: 0.1338825022788641-121, id: 0.1338825022788641-122, id: 0.1338825022788641-123, id: 0.1338825022788641-124, id: 0.1338825022788641-125, id: 0.1338825022788641-126, id: 0.1338825022788641-127, id: 0.1338825022788641-128, id: 0.1338825022788641-129, id: 0.1338825022788641-130, id: 0.1338825022788641-131, id: 0.1338825022788641-132, id: 0.1338825022788641-133, id: 0.1338825022788641-134, id: 0.1338825022788641-135, id: 0.1338825022788641-136, id: 0.1338825022788641-137, id: 0.1338825022788641-138, id: 0.1338825022788641-139, id: 0.1338825022788641-140, id: 0.1338825022788641-141, id: 0.1338825022788641-142, id: 0.1338825022788641-143, id: 0.1338825022788641-144, id: 0.1338825022788641-145, id: 0.1338825022788641-146, id: 0.1338825022788641-147, id: 0.1338825022788641-148, id: 0.1338825022788641-149, id: 0.1338825022788641-150, id: 0.1338825022788641-151, id: 0.1338825022788641-152, id: 0.1338825022788641-153, id: 0.1338825022788641-154, id: 0.1338825022788641-155, id: 0.1338825022788641-156, id: 0.1338825022788641-157, id: 0.1338825022788641-158, id: 0.1338825022788641-159, id: 0.1338825022788641-160, id: 0.1338825022788641-161, id: 0.1338825022788641-162, id: 0.1338825022788641-163, id: 0.1338825022788641-164, id: 0.1338825022788641-165, id: 0.1338825022788641-166, id: 0.1338825022788641-167, id: 0.1338825022788641-168, id: 0.1338825022788641-169, id: 0.1338825022788641-170, id: 0.1338825022788641-171, id: 0.1338825022788641-172, id: 0.1338825022788641-173, id: 0.1338825022788641-174, id: 0.1338825022788641-175, id: 0.1338825022788641-176, id: 0.1338825022788641-177, id: 0.1338825022788641-178, id: 0.1338825022788641-179, id: 0.1338825022788641-180]",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-121\"}"
+      ],
+      "result": "getElementText:₹47,999",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-122\"}"
+      ],
+      "result": "getElementText:₹36,999",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-123\"}"
+      ],
+      "result": "getElementText:₹68,999",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-124\"}"
+      ],
+      "result": "getElementText:₹57,499",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-125\"}"
+      ],
+      "result": "getElementText:₹70,000",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-126\"}"
+      ],
+      "result": "getElementText:₹70,899",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-127\"}"
+      ],
+      "result": "getElementText:₹20,999",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-128\"}"
+      ],
+      "result": "getElementText:₹36,999",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-129\"}"
+      ],
+      "result": "getElementText:₹49,999",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-130\"}"
+      ],
+      "result": "getElementText:₹66,000",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-131\"}"
+      ],
+      "result": "getElementText:₹56,999",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-132\"}"
+      ],
+      "result": "getElementText:₹47,999",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-133\"}"
+      ],
+      "result": "getElementText:₹20,999",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-134\"}"
+      ],
+      "result": "getElementText:₹36,999",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-135\"}"
+      ],
+      "result": "getElementText:₹61,399",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-136\"}"
+      ],
+      "result": "getElementText:₹70,899",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-137\"}"
+      ],
+      "result": "getElementText:₹70,899",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-138\"}"
+      ],
+      "result": "getElementText:₹61,399",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-139\"}"
+      ],
+      "result": "getElementText:₹56,999",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-140\"}"
+      ],
+      "result": "getElementText:₹68,999",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-141\"}"
+      ],
+      "result": "getElementText:₹57,499",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-142\"}"
+      ],
+      "result": "getElementText:₹36,999",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-143\"}"
+      ],
+      "result": "getElementText:₹70,000",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-144\"}"
+      ],
+      "result": "getElementText:₹56,999",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-145\"}"
+      ],
+      "result": "getElementText:₹49,999",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-146\"}"
+      ],
+      "result": "getElementText:₹56,999",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-147\"}"
+      ],
+      "result": "getElementText:₹57,499",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-148\"}"
+      ],
+      "result": "getElementText:₹47,999",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-149\"}"
+      ],
+      "result": "getElementText:₹47,999",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-150\"}"
+      ],
+      "result": "getElementText:₹56,895",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-151\"}"
+      ],
+      "result": "getElementText:₹49,500",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-152\"}"
+      ],
+      "result": "getElementText:₹22,700",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-153\"}"
+      ],
+      "result": "getElementText:₹71,000",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-154\"}"
+      ],
+      "result": "getElementText:₹65,990",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-155\"}"
+      ],
+      "result": "getElementText:₹32,470",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-156\"}"
+      ],
+      "result": "getElementText:₹50,499",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-157\"}"
+      ],
+      "result": "getElementText:₹52,000",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-158\"}"
+      ],
+      "result": "getElementText:₹22,222",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-159\"}"
+      ],
+      "result": "getElementText:₹69,900",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-160\"}"
+      ],
+      "result": "getElementText:₹31,350",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-161\"}"
+      ],
+      "result": "getElementText:₹69,990",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-162\"}"
+      ],
+      "result": "getElementText:₹65,990",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-163\"}"
+      ],
+      "result": "getElementText:₹59,900",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-164\"}"
+      ],
+      "result": "getElementText:₹52,000",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-165\"}"
+      ],
+      "result": "getElementText:₹49,990",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-166\"}"
+      ],
+      "result": "getElementText:₹59,790",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-167\"}"
+      ],
+      "result": "getElementText:₹59,790",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-168\"}"
+      ],
+      "result": "getElementText:₹58,999",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-169\"}"
+      ],
+      "result": "getElementText:₹51,000",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-170\"}"
+      ],
+      "result": "getElementText:₹62,500",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-171\"}"
+      ],
+      "result": "getElementText:₹81,000",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-172\"}"
+      ],
+      "result": "getElementText:₹70,700",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-173\"}"
+      ],
+      "result": "getElementText:₹81,000",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-174\"}"
+      ],
+      "result": "getElementText:₹81,000",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-175\"}"
+      ],
+      "result": "getElementText:₹81,000",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-176\"}"
+      ],
+      "result": "getElementText:₹69,500",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-177\"}"
+      ],
+      "result": "getElementText:₹75,000",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-178\"}"
+      ],
+      "result": "getElementText:₹86,500",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-179\"}"
+      ],
+      "result": "getElementText:₹77,900",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-180\"}"
+      ],
+      "result": "getElementText:₹81,500",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=xpath, value=//div[@class='_1vC4OE _2rQ-NK']}"
+      ],
+      "result": "[id: 0.1338825022788641-121, id: 0.1338825022788641-122, id: 0.1338825022788641-123, id: 0.1338825022788641-124, id: 0.1338825022788641-125, id: 0.1338825022788641-126, id: 0.1338825022788641-127, id: 0.1338825022788641-128, id: 0.1338825022788641-129, id: 0.1338825022788641-130, id: 0.1338825022788641-131, id: 0.1338825022788641-132, id: 0.1338825022788641-133, id: 0.1338825022788641-134, id: 0.1338825022788641-135, id: 0.1338825022788641-136, id: 0.1338825022788641-137, id: 0.1338825022788641-138, id: 0.1338825022788641-139, id: 0.1338825022788641-140, id: 0.1338825022788641-141, id: 0.1338825022788641-142, id: 0.1338825022788641-143, id: 0.1338825022788641-144, id: 0.1338825022788641-145, id: 0.1338825022788641-146, id: 0.1338825022788641-147, id: 0.1338825022788641-148, id: 0.1338825022788641-149, id: 0.1338825022788641-150, id: 0.1338825022788641-151, id: 0.1338825022788641-152, id: 0.1338825022788641-153, id: 0.1338825022788641-154, id: 0.1338825022788641-155, id: 0.1338825022788641-156, id: 0.1338825022788641-157, id: 0.1338825022788641-158, id: 0.1338825022788641-159, id: 0.1338825022788641-160, id: 0.1338825022788641-161, id: 0.1338825022788641-162, id: 0.1338825022788641-163, id: 0.1338825022788641-164, id: 0.1338825022788641-165, id: 0.1338825022788641-166, id: 0.1338825022788641-167, id: 0.1338825022788641-168, id: 0.1338825022788641-169, id: 0.1338825022788641-170, id: 0.1338825022788641-171, id: 0.1338825022788641-172, id: 0.1338825022788641-173, id: 0.1338825022788641-174, id: 0.1338825022788641-175, id: 0.1338825022788641-176, id: 0.1338825022788641-177, id: 0.1338825022788641-178, id: 0.1338825022788641-179, id: 0.1338825022788641-180]",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-121\"}"
+      ],
+      "result": "getElementText:₹47,999",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-122\"}"
+      ],
+      "result": "getElementText:₹36,999",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-123\"}"
+      ],
+      "result": "getElementText:₹68,999",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-124\"}"
+      ],
+      "result": "getElementText:₹57,499",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-125\"}"
+      ],
+      "result": "getElementText:₹70,000",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-126\"}"
+      ],
+      "result": "getElementText:₹70,899",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-127\"}"
+      ],
+      "result": "getElementText:₹20,999",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-128\"}"
+      ],
+      "result": "getElementText:₹36,999",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-129\"}"
+      ],
+      "result": "getElementText:₹49,999",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-130\"}"
+      ],
+      "result": "getElementText:₹66,000",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-131\"}"
+      ],
+      "result": "getElementText:₹56,999",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-132\"}"
+      ],
+      "result": "getElementText:₹47,999",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-133\"}"
+      ],
+      "result": "getElementText:₹20,999",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-134\"}"
+      ],
+      "result": "getElementText:₹36,999",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-135\"}"
+      ],
+      "result": "getElementText:₹61,399",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-136\"}"
+      ],
+      "result": "getElementText:₹70,899",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-137\"}"
+      ],
+      "result": "getElementText:₹70,899",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-138\"}"
+      ],
+      "result": "getElementText:₹61,399",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-139\"}"
+      ],
+      "result": "getElementText:₹56,999",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-140\"}"
+      ],
+      "result": "getElementText:₹68,999",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-141\"}"
+      ],
+      "result": "getElementText:₹57,499",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-142\"}"
+      ],
+      "result": "getElementText:₹36,999",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-143\"}"
+      ],
+      "result": "getElementText:₹70,000",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-144\"}"
+      ],
+      "result": "getElementText:₹56,999",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-145\"}"
+      ],
+      "result": "getElementText:₹49,999",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-146\"}"
+      ],
+      "result": "getElementText:₹56,999",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-147\"}"
+      ],
+      "result": "getElementText:₹57,499",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-148\"}"
+      ],
+      "result": "getElementText:₹47,999",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-149\"}"
+      ],
+      "result": "getElementText:₹47,999",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-150\"}"
+      ],
+      "result": "getElementText:₹56,895",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-151\"}"
+      ],
+      "result": "getElementText:₹49,500",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-152\"}"
+      ],
+      "result": "getElementText:₹22,700",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-153\"}"
+      ],
+      "result": "getElementText:₹71,000",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-154\"}"
+      ],
+      "result": "getElementText:₹65,990",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-155\"}"
+      ],
+      "result": "getElementText:₹32,470",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-156\"}"
+      ],
+      "result": "getElementText:₹50,499",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-157\"}"
+      ],
+      "result": "getElementText:₹52,000",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-158\"}"
+      ],
+      "result": "getElementText:₹22,222",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-159\"}"
+      ],
+      "result": "getElementText:₹69,900",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-160\"}"
+      ],
+      "result": "getElementText:₹31,350",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-161\"}"
+      ],
+      "result": "getElementText:₹69,990",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-162\"}"
+      ],
+      "result": "getElementText:₹65,990",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-163\"}"
+      ],
+      "result": "getElementText:₹59,900",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-164\"}"
+      ],
+      "result": "getElementText:₹52,000",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-165\"}"
+      ],
+      "result": "getElementText:₹49,990",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-166\"}"
+      ],
+      "result": "getElementText:₹59,790",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-167\"}"
+      ],
+      "result": "getElementText:₹59,790",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-168\"}"
+      ],
+      "result": "getElementText:₹58,999",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-169\"}"
+      ],
+      "result": "getElementText:₹51,000",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-170\"}"
+      ],
+      "result": "getElementText:₹62,500",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-171\"}"
+      ],
+      "result": "getElementText:₹81,000",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-172\"}"
+      ],
+      "result": "getElementText:₹70,700",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-173\"}"
+      ],
+      "result": "getElementText:₹81,000",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-174\"}"
+      ],
+      "result": "getElementText:₹81,000",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-175\"}"
+      ],
+      "result": "getElementText:₹81,000",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-176\"}"
+      ],
+      "result": "getElementText:₹69,500",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-177\"}"
+      ],
+      "result": "getElementText:₹75,000",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-178\"}"
+      ],
+      "result": "getElementText:₹86,500",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-179\"}"
+      ],
+      "result": "getElementText:₹77,900",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_1vC4OE _2rQ-NK']",
+        "{\"id\":\"0.1338825022788641-180\"}"
+      ],
+      "result": "getElementText:₹81,500",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{using=xpath, value=//div[@class='_3wU53n']}"
+      ],
+      "result": "[id: 0.1338825022788641-61, id: 0.1338825022788641-62, id: 0.1338825022788641-63, id: 0.1338825022788641-64, id: 0.1338825022788641-65, id: 0.1338825022788641-66, id: 0.1338825022788641-67, id: 0.1338825022788641-68, id: 0.1338825022788641-69, id: 0.1338825022788641-70, id: 0.1338825022788641-71, id: 0.1338825022788641-72, id: 0.1338825022788641-73, id: 0.1338825022788641-74, id: 0.1338825022788641-75, id: 0.1338825022788641-76, id: 0.1338825022788641-77, id: 0.1338825022788641-78, id: 0.1338825022788641-79, id: 0.1338825022788641-80, id: 0.1338825022788641-81, id: 0.1338825022788641-82, id: 0.1338825022788641-83, id: 0.1338825022788641-84, id: 0.1338825022788641-85, id: 0.1338825022788641-86, id: 0.1338825022788641-87, id: 0.1338825022788641-88, id: 0.1338825022788641-89, id: 0.1338825022788641-90, id: 0.1338825022788641-91, id: 0.1338825022788641-92, id: 0.1338825022788641-93, id: 0.1338825022788641-94, id: 0.1338825022788641-95, id: 0.1338825022788641-96, id: 0.1338825022788641-97, id: 0.1338825022788641-98, id: 0.1338825022788641-99, id: 0.1338825022788641-100, id: 0.1338825022788641-101, id: 0.1338825022788641-102, id: 0.1338825022788641-103, id: 0.1338825022788641-104, id: 0.1338825022788641-105, id: 0.1338825022788641-106, id: 0.1338825022788641-107, id: 0.1338825022788641-108, id: 0.1338825022788641-109, id: 0.1338825022788641-110, id: 0.1338825022788641-111, id: 0.1338825022788641-112, id: 0.1338825022788641-113, id: 0.1338825022788641-114, id: 0.1338825022788641-115, id: 0.1338825022788641-116, id: 0.1338825022788641-117, id: 0.1338825022788641-118, id: 0.1338825022788641-119, id: 0.1338825022788641-120]",
+      "subLogs": [],
+      "duration": 39
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='_3wU53n']",
+        "{\"id\":\"0.1338825022788641-68\"}"
+      ],
+      "result": "getElementText:Apple iPhone 6s (Gold, 32 GB)",
+      "subLogs": [],
+      "duration": 28
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "\nExpected: a string containing \"Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart\"\n     Actual: was \"Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart\"",
+      "type": "Pass",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "\nExpected: a string containing \"Smartphones-Buy smartphones online from best brands at low prices| Flipkart.com\"\n     Actual: was \"Smartphones-Buy smartphones online from best brands at low prices| Flipkart.com\"",
+      "type": "Pass",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "\nExpected: a value greater than &lt;0&gt;\n     Actual: &lt;60&gt; was greater than &lt;0&gt;",
+      "type": "Pass",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 (Black, 32 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 6s (Rose Gold, 32 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 (Black, 256 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 (Jet Black, 128 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 6s Plus (Rose Gold, 128 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 Plus (Black, 128 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone SE (Space Grey, 16 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 6s (Gold, 32 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 6s Plus (Space Grey, 16 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 (Red, 128 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 6s Plus (Space Grey, 32 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 (Rose Gold, 32 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone SE (Silver, 16 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 6s (Space Grey, 32 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 Plus (Black, 32 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 Plus (Silver, 128 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 Plus (Jet Black, 128 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 Plus (Silver, 32 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 6s Plus (Rose Gold, 32 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 (Jet Black, 256 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 (Rose Gold, 128 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 6s (Silver, 32 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 6s Plus (Silver, 128 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 6s Plus (Gold, 32 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 6s Plus (Silver, 16 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 6s Plus (Silver, 32 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 (Black, 128 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 (Gold, 32 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 6s (Silver, 16 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 6s (Space Grey, 128 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 6s (Gold, 16 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone SE (Rose Gold, 16 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 6 Plus (Silver, 64 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 (Gold, 256 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone SE (Gold, 64 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 6 Plus (Silver, 16 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 (Silver, 32 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone SE (Gold, 16 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 6s (Silver, 64 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone SE (Rose Gold, 64 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 6s Plus (Gold, 128 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 (Rose Gold, 256 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 6 (Space Grey, 64 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 6s (Rose Gold, 16 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 6s (Space Grey, 16 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 Plus (Gold, 32 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 Plus (Rose Gold, 32 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 (Gold, 128 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 6 Plus (Space Grey, 16 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 (Silver, 128 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 Plus (Black, 256 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 Plus (Rose Gold, 128 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 Plus (Rose Gold, 256 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 Plus (Gold, 256 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 Plus (Silver, 256 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 Plus (Gold, 128 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 (Silver, 256 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 Plus (Jet Black, 256 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 (PRODUCT) (Red, 256 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple iPhone 7 Plus (Red, 128 GB)",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹47,999",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹36,999",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹68,999",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹57,499",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹70,000",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹70,899",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹20,999",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹36,999",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹49,999",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹66,000",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹56,999",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹47,999",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹20,999",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹36,999",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹61,399",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹70,899",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹61,399",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹56,999",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹68,999",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹57,499",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹36,999",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹70,000",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹56,999",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹49,999",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹56,999",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹57,499",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹47,999",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹56,895",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹49,500",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹22,700",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹71,000",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹65,990",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹32,470",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹50,499",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹52,000",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹22,222",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹69,900",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹31,350",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹69,990",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹65,990",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹59,900",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹52,000",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹49,990",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹59,790",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹58,999",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹51,000",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹62,500",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹81,000",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹70,700",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹81,000",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹69,500",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹75,000",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹86,500",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹77,900",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "₹81,500",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

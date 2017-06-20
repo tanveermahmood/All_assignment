@@ -1,0 +1,5 @@
+com\flipkart_mobile\step\StepsBackLog.class
+com\flipkart_mobile\page\CategoryTestPage.class
+com\flipkart_mobile\page\Flipkart_homeTestPage.class
+com\flipkart_mobile\page\Product_resultTestPage.class
+com\flipkart_mobile\step\Flipkart_homeeststep.class

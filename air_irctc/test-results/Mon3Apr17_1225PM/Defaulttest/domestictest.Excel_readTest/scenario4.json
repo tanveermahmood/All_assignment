@@ -1,0 +1,23 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "getCurrentWindowHandle",
+      "args": [
+        "{}"
+      ],
+      "result": "{df9e2ab0-60e9-4076-8746-0a63f90303b6}",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://www.air.irctc.co.in/IndianRailways/}"
+      ],
+      "result": "",
+      "subLogs": [],
+      "duration": 1593
+    }
+  ],
+  "checkPoints": []
+}

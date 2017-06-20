@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [QAS Demo]">
+  <test name="Test">
+    <method-selectors>
+      <method-selector>
+        <selector-class name="com.qmetry.qaf.automation.testng.pro.QAFMethodSelector" priority="1"/>
+      </method-selector>
+    </method-selectors>
+    <classes>
+      <class name="domestictest.Domestic_Scenario"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Failed suite [QAS Demo] -->

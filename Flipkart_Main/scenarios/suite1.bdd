@@ -1,0 +1,16 @@
+
+SCENARIO: Order Verification
+META-DATA: {"description":"end to end flow with different catogy","groups":["P1","P2","SMOKE"],"key":"product.catogories"}
+	
+	Given user opens flipkart application
+	When user selects '${subcatogoryname}' from '${catogoryname}' catogory
+	And user navigates to product catogory
+	And user selects 'iPad' from product list
+	Then user navigates to searchproduct page
+	When user selects '0' product from product list
+	And user verifies product details matching correctly
+	When user selects add to cart
+	Then product has been added to cart
+	
+END
+

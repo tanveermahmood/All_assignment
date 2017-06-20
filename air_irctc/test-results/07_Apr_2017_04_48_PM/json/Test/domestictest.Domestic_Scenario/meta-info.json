@@ -1,0 +1,22 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "fill domestic form",
+        "groups": [
+          "SMOKE"
+        ],
+        "name": "scenario1",
+        "sign": "Domestic_Scenario.scenario1()[pri:0, instance:domestictest.Domestic_Scenario@17c1bced]"
+      },
+      "dependsOn": [],
+      "startTime": 1491563954047,
+      "duration": 20318,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "quit",
+      "args": [
+        "{}"
+      ],
+      "result": "Error communicating with the remote browser. It may have died.\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11544', ip: '10.11.31.147', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: driver.version: QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: cc195a31-7e72-4c6d-98d6-c58e16aabe81",
+      "subLogs": [],
+      "duration": 1109
+    }
+  ],
+  "checkPoints": []
+}

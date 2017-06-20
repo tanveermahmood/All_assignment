@@ -1,0 +1,17 @@
+package com.flipkarttanveer.Steps;
+
+import org.testng.annotations.Test;
+
+import com.qmetry.qaf.automation.ui.WebDriverTestCase;
+
+public class FlipkartTestcase extends WebDriverTestCase {
+
+	@Test(groups = { "P1", "P2", "SMOKE" }, description = "")
+	public void search() {
+		//TODO: call test steps
+	
+	get("/");
+	
+	}
+
+}

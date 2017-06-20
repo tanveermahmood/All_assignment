@@ -1,0 +1,51 @@
+14:40:27 scenario.file.loc[Ljava.lang.String;@646d64ab
+14:40:27 loading BDD file: scenarios/Domestic_Bdd.bdd
+14:40:27 total test found: 3
+14:40:27 
+
+Executing scenario: scenario1 - fill domestic form
+14:40:28 Invoking Teststep: Given get '/' with arguments: [/]
+14:40:38 Completed Teststep: Given get '/' with arguments: [/]
+14:40:38 Invoking Teststep: And click on 'radio.one.way' with arguments: [radio.one.way]
+14:40:38 Completed Teststep: And click on 'radio.one.way' with arguments: [radio.one.way]
+14:40:38 Invoking Teststep: When sendKeys 'Hyderabad,HYD' into 'text.origin' with arguments: [Hyderabad,HYD, text.origin]
+14:40:38 Completed Teststep: When sendKeys 'Hyderabad,HYD' into 'text.origin' with arguments: [Hyderabad,HYD, text.origin]
+14:40:38 Invoking Teststep: When sendKeys 'Pune,PNQ' into 'text.destination' with arguments: [Pune,PNQ, text.destination]
+14:40:38 Completed Teststep: When sendKeys 'Pune,PNQ' into 'text.destination' with arguments: [Pune,PNQ, text.destination]
+14:40:38 Invoking Teststep: And click on 'calender' with arguments: [calender]
+14:40:38 Completed Teststep: And click on 'calender' with arguments: [calender]
+14:40:38 Invoking Teststep: And click on 'date' with arguments: [date]
+14:40:39 Completed Teststep: And click on 'date' with arguments: [date]
+14:40:39 Competed scenario: scenario1 with status SUCESS
+14:40:39 
+
+Executing scenario: scenario2 - fill domestic form1
+14:40:39 Invoking Teststep: Given get '/' with arguments: [/]
+14:40:39 Completed Teststep: Given get '/' with arguments: [/]
+14:40:39 Invoking Teststep: And click on 'radio.one.way' with arguments: [radio.one.way]
+14:40:39 Completed Teststep: And click on 'radio.one.way' with arguments: [radio.one.way]
+14:40:39 Invoking Teststep: When sendKeys 'Bangalore,BLR' into 'text.origin' with arguments: [Bangalore,BLR, text.origin]
+14:40:39 Completed Teststep: When sendKeys 'Bangalore,BLR' into 'text.origin' with arguments: [Bangalore,BLR, text.origin]
+14:40:39 Invoking Teststep: When sendKeys 'Pune,PNQ' into 'text.destination' with arguments: [Pune,PNQ, text.destination]
+14:40:39 Completed Teststep: When sendKeys 'Pune,PNQ' into 'text.destination' with arguments: [Pune,PNQ, text.destination]
+14:40:39 Invoking Teststep: And click on 'calender' with arguments: [calender]
+14:40:40 Completed Teststep: And click on 'calender' with arguments: [calender]
+14:40:40 Invoking Teststep: And click on 'date' with arguments: [date]
+14:40:40 Completed Teststep: And click on 'date' with arguments: [date]
+14:40:40 Competed scenario: scenario2 with status SUCESS
+14:40:40 
+
+Executing scenario: scenario3 - fill domestic form2
+14:40:40 Invoking Teststep: Given get '/' with arguments: [/]
+14:40:40 Completed Teststep: Given get '/' with arguments: [/]
+14:40:40 Invoking Teststep: And click on 'radio.one.way' with arguments: [radio.one.way]
+14:40:41 Completed Teststep: And click on 'radio.one.way' with arguments: [radio.one.way]
+14:40:41 Invoking Teststep: When sendKeys 'Hyderabad,HYD' into 'text.origin' with arguments: [Hyderabad,HYD, text.origin]
+14:40:41 Completed Teststep: When sendKeys 'Hyderabad,HYD' into 'text.origin' with arguments: [Hyderabad,HYD, text.origin]
+14:40:41 Invoking Teststep: When sendKeys 'Bangalore,BLR' into 'text.destination' with arguments: [Bangalore,BLR, text.destination]
+14:40:41 Completed Teststep: When sendKeys 'Bangalore,BLR' into 'text.destination' with arguments: [Bangalore,BLR, text.destination]
+14:40:41 Invoking Teststep: And click on 'calender' with arguments: [calender]
+14:40:41 Completed Teststep: And click on 'calender' with arguments: [calender]
+14:40:41 Invoking Teststep: And click on 'date' with arguments: [date]
+14:40:41 Completed Teststep: And click on 'date' with arguments: [date]
+14:40:41 Competed scenario: scenario3 with status SUCESS
